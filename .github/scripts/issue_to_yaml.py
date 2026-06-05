@@ -2,7 +2,6 @@
 
 import os
 import re
-import yaml
 from datetime import date
 from pathlib import Path
 
@@ -53,26 +52,26 @@ def main():
     description = fields.get("Description", "").strip()
 
     section = SECTION_MAP.get(section_label, "other")
+    today = date.today().isoformat()
 
-    entry = {
-        "title": title,
-        "url": url,
-        "type": resource_type,
-        "section": section,
-        "authors": authors,
-        "organisation": organisation,
-        "date_added": date.today().isoformat(),
-        "description": description,
-    }
+    # Build the entry as a hand-formatted YAML string to avoid
+    # yaml.dump reformatting the entire file.
+    lines = [
+        f"",
+        f'- title: "{title}"',
+        f'  url: "{url}"',
+        f"  type: {resource_type}",
+        f"  section: {section}",
+        f'  authors: "{authors}"',
+        f'  organisation: "{organisation}"',
+        f"  date_added: {today}",
+        f"  description: >-",
+        f"    {description}",
+    ]
 
     data_file = Path("data/resources.yml")
-    with open(data_file) as f:
-        resources = yaml.safe_load(f) or []
-
-    resources.append(entry)
-
-    with open(data_file, "w") as f:
-        yaml.dump(resources, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+    with open(data_file, "a") as f:
+        f.write("\n".join(lines) + "\n")
 
     print(f"Added '{title}' to section '{section}'")
 
