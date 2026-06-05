@@ -1,0 +1,68 @@
+site_name: Ebola Resources — WHO Collaboratory
+site_url: https://bafnaprincy.github.io/ebola-resources/
+site_description: >-
+  A curated community resource list for the WHO Collaboratory Ebola response,
+  maintained by the Ebola Community of Practice.
+repo_url: https://github.com/bafnaprincy/ebola-resources
+repo_name: bafnaprincy/ebola-resources
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Dashboards: dashboards.md
+  - Epi Parameters: epi-parameters.md
+  - Outbreak Size Estimates: outbreak-size-estimates.md
+  - Risk of Spread: risk-of-spread.md
+  - Mobility Data: mobility-data.md
+  - Humanitarian Data: humanitarian-data.md
+  - Therapeutics & Vaccines: therapeutics-vaccines.md
+  - Contributing: contributing.md
+
+plugins:
+  - search
+  - macros
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/bafnaprincy

@@ -1,0 +1,75 @@
+name: Suggest a Resource
+description: Suggest a resource to add to the Ebola Resources collection.
+title: "[Resource] "
+labels: ["new-resource"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Resource title
+      placeholder: "e.g. INRB UMIE Dashboard — DRC Ebola Bundibugyo 2026"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      options:
+        - Dashboard
+        - Report
+        - Tool
+        - Dataset
+        - Package
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Suggested section
+      description: Which section does this resource belong in? Pick "Other" if none fit.
+      options:
+        - Dashboards
+        - Epi Parameters
+        - Outbreak Size Estimates
+        - Risk of Spread
+        - Mobility Data
+        - Humanitarian Data
+        - Therapeutics & Vaccines
+        - Other / New section
+    validations:
+      required: true
+
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      placeholder: "e.g. Ruth McCabe, Sam Abbott"
+    validations:
+      required: false
+
+  - type: input
+    id: organisation
+    attributes:
+      label: Organisation
+      placeholder: "e.g. Imperial College London"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of what the resource provides.
+      placeholder: "Short description..."
+    validations:
+      required: true

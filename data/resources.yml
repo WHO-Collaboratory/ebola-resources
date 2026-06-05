@@ -1,0 +1,196 @@
+# Dashboards
+- title: "INRB UMIE Dashboard — DRC Ebola Bundibugyo 2026"
+  url: "https://portal.who.int/pulse/redirect/?url=https://app.powerbi.com/view?r=eyJrIjoiOTI1N2I2MGYtYjRiYS00YTg3LTljMjUtYWM0MTdkMmFmMDM4IiwidCI6ImY2MTBjMGI3LWJkMjQtNGIzOS04MTBiLTNkYzI4MGFmYjU5MCIsImMiOjh9"
+  type: dashboard
+  section: dashboards
+  authors: "INRB, UMIE"
+  organisation: "INRB"
+  date_added: 2026-06-05
+  description: >-
+    Real-time epidemiological dashboard tracking the DRC Ebola Bundibugyo
+    2026 outbreak, maintained by INRB and UMIE.
+
+- title: "Immunization for Resilience — Ebola BVD Outbreak 2026"
+  url: "https://immunization-for-resilience.shinyapps.io/ebola-bvd-outbreak-2026/"
+  type: dashboard
+  section: dashboards
+  authors: ""
+  organisation: "Immunization for Resilience"
+  date_added: 2026-06-05
+  description: >-
+    Interactive Shiny dashboard to explore outbreak trajectory, geographic
+    spread, response pillars, and situation updates.
+
+# Epi Parameters
+- title: "grEPI — Pathogen Epidemiology Review Group (PERG)"
+  url: "https://grepi.org/"
+  type: tool
+  section: epi-parameters
+  authors: "PERG"
+  organisation: "Imperial College London"
+  date_added: 2026-06-05
+  description: >-
+    A set of 330 Ebola epidemiological parameters, of which 23 are Bundibugyo
+    virus, extracted through systematic reviews by PERG. Available along with
+    their original source publications.
+
+- title: "epiparameter R package"
+  url: "https://epiverse-trace.github.io/epiparameter"
+  type: package
+  section: epi-parameters
+  authors: ""
+  organisation: "LSHTM / Epiverse-TRACE"
+  date_added: 2026-06-05
+  description: >-
+    R package for working with epidemiological parameters, developed by LSHTM
+    through the Epiverse-TRACE initiative.
+
+- title: "Using {epireview} with {epiparameter} — Vignette"
+  url: "https://epiverse-trace.github.io/epiparameter/articles/using_epireview_with_epiparameter.html"
+  type: tool
+  section: epi-parameters
+  authors: ""
+  organisation: "LSHTM / Epiverse-TRACE"
+  date_added: 2026-06-05
+  description: >-
+    Vignette demonstrating how to use the epireview package together with
+    epiparameter for Ebola epidemiological analysis.
+
+- title: "epireview — Imperial College"
+  url: "https://github.com/mrc-ide/epireview"
+  type: package
+  section: epi-parameters
+  authors: ""
+  organisation: "Imperial College London (MRC-IDE)"
+  date_added: 2026-06-05
+  description: >-
+    Interface to explore the latest data, figures, and tables curated by PERG
+    for Ebola epidemiological parameters.
+
+- title: "Epidemiological Parameters: Ebola Bundibugyo Virus (BVD)"
+  url: "https://mrc-ide.github.io/epireview/articles/ebola_bundibugyo_virus_disease.html"
+  type: report
+  section: epi-parameters
+  authors: ""
+  organisation: "Imperial College London (MRC-IDE)"
+  date_added: 2026-06-05
+  description: >-
+    Dedicated page for Bundibugyo virus epidemiological parameters within the
+    epireview documentation.
+
+# Outbreak Size Estimates
+- title: "Estimation of the size of the outbreak of Ebola disease caused by Bundibugyo virus in the DRC"
+  url: "https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/reports/estimation-of-the-size-of-the-outbreak-of-ebola-disease-caused-by-bundibugyo-virus-in-the-democratic-republic-of-the-congo/"
+  type: report
+  section: outbreak-size-estimates
+  authors: "Ruth McCabe et al."
+  organisation: "Imperial College London"
+  date_added: 2026-06-05
+  description: >-
+    May 20, 2026 update. Estimates of the current outbreak size using
+    epidemiological modelling approaches.
+
+- title: "Estimating the current size of the 2026 DRC Bundibugyo virus outbreak"
+  url: "https://github.com/BVDOutbreakSize"
+  type: report
+  section: outbreak-size-estimates
+  authors: "Sam Abbott, Samuel Brand, Sebastian Funk"
+  organisation: "LSHTM"
+  date_added: 2026-06-05
+  description: >-
+    A joint Bayesian re-analysis of the McCabe et al. report, providing
+    independent size estimates for the 2026 DRC Bundibugyo outbreak.
+
+# Risk of Spread
+- title: "Ebola BVD — DRC Spread Risk Assessment #1"
+  url: ""
+  type: report
+  section: risk-of-spread
+  authors: "Alex Vespignani"
+  organisation: "Epistorm"
+  date_added: 2026-06-05
+  description: >-
+    Spread risk assessment for Ebola Bundibugyo virus disease in the DRC,
+    shared via the Epistorm network.
+
+- title: "Risk of international importation of Bundibugyo Ebola Virus Disease to Europe"
+  url: ""
+  type: report
+  section: risk-of-spread
+  authors: "Federico Fanelli, Francesco Parino, Chiara Poletto, Vittoria Colizza"
+  organisation: "Sorbonne Universite, INSERM, SUMOC"
+  date_added: 2026-06-05
+  description: >-
+    Assessment of the risk of international importation to Europe following
+    the 2026 PHEIC declaration. Report #2 on Ebola risk of international spread.
+
+# Mobility Data
+- title: "DRC Population and Relocation Estimates"
+  url: "https://data.humdata.org/dataset/democratic-republic-of-congo-population-and-relocation-estimates"
+  type: dataset
+  section: mobility-data
+  authors: "Linus Bengtsson"
+  organisation: "Flowminder"
+  date_added: 2026-06-05
+  description: >-
+    Monthly population-scaled inter-health-zone mobility data relevant to
+    outbreak spread. Shorter-term mobility dynamics are in progress.
+  notes: >-
+    Contact linus.bengtsson@flowminder.org for access. Work is underway to
+    release shorter-term mobility dynamics.
+
+- title: "Flowminder DRC Reports and Publications"
+  url: "https://www.flowminder.org/resources/publications-reports/drc-reports-publications"
+  type: report
+  section: mobility-data
+  authors: ""
+  organisation: "Flowminder"
+  date_added: 2026-06-05
+  description: >-
+    Publicly available reports on population mobility in the DRC.
+
+- title: "Flowminder Seminar — Mobility Data and the Outbreak"
+  url: "https://youtu.be/b3H2bXsjVwg?si=GvEhiS3ZyhTBtlZs"
+  type: report
+  section: mobility-data
+  authors: ""
+  organisation: "Flowminder"
+  date_added: 2026-06-05
+  description: >-
+    Recorded seminar on Flowminder mobility data in the context of the
+    2026 DRC Ebola outbreak.
+
+# Humanitarian Data
+- title: "Ebola Bundibugyo Virus Disease Crisis — HDX Event Page"
+  url: "https://data.humdata.org/event/ebola-bundibugyo-virus-disease"
+  type: dataset
+  section: humanitarian-data
+  authors: ""
+  organisation: "OCHA / Humanitarian Data Exchange"
+  date_added: 2026-06-05
+  description: >-
+    Dedicated HDX event page bringing together DRC and Uganda datasets
+    covering conflict events, internal displacement, population and mobility,
+    OpenStreetMap infrastructure, and more.
+
+# Therapeutics & Vaccines
+- title: "WHO position on use of Ervebo for Bundibugyo Virus Disease"
+  url: "https://iris.who.int/items/b0d99425-40f1-4635-80ba-fa7bdc849a5d"
+  type: report
+  section: therapeutics-vaccines
+  authors: ""
+  organisation: "WHO"
+  date_added: 2026-06-05
+  description: >-
+    Official WHO position statement on the use of the Ervebo vaccine
+    for Bundibugyo Virus Disease.
+
+- title: "WHO Therapeutics Prioritisation for BVD"
+  url: "https://iris.who.int/items/f09ea396-a01c-4ff1-8026-846066529b1f"
+  type: report
+  section: therapeutics-vaccines
+  authors: ""
+  organisation: "WHO"
+  date_added: 2026-06-05
+  description: >-
+    WHO guidance on therapeutics prioritisation for Bundibugyo Virus Disease.

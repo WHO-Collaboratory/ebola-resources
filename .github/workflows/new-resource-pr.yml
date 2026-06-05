@@ -1,0 +1,47 @@
+name: Create PR from new resource issue
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  create-pr:
+    if: contains(github.event.issue.labels.*.name, 'new-resource')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Parse issue and create YAML entry
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: python .github/scripts/issue_to_yaml.py
+
+      - name: Create pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          BRANCH="add-resource-issue-${ISSUE_NUMBER}"
+          git checkout -b "$BRANCH"
+          git add data/
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add resource from issue #${ISSUE_NUMBER}"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "Add resource from issue #${ISSUE_NUMBER}" \
+            --body "Automatically generated from #${ISSUE_NUMBER}. Review the YAML entry below and merge to publish." \
+            --base main \
+            --head "$BRANCH"
+          gh issue comment "$ISSUE_NUMBER" --body "A PR has been created automatically. It will be reviewed and merged by a maintainer."
