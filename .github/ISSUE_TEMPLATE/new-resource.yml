@@ -1,6 +1,6 @@
 name: Suggest a Resource
 description: Suggest a resource to add to the Ebola Resources collection.
-title: "[Resource] "
+title: "[Resource] {{ title }}"
 labels: ["new-resource"]
 body:
   - type: input
@@ -69,7 +69,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: A brief description of what the resource provides.
+      description: A brief description of what the resource provides. Please do not attach files — only text is used.
       placeholder: "Short description..."
     validations:
       required: true

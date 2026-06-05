@@ -2,7 +2,7 @@ name: Create PR from new resource issue
 
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, labeled]
 
 jobs:
   create-pr:
@@ -14,11 +14,11 @@ jobs:
       issues: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
 
       - name: Parse issue and create YAML entry
         env:
@@ -41,7 +41,9 @@ jobs:
           git push origin "$BRANCH"
           gh pr create \
             --title "Add resource from issue #${ISSUE_NUMBER}" \
-            --body "Automatically generated from #${ISSUE_NUMBER}. Review the YAML entry below and merge to publish." \
+            --body "Automatically generated from #${ISSUE_NUMBER}. Review the YAML entry below and merge to publish.
+
+Closes #${ISSUE_NUMBER}" \
             --base main \
             --head "$BRANCH"
           gh issue comment "$ISSUE_NUMBER" --body "A PR has been created automatically. It will be reviewed and merged by a maintainer."
