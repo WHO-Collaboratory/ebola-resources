@@ -39,11 +39,12 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "Add resource from issue #${ISSUE_NUMBER}"
           git push origin "$BRANCH"
+          BODY="Automatically generated from #${ISSUE_NUMBER}. Review the YAML entry below and merge to publish.
+
+          Closes #${ISSUE_NUMBER}"
           gh pr create \
             --title "Add resource from issue #${ISSUE_NUMBER}" \
-            --body "Automatically generated from #${ISSUE_NUMBER}. Review the YAML entry below and merge to publish.
-
-Closes #${ISSUE_NUMBER}" \
+            --body "$BODY" \
             --base main \
             --head "$BRANCH"
           gh issue comment "$ISSUE_NUMBER" --body "A PR has been created automatically. It will be reviewed and merged by a maintainer."
