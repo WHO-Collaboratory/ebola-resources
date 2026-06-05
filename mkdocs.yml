@@ -45,6 +45,7 @@ nav:
   - Humanitarian Data: humanitarian-data.md
   - Therapeutics & Vaccines: therapeutics-vaccines.md
   - Contributing: contributing.md
+  - Maintainers: maintainers.md
 
 plugins:
   - search

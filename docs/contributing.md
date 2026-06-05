@@ -1,15 +1,46 @@
-
 # Contributing
 
 This resource list is maintained by the Ebola Community of Practice. Contributions are welcome from anyone working on the 2026 DRC Ebola Bundibugyo response.
 
-## How to suggest a resource
+## Ways to contribute
 
-**No coding required.** Open a GitHub Issue using our structured form:
+There are three ways to add to this site, depending on your comfort level:
+
+### 1. Submit an issue (no coding needed)
+
+The easiest path. Open a GitHub Issue using our structured form:
 
 [Suggest a Resource](https://github.com/bafnaprincy/ebola-resources/issues/new?template=new-resource.yml){ .md-button .md-button--primary }
 
-Fill in the fields — title, URL, type, section, and a short description. A maintainer will review and add it to the site.
+Fill in the fields — title, URL, type, section, and a short description. A GitHub Action will automatically create a Pull Request from your issue. A maintainer reviews and merges it. Your resource appears on the site within minutes.
+
+### 2. Edit a section page directly (Markdown)
+
+Each section page (e.g. `docs/dashboards.md`) has a **Community Notes** section at the bottom. You can add narrative context, caveats, related links, or anything that doesn't fit the structured resource format.
+
+1. Click the edit icon (:material-pencil:) on any page
+2. Add your content under **Community Notes**
+3. Open a Pull Request
+
+This is a good option for adding context like "this dataset pairs well with X" or "requires institutional access."
+
+### 3. Edit the data file directly (YAML)
+
+For technical contributors comfortable with YAML, you can add a resource entry directly to `data/resources.yml`:
+
+```yaml
+- title: "Resource Title"
+  url: "https://..."
+  type: dashboard
+  section: dashboards
+  authors: "Name, Name"
+  organisation: "Org"
+  date_added: 2026-06-05
+  description: >-
+    A short description of the resource.
+```
+
+Open a Pull Request with your change. See [field reference](#field-reference) below.
 
 ## What belongs here
 
@@ -31,21 +62,18 @@ We curate resources that are:
 | Humanitarian Data | Conflict, displacement, infrastructure datasets |
 | Therapeutics & Vaccines | Vaccine and therapeutics guidance, trial data |
 
-If a resource doesn't fit an existing section, mention that in the issue — we can create new sections as the response evolves.
+If a resource doesn't fit an existing section, mention that in your issue or PR — we can create new sections as the response evolves.
 
-## For maintainers
+## Field reference
 
-Resources are stored as YAML in the `data/` directory, one file per section. To add a resource from an approved issue, add an entry to the appropriate `data/<section>.yml` file:
-
-```yaml
-- title: "Resource Title"
-  url: "https://..."
-  type: dashboard  # dashboard | report | tool | dataset | package
-  authors: "Name, Name"
-  organisation: "Org"
-  date_added: 2026-06-05
-  description: >-
-    A short description of the resource.
-```
-
-New sections require adding a `data/<section>.yml` file, a `docs/<section>.md` page, and updating the `nav:` in `mkdocs.yml`.
+| Field | Required | Values |
+|---|---|---|
+| `title` | Yes | Display name of the resource |
+| `url` | Yes | Link to the resource |
+| `type` | Yes | `dashboard`, `report`, `tool`, `dataset`, or `package` |
+| `section` | Yes | Section slug (e.g. `dashboards`, `epi-parameters`, `mobility-data`) |
+| `authors` | No | Comma-separated author names |
+| `organisation` | No | Publishing organisation |
+| `date_added` | Yes | Date in YYYY-MM-DD format |
+| `description` | Yes | Brief description (1-3 sentences) |
+| `notes` | No | Free-form context — access instructions, caveats, related resources |
