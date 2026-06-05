@@ -194,13 +194,3 @@
   date_added: 2026-06-05
   description: >-
     WHO guidance on therapeutics prioritisation for Bundibugyo Virus Disease.
-
-- title: "Test Dataset 1234"
-  url: "test url"
-  type: dataset
-  section: epi-parameters
-  authors: "test author"
-  organisation: "test org"
-  date_added: 2026-06-05
-  description: >-
-    dolot sit amet lorep ipsum
