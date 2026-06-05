@@ -20,6 +20,8 @@ jobs:
         with:
           python-version: "3.13"
 
+      - run: pip install pyyaml
+
       - name: Parse issue and create YAML entry
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
