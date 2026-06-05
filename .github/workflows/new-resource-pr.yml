@@ -35,10 +35,11 @@ jobs:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
           BRANCH="add-resource-issue-${ISSUE_NUMBER}"
-          git checkout -b "$BRANCH"
-          git add data/
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git push origin --delete "$BRANCH" 2>/dev/null || true
+          git checkout -b "$BRANCH"
+          git add data/
           git commit -m "Add resource from issue #${ISSUE_NUMBER}"
           git push origin "$BRANCH"
           BODY="Automatically generated from #${ISSUE_NUMBER}. Review the YAML entry below and merge to publish.
