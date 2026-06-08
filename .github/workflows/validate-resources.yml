@@ -7,6 +7,9 @@ on:
       - "main.py"
       - "docs/**"
       - "test_validate_resources.py"
+      - "test_main.py"
+      - "test_issue_to_yaml.py"
+      - ".github/scripts/**"
 
 jobs:
   validate:
@@ -20,5 +23,5 @@ jobs:
 
       - run: pip install pyyaml pytest
 
-      - name: Validate resources and rendering
-        run: pytest test_validate_resources.py -v
+      - name: Run tests
+        run: pytest test_validate_resources.py test_main.py test_issue_to_yaml.py -v
