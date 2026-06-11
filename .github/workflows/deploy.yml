@@ -24,7 +24,9 @@ jobs:
         with:
           python-version: "3.13"
 
-      - run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt pytest
+
+      - run: pytest test_validate_resources.py test_main.py test_issue_to_yaml.py -v
 
       - run: mkdocs build --strict
 
