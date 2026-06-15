@@ -21,6 +21,7 @@ project:
         - file: docs/resources/mobility-data/flowminder-reports.md
         - file: docs/resources/humanitarian-data/hdx-event-page.md
         - file: docs/resources/epi-parameters/epi-params-bvd.md
+        - file: docs/resources/data/some-title.md
     - title: Emerging evidence
       children:
         - title: Outbreak Size
