@@ -1,0 +1,75 @@
+name: Create resource page from issue
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create-resource:
+    if: contains(github.event.issue.labels.*.name, 'new-resource')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate resource page and update myst.yml
+        id: generate
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          FILE_PATH=$(python .github/scripts/parse-issue.py \
+            --issue-body "$ISSUE_BODY" \
+            --output-dir docs/resources \
+            --myst-yml myst.yml)
+          echo "file_path=$FILE_PATH" >> "$GITHUB_OUTPUT"
+
+      - name: Create slug for branch name
+        id: slug
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          SLUG=$(echo "$ISSUE_TITLE" | sed 's/\[Resource\] //' | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | head -c 60)
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+
+      - name: Create branch and commit
+        env:
+          FILE_PATH: ${{ steps.generate.outputs.file_path }}
+          BRANCH: resource/${{ steps.slug.outputs.slug }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add "$FILE_PATH" myst.yml
+          git commit -m "Add resource: $(echo '${{ github.event.issue.title }}' | sed 's/\[Resource\] //')"
+          git push origin "$BRANCH"
+
+      - name: Open pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: resource/${{ steps.slug.outputs.slug }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          TITLE=$(echo "$ISSUE_TITLE" | sed 's/\[Resource\] /Add resource: /')
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "$TITLE" \
+            --body "$(cat <<EOF
+          Auto-generated from #${ISSUE_NUMBER}.
+
+          ## Review checklist
+
+          - [ ] Resource file is in the correct section directory
+          - [ ] \`myst.yml\` entry is in the correct position (reorder if needed)
+          - [ ] Content and metadata are accurate
+          EOF
+          )"

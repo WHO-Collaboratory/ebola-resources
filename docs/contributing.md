@@ -8,29 +8,37 @@ This resource list is maintained by the Ebola Community of Practice. Contributio
 
 Open a GitHub Issue using our structured form:
 
-[Suggest a Resource](https://github.com/bafnaprincy/ebola-resources/issues/new?template=new-resource.yml)
+[Suggest a Resource](https://github.com/WHO-Collaboratory/ebola-resources-jb/issues/new?template=new-resource.yml)
 
-Fill in the fields — title, URL, type, section, and a short description. A GitHub Action will create a draft file. A maintainer will review, place it in the right section, and publish.
+Fill in the fields — title, URL, type, section, authors, organisation, date, and a short description. A GitHub Action will create a draft page and open a Pull Request. A maintainer will review, adjust placement if needed, and merge.
 
-### 2. Edit a resource page directly (Markdown)
+### 2. Open a Pull Request directly
 
-Each resource is a `.md` file in the `docs/` directory. You can edit any page to add narrative context, caveats, or related links — then open a Pull Request.
+Create a `.md` file in the appropriate section directory (e.g. `docs/resources/dashboards/my-resource.md`) and add an entry to `myst.yml` under the correct section. Use the format below.
 
-### 3. Create a new resource page
+## Resource page format
 
-Create a `.md` file in the appropriate section directory (e.g. `docs/dashboards/my-resource.md`). Use this format:
+Every resource page should include these mandatory metadata fields in a standardized header:
 
 ```markdown
 # Resource Title
 
-Type · **Organisation** · Authors
+Type · **Organisation** · Authors · Date
 
 Description of the resource — as much or as little as needed.
 
 [Visit resource](https://...)
 ```
 
-Open a PR. A maintainer will add the file to `myst.yml` to include it in the site navigation.
+| Field | Required | Example |
+|---|---|---|
+| Title | Yes | `# INRB UMIE Dashboard` |
+| Type | Yes | Dashboard, Report, Tool, Dataset, Package |
+| Organisation | Yes | Imperial College London |
+| Authors | Yes | Ruth McCabe et al. |
+| Date | Yes | 2026-05-20 |
+| Link | Yes | `[Visit resource](https://...)` |
+| Description | Yes | Free-text Markdown |
 
 ## What belongs here
 
@@ -44,12 +52,10 @@ We curate resources that are:
 
 | Section | What goes here |
 |---|---|
-| Dashboards | Live epi dashboards and situation trackers |
-| Epi Parameters | Parameter databases, R packages, systematic reviews |
-| Outbreak Size Estimates | Modelling reports on outbreak scale |
-| Risk of Spread | Domestic and international spread risk assessments |
-| Mobility Data | Population movement and mobility datasets |
-| Humanitarian Data | Conflict, displacement, infrastructure datasets |
-| Therapeutics & Vaccines | Vaccine and therapeutics guidance, trial data |
+| Resources and tools | Dashboards, R packages, epidemiological parameter tools |
+| Data | Mobility, humanitarian, and epidemiological datasets |
+| Emerging evidence | Outbreak size estimates, risk of spread, therapeutics & vaccines |
+| Analytical questions | Key analytical questions for the outbreak response |
+| Community meeting materials | Seminars, presentations, and meeting recordings |
 
 If a resource doesn't fit an existing section, mention that in your issue or PR — we can create new sections as the response evolves.

@@ -1,41 +1,47 @@
 version: 1
 project:
-  title: Ebola Resources — WHO Collaboratory
-  github: bafnaprincy/ebola-resources
+  title: Ebola outbreak analytics community resources
+  github: WHO-Collaboratory/ebola-resources-jb
   toc:
     - file: docs/intro
-    - title: Dashboards
-      children:
-        - file: docs/dashboards/inrb-umie-dashboard
-        - file: docs/dashboards/immunization-resilience
-    - title: Epi Parameters
-      children:
-        - file: docs/epi-parameters/grepi-perg
-        - file: docs/epi-parameters/epiparameter-r-package
-        - file: docs/epi-parameters/epireview-epiparameter-vignette
-        - file: docs/epi-parameters/epireview-imperial
-        - file: docs/epi-parameters/epi-params-bvd
-    - title: Outbreak Size Estimates
-      children:
-        - file: docs/outbreak-size-estimates/mccabe-imperial
-        - file: docs/outbreak-size-estimates/abbott-bayesian-reanalysis
-    - title: Risk of Spread
-      children:
-        - file: docs/risk-of-spread/epistorm-spread-assessment
-        - file: docs/risk-of-spread/europe-importation-risk
-    - title: Mobility Data
-      children:
-        - file: docs/mobility-data/drc-population-relocation
-        - file: docs/mobility-data/flowminder-reports
-        - file: docs/mobility-data/flowminder-seminar
-    - title: Humanitarian Data
-      children:
-        - file: docs/humanitarian-data/hdx-event-page
-    - title: Therapeutics & Vaccines
-      children:
-        - file: docs/therapeutics-vaccines/who-ervebo-position
-        - file: docs/therapeutics-vaccines/who-therapeutics-prioritisation
     - file: docs/contributing
     - file: docs/maintainers
+    - title: Resources and tools
+      children:
+        - file: docs/resources/dashboards/inrb-umie-dashboard
+        - file: docs/resources/dashboards/immunization-resilience
+        - file: docs/resources/epi-parameters/epiparameter-r-package
+        - file: docs/resources/epi-parameters/epireview-epiparameter-vignette
+        - file: docs/resources/epi-parameters/epireview-imperial
+        - file: docs/resources/epi-parameters/grepi-perg
+    - title: Data
+      children:
+        - file: docs/resources/mobility-data/drc-population-relocation
+        - file: docs/resources/mobility-data/flowminder-reports
+        - file: docs/resources/humanitarian-data/hdx-event-page
+        - file: docs/resources/epi-parameters/epi-params-bvd
+    - title: Emerging evidence
+      children:
+        - title: Outbreak Size
+          children:
+            - file: docs/resources/outbreak-size-estimates/mccabe-imperial
+            - file: docs/resources/outbreak-size-estimates/abbott-bayesian-reanalysis
+        - title: Risk of Spread
+          children:
+            - file: docs/resources/risk-of-spread/epistorm-spread-assessment
+            - file: docs/resources/risk-of-spread/europ
+        - title: Therapeutics & Vaccines
+          children:
+            - file: docs/resources/therapeutics-vaccines/who-ervebo-position
+            - file: docs/resources/therapeutics-vaccines/who-therapeutics-prioritisation
+    - file: docs/analytical-questions
+    - title: Community meeting materials
+      children:
+        - file: docs/resources/mobility-data/flowminder-seminar
 site:
+  title: Ebola outbreak analytics community resources
   template: book-theme
+  options:
+    logo: assets/logo.png
+    favicon: assets/logo.png
+    logo_text: Ebola outbreak analytics community resources

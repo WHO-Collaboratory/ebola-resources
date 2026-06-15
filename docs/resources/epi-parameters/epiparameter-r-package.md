@@ -1,6 +1,6 @@
 # epiparameter R package
 
-Package · **LSHTM / Epiverse-TRACE**
+Package · **LSHTM / Epiverse-TRACE** · 2026
 
 R package for working with epidemiological parameters, developed by LSHTM through the Epiverse-TRACE initiative.
 

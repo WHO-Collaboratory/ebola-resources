@@ -1,6 +1,6 @@
 # Using {epireview} with {epiparameter} — Vignette
 
-Tool · **LSHTM / Epiverse-TRACE**
+Tool · **LSHTM / Epiverse-TRACE** · 2026
 
 Vignette demonstrating how to use the epireview package together with epiparameter for Ebola epidemiological analysis.
 

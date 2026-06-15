@@ -5,9 +5,11 @@
 ### Automated flow (issue form)
 
 1. A community member opens a GitHub Issue using the "Suggest a Resource" form
-2. A GitHub Action creates a `.md` file in `docs/_incoming/` and opens a Pull Request
-3. The maintainer reviews the PR, moves the file to the correct section directory, adds it to `myst.yml`, and merges
+2. A GitHub Action creates a `.md` file in the appropriate section directory, updates `myst.yml`, and opens a Pull Request
+3. The maintainer reviews the PR — checks that the file is in the right section, reorders the `myst.yml` entry if needed, and merges
 4. A deploy workflow builds and publishes the updated site
+
+For resources submitted as "Other / New section", the file goes to `docs/_incoming/` and `myst.yml` is not modified — the maintainer places it manually.
 
 ### Direct PRs
 
@@ -17,18 +19,22 @@ Technical contributors may open PRs with new `.md` files or edits to existing on
 
 ```
 myst.yml                    ← site config + TOC (you control this)
+assets/
+  logo.png                  ← site logo and static assets
 docs/
   intro.md                  ← landing page
-  dashboards/               ← one .md file per resource
-  epi-parameters/
-  outbreak-size-estimates/
-  risk-of-spread/
-  mobility-data/
-  humanitarian-data/
-  therapeutics-vaccines/
-  _incoming/                ← staging area for automation-created files
   contributing.md
   maintainers.md
+  analytical-questions.md
+  _incoming/                ← staging area for automation-created files
+  resources/                ← all contributed content
+    dashboards/             ← one .md file per resource
+    epi-parameters/
+    outbreak-size-estimates/
+    risk-of-spread/
+    mobility-data/
+    humanitarian-data/
+    therapeutics-vaccines/
 ```
 
 ## Managing structure
@@ -42,8 +48,8 @@ Add one line to `myst.yml` under the appropriate section:
 ```yaml
 - title: Dashboards
   children:
-    - file: docs/dashboards/inrb-umie-dashboard
-    - file: docs/dashboards/new-resource        # ← add here
+    - file: docs/resources/dashboards/inrb-umie-dashboard
+    - file: docs/resources/dashboards/new-resource        # ← add here
 ```
 
 ### Creating a new section
@@ -51,10 +57,12 @@ Add one line to `myst.yml` under the appropriate section:
 ```yaml
 - title: New Section Name
   children:
-    - file: docs/new-section/first-resource
+    - file: docs/resources/new-section/first-resource
 ```
 
-Then update the section dropdown in `.github/ISSUE_TEMPLATE/new-resource.yml`.
+**Important:** When creating a new section, also:
+1. Update the section dropdown in `.github/ISSUE_TEMPLATE/new-resource.yml`
+2. Add the section mapping in `.github/scripts/parse-issue.py` (`SECTION_MAP`)
 
 ### Creating sub-sections
 
@@ -63,10 +71,10 @@ Then update the section dropdown in `.github/ISSUE_TEMPLATE/new-resource.yml`.
   children:
     - title: Parameters
       children:
-        - file: docs/epi-parameters/grepi-perg
+        - file: docs/resources/epi-parameters/grepi-perg
     - title: Estimates
       children:
-        - file: docs/outbreak-size-estimates/mccabe-imperial
+        - file: docs/resources/outbreak-size-estimates/mccabe-imperial
 ```
 
 ### Reordering or moving resources

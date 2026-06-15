@@ -1,6 +1,6 @@
 # Ebola Bundibugyo Virus Disease Crisis — HDX Event Page
 
-Dataset · **OCHA / Humanitarian Data Exchange**
+Dataset · **OCHA / Humanitarian Data Exchange** · 2026
 
 Dedicated HDX event page bringing together DRC and Uganda datasets covering conflict events, internal displacement, population and mobility, OpenStreetMap infrastructure, and more.
 

@@ -1,6 +1,6 @@
 # Estimation of the size of the outbreak of Ebola disease caused by Bundibugyo virus in the DRC
 
-Report · **Imperial College London** · Ruth McCabe et al.
+Report · **Imperial College London** · Ruth McCabe et al. · 2026-05-20
 
 May 20, 2026 update. Estimates of the current outbreak size using epidemiological modelling approaches.
 
