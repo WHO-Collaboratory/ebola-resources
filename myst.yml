@@ -41,9 +41,9 @@ project:
         - file: docs/resources/mobility-data/flowminder-seminar.md
 site:
   title: Ebola outbreak analytics community resources
-  base_url: /ebola-resources
   template: book-theme
   options:
+    base_url: /ebola-resources
     logo: assets/logo.png
     favicon: assets/logo.png
     logo_text: Ebola outbreak analytics community resources
