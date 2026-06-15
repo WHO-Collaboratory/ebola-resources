@@ -29,7 +29,7 @@ project:
         - title: Risk of Spread
           children:
             - file: docs/resources/risk-of-spread/epistorm-spread-assessment
-            - file: docs/resources/risk-of-spread/europ
+            - file: docs/resources/risk-of-spread/europe-imporation-risk
         - title: Therapeutics & Vaccines
           children:
             - file: docs/resources/therapeutics-vaccines/who-ervebo-position
