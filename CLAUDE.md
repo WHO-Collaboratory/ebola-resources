@@ -22,10 +22,11 @@ jupyter-book build --html       # static build to _build/html
 
 ## Architecture
 
-- **`myst.yml`** — Single source of truth for site config, TOC, and navigation. TOC entries must use explicit `.md` extensions. The `base_url` must be under `site.options` (not directly under `site`).
+- **`myst.yml`** — Site config and TOC. The TOC references only top-level pages and section index files (not individual resources). The `base_url` must be under `site.options` (not directly under `site`).
 - **`assets/`** — Static assets (logo, favicon).
 - **`docs/`** — Top-level site pages: `intro.md`, `contributing.md`, `formatting-guide.md`, `maintainers.md`, `analytical-questions.md`.
-- **`docs/resources/`** — All resource content as `.md` files, grouped by section subdirectory (e.g. `dashboards/`, `epi-parameters/`, `outbreak-size-estimates/`).
+- **`docs/resources/*-index.md`** — Section index files that use `{include}` directives to pull in individual resource files. Each renders as one continuous page in the sidebar.
+- **`docs/resources/<section>/`** — Individual resource `.md` files, grouped by subdirectory (e.g. `dashboards/`, `epi-parameters/`, `outbreak-size-estimates/`).
 - **`docs/_incoming/`** — Staging directory for resources submitted as "Other / New section" via the issue form.
 - **`_build/`** — Generated output (gitignored).
 
@@ -43,21 +44,22 @@ The sidebar is structured as:
 
 ### Adding a resource (two files)
 1. Create a `.md` file in `docs/resources/<section>/`
-2. Add `- file: docs/resources/<section>/your-file.md` to `myst.yml` under the correct section
+2. Add an `{include}` directive to the section's index file (e.g. `docs/resources/tools-index.md`)
 
 ### Automated flow (issue form)
 - A contributor fills in the [issue form](https://github.com/WHO-Collaboratory/ebola-resources/issues/new?template=new-resource.yml)
 - `.github/workflows/create-resource.yml` triggers on `opened` and `labeled` events
-- `.github/scripts/parse-issue.py` parses the issue body, generates the `.md` file, and appends the entry to `myst.yml`
+- `.github/scripts/parse-issue.py` parses the issue body, generates the `.md` file, and appends an `{include}` directive to the section's index file
 - A PR is created on branch `resource/issue-<number>` using a PAT (`RESOURCE_BOT_TOKEN` secret) since org-level GitHub Actions PR permissions are disabled
-- For "Other / New section" submissions, the file goes to `docs/_incoming/` and `myst.yml` is not modified
+- For "Other / New section" submissions, the file goes to `docs/_incoming/` and no index file is modified
 - To retrigger a failed run: remove and re-add the `new-resource` label
 
 ### Adding a new section
-1. Add `- title: / children:` block in `myst.yml`
-2. Create directory under `docs/resources/`
-3. Update section dropdown in `.github/ISSUE_TEMPLATE/new-resource.yml`
-4. Update `SECTION_MAP` in `.github/scripts/parse-issue.py`
+1. Create a `docs/resources/<name>-index.md` with a title and `{include}` directives
+2. Add `- file: docs/resources/<name>-index.md` to `myst.yml`
+3. Create directory under `docs/resources/`
+4. Update section dropdown in `.github/ISSUE_TEMPLATE/new-resource.yml`
+5. Update `SECTION_MAP` in `.github/scripts/parse-issue.py`
 
 ## Resource Page Format
 

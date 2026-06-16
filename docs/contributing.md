@@ -14,7 +14,7 @@ Fill in the fields — title, URL, type, section, authors, organisation, date, a
 
 ### 2. Open a Pull Request directly
 
-Create a `.md` file in the appropriate section directory (e.g. `docs/resources/dashboards/my-resource.md`) and add an entry to `myst.yml` under the correct section. Use the format below.
+Create a `.md` file in the appropriate section directory (e.g. `docs/resources/dashboards/my-resource.md`) and add an `{include}` directive to the section's index file (e.g. `docs/resources/tools-index.md`). Use the format below.
 
 ## Resource page format
 

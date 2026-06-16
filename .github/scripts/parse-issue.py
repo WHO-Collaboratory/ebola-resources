@@ -1,27 +1,29 @@
 """Parse a GitHub issue body from the 'Suggest a Resource' form and generate a resource page.
 
 Usage:
-    python parse-issue.py --issue-body "$BODY" --output-dir docs/resources --myst-yml myst.yml
+    python parse-issue.py --issue-body "$BODY" --output-dir docs/resources
 
 Outputs:
-    - A .md file in the appropriate section directory
-    - An updated myst.yml with the new entry appended to the correct section
+    - A .md file in docs/resources/
+    - An updated section file with an {include} directive
 
-Prints the generated file path to stdout for use by the calling workflow.
+Prints the generated file path and (if applicable) the section file path to stdout,
+one per line, for use by the calling workflow.
 """
 
 import argparse
+import os
 import re
 import sys
 from pathlib import Path
 
 
 SECTION_MAP = {
-    "Resources and tools": "tools",
-    "Data": "data",
-    "Emerging evidence": "emerging-evidence",
-    "Analytical questions": "analytical-questions",
-    "Community meeting materials": "community-meetings",
+    "Resources and tools": "docs/resources/tools.md",
+    "Data": "docs/resources/data.md",
+    "Emerging evidence": "docs/resources/outbreak-size.md",
+    "Analytical questions": None,
+    "Community meeting materials": "docs/resources/community-meetings.md",
 }
 
 
@@ -78,58 +80,17 @@ def generate_page(fields: dict) -> str:
     return "\n".join(lines) + "\n"
 
 
-def update_myst_yml(myst_path: Path, section_title: str, file_entry: str) -> bool:
-    """Append a file entry to the correct section in myst.yml.
+def update_section_file(section_path: Path, resource_filename: str) -> bool:
+    """Append an {include} directive to a section file.
 
-    Returns True if the entry was added, False if the section wasn't found.
+    Returns True if the entry was added, False if the section file wasn't found.
     """
-    content = myst_path.read_text()
-    lines = content.split("\n")
-
-    # Find the section by matching `- title: <section_title>`
-    target = f"- title: {section_title}"
-    section_idx = None
-    for i, line in enumerate(lines):
-        if line.strip() == target:
-            section_idx = i
-            break
-
-    if section_idx is None:
+    if not section_path.exists():
         return False
 
-    # Find the `children:` line immediately after the section title
-    children_idx = None
-    for i in range(section_idx + 1, min(section_idx + 3, len(lines))):
-        if "children:" in lines[i]:
-            children_idx = i
-            break
-
-    if children_idx is None:
-        return False
-
-    # Determine indentation of existing children entries
-    indent = ""
-    for i in range(children_idx + 1, len(lines)):
-        line = lines[i]
-        if line.strip().startswith("- file:") or line.strip().startswith("- title:"):
-            indent = re.match(r"^(\s*)", line).group(1)
-            break
-
-    # Find the last child entry in this section (before next sibling section or end)
-    insert_idx = children_idx + 1
-    base_indent_len = len(indent)
-    for i in range(children_idx + 1, len(lines)):
-        stripped = lines[i].strip()
-        if not stripped:
-            continue
-        line_indent = len(lines[i]) - len(lines[i].lstrip())
-        if line_indent < base_indent_len and stripped:
-            break
-        insert_idx = i + 1
-
-    new_line = f"{indent}- file: {file_entry}"
-    lines.insert(insert_idx, new_line)
-    myst_path.write_text("\n".join(lines))
+    content = section_path.read_text().rstrip("\n")
+    addition = f"\n\n---\n\n```{{include}} {resource_filename}\n```\n"
+    section_path.write_text(content + addition)
     return True
 
 
@@ -137,7 +98,6 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--issue-body", required=True)
     parser.add_argument("--output-dir", default="docs/resources")
-    parser.add_argument("--myst-yml", default="myst.yml")
     args = parser.parse_args()
 
     fields = parse_body(args.issue_body)
@@ -150,10 +110,9 @@ def main():
     slug = slugify(title)
     section = fields.get("suggested_section", "Other / New section")
 
-    # Determine output directory
+    # All resources go into docs/resources/ (flat structure)
     if section in SECTION_MAP:
-        subdir = SECTION_MAP[section]
-        out_dir = Path(args.output_dir) / subdir
+        out_dir = Path(args.output_dir)
     else:
         out_dir = Path("docs/_incoming")
 
@@ -161,18 +120,24 @@ def main():
     out_path = out_dir / f"{slug}.md"
     out_path.write_text(generate_page(fields))
 
-    # Update myst.yml if section is known
-    myst_path = Path(args.myst_yml)
-    file_entry = str(out_path)
-    if section in SECTION_MAP and myst_path.exists():
-        updated = update_myst_yml(myst_path, section, file_entry)
+    # Update section file if section is known
+    section_file_str = SECTION_MAP.get(section)
+    if section_file_str:
+        section_path = Path(section_file_str)
+        updated = update_section_file(section_path, f"{slug}.md")
         if not updated:
             print(
-                f"WARNING: Could not find section '{section}' in {myst_path}. "
-                "Maintainer must add the entry manually.",
+                f"WARNING: Could not find section file '{section_path}'. "
+                "Maintainer must add the include manually.",
                 file=sys.stderr,
             )
+        else:
+            # Print both paths: resource file, then section file
+            print(str(out_path))
+            print(str(section_path))
+            return
 
+    # Only resource file created (no section update)
     print(str(out_path))
 
 

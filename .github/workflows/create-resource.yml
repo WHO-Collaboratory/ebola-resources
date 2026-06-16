@@ -20,27 +20,33 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate resource page and update myst.yml
+      - name: Generate resource page and update index
         id: generate
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: |
-          FILE_PATH=$(python .github/scripts/parse-issue.py \
+          OUTPUT=$(python .github/scripts/parse-issue.py \
             --issue-body "$ISSUE_BODY" \
-            --output-dir docs/resources \
-            --myst-yml myst.yml)
+            --output-dir docs/resources)
+          FILE_PATH=$(echo "$OUTPUT" | head -1)
+          INDEX_PATH=$(echo "$OUTPUT" | sed -n '2p')
           echo "file_path=$FILE_PATH" >> "$GITHUB_OUTPUT"
+          echo "index_path=$INDEX_PATH" >> "$GITHUB_OUTPUT"
 
       - name: Create branch and commit
         env:
           FILE_PATH: ${{ steps.generate.outputs.file_path }}
+          INDEX_PATH: ${{ steps.generate.outputs.index_path }}
           BRANCH: resource/issue-${{ github.event.issue.number }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git push origin --delete "$BRANCH" 2>/dev/null || true
           git checkout -b "$BRANCH"
-          git add "$FILE_PATH" myst.yml
+          git add "$FILE_PATH"
+          if [ -n "$INDEX_PATH" ]; then
+            git add "$INDEX_PATH"
+          fi
           git commit -m "Add resource from issue #${{ github.event.issue.number }}"
           git push origin "$BRANCH"
 
@@ -61,7 +67,7 @@ jobs:
           ## Review checklist
 
           - [ ] Resource file is in the correct section directory
-          - [ ] \`myst.yml\` entry is in the correct position (reorder if needed)
+          - [ ] \`{include}\` directive is in the correct section index file
           - [ ] Content and metadata are accurate
           EOF
           )"

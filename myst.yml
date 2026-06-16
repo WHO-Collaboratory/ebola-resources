@@ -7,38 +7,15 @@ project:
     - file: docs/contributing.md
     - file: docs/formatting-guide.md
     - file: docs/maintainers.md
-    - title: Resources and tools
-      children:
-        - file: docs/resources/dashboards/inrb-umie-dashboard.md
-        - file: docs/resources/dashboards/immunization-resilience.md
-        - file: docs/resources/epi-parameters/epiparameter-r-package.md
-        - file: docs/resources/epi-parameters/epireview-epiparameter-vignette.md
-        - file: docs/resources/epi-parameters/epireview-imperial.md
-        - file: docs/resources/epi-parameters/grepi-perg.md
-    - title: Data
-      children:
-        - file: docs/resources/mobility-data/drc-population-relocation.md
-        - file: docs/resources/mobility-data/flowminder-reports.md
-        - file: docs/resources/humanitarian-data/hdx-event-page.md
-        - file: docs/resources/epi-parameters/epi-params-bvd.md
+    - file: docs/resources/tools.md
+    - file: docs/resources/data.md
     - title: Emerging evidence
       children:
-        - title: Outbreak Size
-          children:
-            - file: docs/resources/outbreak-size-estimates/mccabe-imperial.md
-            - file: docs/resources/outbreak-size-estimates/abbott-bayesian-reanalysis.md
-        - title: Risk of Spread
-          children:
-            - file: docs/resources/risk-of-spread/epistorm-spread-assessment.md
-            - file: docs/resources/risk-of-spread/europe-importation-risk.md
-        - title: Therapeutics & Vaccines
-          children:
-            - file: docs/resources/therapeutics-vaccines/who-ervebo-position.md
-            - file: docs/resources/therapeutics-vaccines/who-therapeutics-prioritisation.md
+        - file: docs/resources/outbreak-size.md
+        - file: docs/resources/risk-of-spread.md
+        - file: docs/resources/therapeutics-vaccines.md
     - file: docs/analytical-questions.md
-    - title: Community meeting materials
-      children:
-        - file: docs/resources/mobility-data/flowminder-seminar.md
+    - file: docs/resources/community-meetings.md
 site:
   title: Ebola outbreak analytics community resources
   template: book-theme
