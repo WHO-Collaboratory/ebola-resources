@@ -17,6 +17,7 @@ project:
         - title: Epi parameters
         - title: Mobility
         - title: Humanitarian
+        - file: docs/resources/data/example-resource.md
     - title: Emerging evidence
       children:
         - title: Outbreak Size
