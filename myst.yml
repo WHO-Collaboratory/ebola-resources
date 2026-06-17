@@ -8,7 +8,7 @@ project:
     - title: Tools & Resources
       children:
         - title: Dashboards
-        - title: Epi-parameters
+        - title: Epi parameters
         - title: Literature
         - title: Therapeutics & Vaccines
     - title: Data
