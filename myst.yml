@@ -6,19 +6,20 @@ project:
     - file: docs/intro.md
     - title: Situation Updates  
       file: docs/situation/updates.md
-    - Title: Tools & Ressources 
+    - title: Tools & Ressources 
       file: docs/resources/tools.md
       children:
         - file: docs/resources/# Dashboards.md
         - file: docs/resources/Epidemiologcial Parameter Estimates.md
         - file: docs/resources/Literature.md
         - file: docs/resources/Therapeutics & Vaccines.md
-    - Title: Data 
+    - title: Data 
       file: docs/resources/data.md
       children:
-        - file: 
-        - file: 
-        - file:
+        - file: docs/resources/Linelist.md
+        - file: docs/resources/Epidemiologcial Parameter Estimates.md
+        - file: docs/resources/Mobility.md
+        - file: docs/resources/Humanitarian.md
     - title: Emerging Evidence
       file: docs/resources/emerging-evidence.md
       children:
