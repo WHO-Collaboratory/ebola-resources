@@ -17,7 +17,7 @@ project:
       file: docs/resources/data.md
       children:
         - file: docs/resources/Linelist.md
-        - file: docs/resources/Epidemiologcial Parameter Estimates.md
+        - file: docs/resources/Epidemiological Parameter Estimates_2.md
         - file: docs/resources/Mobility.md
         - file: docs/resources/Humanitarian.md
     - title: Emerging Evidence
