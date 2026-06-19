@@ -58,4 +58,10 @@
   <url>
     <loc>http://localhost:3000/contributing</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/formatting-guide</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/maintainers</loc>
+  </url>
 </urlset>
