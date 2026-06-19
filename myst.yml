@@ -32,8 +32,9 @@ project:
       file: docs/resources/community-meetings.md
     - title: Contibutions 
       file: docs/contributing.md
-    - file: docs/formatting-guide.md
-    - file: docs/maintainers.md
+      Children: 
+        - file: docs/formatting-guide.md
+        - file: docs/maintainers.md
 site:
   title: Ebola outbreak analytics community resources
   template: book-theme
