@@ -20,32 +20,8 @@ jobs:
       - name: Install dependencies
         run: pip install jupyter-book pyyaml
 
-      - name: Validate myst.yml syntax
-        run: python -c "import yaml; yaml.safe_load(open('myst.yml'))"
-
-      - name: Check TOC file references exist
-        run: |
-          python -c "
-          import yaml, sys, os
-          with open('myst.yml') as f:
-              config = yaml.safe_load(f)
-          missing = []
-          def walk_toc(items):
-              for item in items:
-                  if 'file' in item:
-                      path = item['file']
-                      if not os.path.exists(path):
-                          missing.append(path)
-                  if 'children' in item:
-                      walk_toc(item['children'])
-          walk_toc(config['project']['toc'])
-          if missing:
-              print('Missing files referenced in myst.yml:')
-              for m in missing:
-                  print(f'  - {m}')
-              sys.exit(1)
-          print('All TOC file references exist.')
-          "
+      - name: Validate myst.yml
+        run: python .github/scripts/validate-myst.py
 
       - name: Set base URL in myst.yml
         if: inputs.base_url != '/ebola-resources'

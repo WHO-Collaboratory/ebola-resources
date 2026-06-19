@@ -46,7 +46,7 @@ jobs:
           cp -r ../_site/. "preview/pr-${PR_NUMBER}/"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add "preview/pr-${PR_NUMBER}"
           git diff --cached --quiet && echo "No changes to deploy" && exit 0
           git commit -m "Deploy preview for PR #${PR_NUMBER}"
           git push

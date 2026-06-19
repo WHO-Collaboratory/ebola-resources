@@ -6,10 +6,10 @@ project:
     - file: docs/intro.md
     - title: Situation Updates  
       file: docs/resources/Situation Updates.md
-    - title: Tools & Ressources 
+    - title: Tools & Resources 
       file: docs/resources/tools.md
       children:
-        - file: docs/resources/# Dashboards.md
+        - file: docs/resources/Dashboards.md
         - file: docs/resources/Epidemiological Parameter Estimates.md
         - file: docs/resources/Literature.md
         - file: docs/resources/Therapeutics & Vaccines.md
