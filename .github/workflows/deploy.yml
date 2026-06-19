@@ -37,8 +37,8 @@ jobs:
           cd gh-pages
           # Remove everything except preview/ dir and git metadata
           find . -maxdepth 1 ! -name '.' ! -name '.git' ! -name 'preview' -exec rm -rf {} +
-          # Copy new build output
-          cp -r ../_site/* .
+          # Copy new build output (including dotfiles like .nojekyll)
+          cp -r ../_site/. .
 
       - name: Push to gh-pages
         run: |
