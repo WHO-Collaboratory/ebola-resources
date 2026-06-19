@@ -32,7 +32,7 @@ project:
       file: docs/resources/community-meetings.md
     - title: Contibutions 
       file: docs/contributing.md
-      Children: 
+      children: 
         - file: docs/formatting-guide.md
         - file: docs/maintainers.md
 site:
