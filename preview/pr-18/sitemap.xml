@@ -5,19 +5,37 @@
     <loc>http://localhost:3000</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/contributing</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/formatting-guide</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/maintainers</loc>
+    <loc>http://localhost:3000/situation-updates</loc>
   </url>
   <url>
     <loc>http://localhost:3000/tools</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/dashboards</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/epidemiological-parameter-estimates</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/literature</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/therapeutics-and-vaccines</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/data</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/linelist</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/epidemiological-parameter-estimates-2</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/mobility</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/humanitarian</loc>
   </url>
   <url>
     <loc>http://localhost:3000/emerging-evidence</loc>
@@ -36,5 +54,8 @@
   </url>
   <url>
     <loc>http://localhost:3000/community-meetings</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/contributing</loc>
   </url>
 </urlset>
