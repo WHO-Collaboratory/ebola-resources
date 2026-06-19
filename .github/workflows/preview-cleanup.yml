@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: pages-preview-pr-${{ github.event.pull_request.number }}
+  group: pages-deploy
   cancel-in-progress: false
 
 jobs:
