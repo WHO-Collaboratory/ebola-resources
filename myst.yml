@@ -31,8 +31,8 @@ project:
     - title: Community Meetings
       file: docs/resources/community-meetings.md
     - title: Contibutions 
-      file: docs/contributing.md
       Children: 
+        - file: docs/contributing.md
         - file: docs/formatting-guide.md
         - file: docs/maintainers.md
 site:
