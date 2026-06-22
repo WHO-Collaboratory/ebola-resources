@@ -1,6 +1,6 @@
 version: 1
 project:
-  title: Ebola outbreak analytics community resources
+  title: Ebola Outbreak Analytics CoP Resources
   github: WHO-Collaboratory/ebola-resources
   toc:
     - file: docs/intro.md
@@ -36,13 +36,13 @@ project:
         - file: docs/formatting-guide.md
         - file: docs/maintainers.md
 site:
-  title: Ebola outbreak analytics community resources
+  title: Ebola Outbreak Analytics CoP Resources
   template: book-theme
   options:
     base_url: /ebola-resources
     logo: assets/logo.png
     favicon: assets/logo.png
-    logo_text: Ebola Outbreak Analytics community resources
+    logo_text: Ebola Outbreak Analytics CoP Resources
     hide_outline: true
   parts:
-    footer: "**Disclaimer:** This site is maintained by the Collaboratory Ebola Outbreak Analytics Community of Practice and is not an official WHO publication. Resources are provided for informational purposes only and do not constitute official guidance. Content may become outdated — always verify with primary sources before use."
+    footer: "**Disclaimer:** This site is maintained by the Collaboratory Ebola Outbreak Analytics CoP and is not an official WHO publication. Resources are provided for informational purposes only and do not constitute official guidance. Content may become outdated — always verify with primary sources before use."

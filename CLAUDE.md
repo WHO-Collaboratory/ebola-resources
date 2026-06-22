@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-A MyST / Jupyter Book v2 site that curates resources for the 2026 DRC Ebola Bundibugyo outbreak response. Maintained by the Ebola Community of Practice under the WHO Collaboratory. The site is purely content — Markdown pages organized into thematic sections — with no application code.
+A MyST / Jupyter Book v2 site that curates resources for the 2026 DRC Ebola Bundibugyo outbreak response. Maintained by the Ebola Outbreak Analytics CoP under the WHO Collaboratory. The site is purely content — Markdown pages organized into thematic sections — with no application code.
 
 - **Repo:** `WHO-Collaboratory/ebola-resources`
 - **Live site:** https://who-collaboratory.github.io/ebola-resources/
