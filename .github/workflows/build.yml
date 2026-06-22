@@ -2,6 +2,10 @@ name: Build and validate site
 
 on:
   workflow_call:
+    inputs:
+      base_url:
+        type: string
+        default: /ebola-resources
 
 jobs:
   build:
@@ -16,39 +20,31 @@ jobs:
       - name: Install dependencies
         run: pip install jupyter-book pyyaml
 
-      - name: Validate myst.yml syntax
-        run: python -c "import yaml; yaml.safe_load(open('myst.yml'))"
+      - name: Validate myst.yml
+        run: python .github/scripts/validate-myst.py
 
-      - name: Check TOC file references exist
+      - name: Set base URL in myst.yml
+        if: inputs.base_url != '/ebola-resources'
         run: |
           python -c "
-          import yaml, sys, os
+          import yaml
           with open('myst.yml') as f:
               config = yaml.safe_load(f)
-          missing = []
-          def walk_toc(items):
-              for item in items:
-                  if 'file' in item:
-                      path = item['file']
-                      if not os.path.exists(path):
-                          missing.append(path)
-                  if 'children' in item:
-                      walk_toc(item['children'])
-          walk_toc(config['project']['toc'])
-          if missing:
-              print('Missing files referenced in myst.yml:')
-              for m in missing:
-                  print(f'  - {m}')
-              sys.exit(1)
-          print('All TOC file references exist.')
+          config['site']['options']['base_url'] = '${{ inputs.base_url }}'
+          with open('myst.yml', 'w') as f:
+              yaml.dump(config, f, default_flow_style=False, sort_keys=False)
           "
 
       - name: Build site
         env:
-          BASE_URL: /ebola-resources
-        run: jupyter-book build --html
+          BASE_URL: ${{ inputs.base_url }}
+        run: |
+          jupyter-book build --html
+          touch _build/html/.nojekyll
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+      - name: Upload build output
+        uses: actions/upload-artifact@v4
         with:
+          name: site-build
           path: _build/html
+          include-hidden-files: true
