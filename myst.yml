@@ -25,3 +25,4 @@ site:
     logo: assets/logo.png
     favicon: assets/logo.png
     logo_text: Ebola outbreak analytics community resources
+    style: assets/custom.css
