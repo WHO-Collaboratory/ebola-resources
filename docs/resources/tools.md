@@ -2,6 +2,10 @@
 
 Tools, dashboards, and packages supporting the Ebola outbreak response.
 
+```{tableofcontents}
+:context: children
+```
+
 ---
 
 ```{include} inrb-umie-dashboard.md
