@@ -54,14 +54,4 @@ We curate resources that are:
 - **Publicly accessible** (or with a clear access path)
 - **Actionable** — dashboards, datasets, tools, reports, and packages that responders and researchers can use
 
-## Sections
-
-| Section | What goes here |
-|---|---|
-| Resources and tools | Dashboards, R packages, epidemiological parameter tools |
-| Data | Mobility, humanitarian, and epidemiological datasets |
-| Emerging evidence | Outbreak size estimates, risk of spread, therapeutics & vaccines |
-| Analytical questions | Key analytical questions for the outbreak response |
-| Community meeting materials | Seminars, presentations, and meeting recordings |
-
 If a resource doesn't fit an existing section, mention that in your issue or PR — we can create new sections as the response evolves.
