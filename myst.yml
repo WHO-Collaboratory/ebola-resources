@@ -43,5 +43,6 @@ site:
     logo: assets/logo.png
     favicon: assets/logo.png
     logo_text: Ebola Outbreak Analytics community resources
+    hide_outline: true
   parts:
     footer: "**Disclaimer:** This site is maintained by the Collaboratory Ebola Outbreak Analytics Community of Practice and is not an official WHO publication. Resources are provided for informational purposes only and do not constitute official guidance. Content may become outdated — always verify with primary sources before use."
