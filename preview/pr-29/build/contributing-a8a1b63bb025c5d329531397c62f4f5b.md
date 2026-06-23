@@ -2,6 +2,10 @@
 
 This resource list is maintained by the Ebola Outbreak Analytics CoP. Contributions are welcome from anyone working on the 2026 DRC Ebola Bundibugyo response.
 
+```{tableofcontents}
+:context: children
+```
+
 ## Ways to contribute
 
 ### 1. Submit an issue (no coding needed)
