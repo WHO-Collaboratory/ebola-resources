@@ -1,6 +1,6 @@
 # Contributing
 
-This resource list is maintained by the Ebola Community of Practice. Contributions are welcome from anyone working on the 2026 DRC Ebola Bundibugyo response.
+This resource list is maintained by the Ebola Outbreak Analytics CoP. Contributions are welcome from anyone working on the 2026 DRC Ebola Bundibugyo response.
 
 ```{tableofcontents}
 :context: children
