@@ -17,9 +17,6 @@
     <loc>http://localhost:3000/epidemiological-parameter-estimates</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/literature</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/therapeutics-and-vaccines</loc>
   </url>
   <url>
@@ -39,6 +36,9 @@
   </url>
   <url>
     <loc>http://localhost:3000/emerging-evidence</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/literature</loc>
   </url>
   <url>
     <loc>http://localhost:3000/outbreak-size</loc>
