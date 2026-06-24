@@ -2,6 +2,10 @@
 
 Epidemiological, mobility, and humanitarian datasets.
 
+```{tableofcontents}
+:context: children
+```
+
 ---
 
 ```{include} drc-population-relocation.md

@@ -1,6 +1,6 @@
 version: 1
 project:
-  title: Ebola outbreak analytics community resources
+  title: Ebola Outbreak Analytics - CoP Resources
   github: WHO-Collaboratory/ebola-resources
   toc:
     - file: docs/intro.md
@@ -11,7 +11,6 @@ project:
       children:
         - file: docs/resources/Dashboards.md
         - file: docs/resources/Epidemiological Parameter Estimates.md
-        - file: docs/resources/Literature.md
         - file: docs/resources/Therapeutics & Vaccines.md
     - title: Data 
       file: docs/resources/data.md
@@ -23,6 +22,7 @@ project:
     - title: Emerging Evidence
       file: docs/resources/emerging-evidence.md
       children:
+        - file: docs/resources/Literature.md 
         - file: docs/resources/outbreak-size.md
         - file: docs/resources/risk-of-spread.md
         - file: docs/resources/therapeutics-vaccines.md
@@ -36,7 +36,7 @@ project:
         - file: docs/formatting-guide.md
         - file: docs/maintainers.md
 site:
-  title: Ebola outbreak analytics community resources
+  title: Ebola Outbreak Analytics - CoP Resources
   template: book-theme
   options:
     base_url: /ebola-resources
@@ -45,4 +45,4 @@ site:
     logo_text: Ebola outbreak analytics community resources
     style: assets/custom.css
   parts:
-    footer: "**Disclaimer:** This site is maintained by the Collaboratory Ebola Outbreak Analytics Community of Practice and is not an official WHO publication. Resources are provided for informational purposes only and do not constitute official guidance. Content may become outdated — always verify with primary sources before use."
+    footer: "**Disclaimer:** This site is maintained by the Collaboratory Ebola Outbreak Analytics CoP and is not an official WHO publication. Resources are provided for informational purposes only and do not constitute official guidance. Content may become outdated — always verify with primary sources before use."

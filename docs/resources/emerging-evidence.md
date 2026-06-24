@@ -5,3 +5,8 @@ Recent analyses and preprints related to the 2026 DRC Ebola Bundibugyo outbreak.
 ## Sub-sections
 
 - [Outbreak size estimates](outbreak-size.md) — Estimates of current and projected outbreak size
+Recent analyses and assessments related to the 2026 DRC Ebola Bundibugyo outbreak.
+
+```{tableofcontents}
+:context: children
+```
