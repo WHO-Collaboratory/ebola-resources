@@ -4,7 +4,7 @@
 The most recent current-size analysis estimates 2,778–14,014 infections (90% credible interval) as of 14 June, versus 808 laboratory-confirmed cases; earlier analyses from May 2026 estimated roughly 215–3,224 cases or infections across scenario intervals. Five analyses are currently incorporated, all of which converge on material under-detection despite differing dates, scopes, and methods. The evidence suggests response planning should assume a substantially larger outbreak than confirmed counts alone indicate, with low-to-moderate confidence.
 :::
 
-![Outbreak size estimates](outbreak-size.svg)
+![Outbreak size estimates](/assets/images/emerging-evidence/outbreak-size.svg)
 
 ## Synthesizing evidence
 
