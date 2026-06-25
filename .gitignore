@@ -4,3 +4,4 @@ _build/
 node_modules/
 pat_token
 pat-token.txt
+.DS_Store
