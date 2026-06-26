@@ -10,7 +10,7 @@
 }
 
 /* Suppress MyST's auto-generated bibliography; the hand-written ## References section is used instead */
-div.bibliography {
+section.myst-bibliography {
   display: none;
 }
 
