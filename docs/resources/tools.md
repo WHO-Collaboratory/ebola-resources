@@ -35,3 +35,8 @@ Tools, dashboards, and packages supporting the Ebola outbreak response.
 
 ```{include} grepi-perg.md
 ```
+
+---
+
+```{include} ebola-disease-outbreak-toolbox.md
+```
