@@ -42,7 +42,7 @@ site:
     base_url: /ebola-resources
     logo: assets/logo.png
     favicon: assets/logo.png
-    logo_text: Ebola Outbreak Analytics - CoP Resources
-    hide_outline: true
+    logo_text: Ebola outbreak analytics community resources
+    style: assets/custom.css
   parts:
     footer: "**Disclaimer:** This site is maintained by the Collaboratory Ebola Outbreak Analytics CoP and is not an official WHO publication. Resources are provided for informational purposes only and do not constitute official guidance. Content may become outdated — always verify with primary sources before use."
