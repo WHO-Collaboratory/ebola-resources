@@ -14,9 +14,6 @@
     <loc>http://localhost:3000/dashboards</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/epidemiological-parameter-estimates</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/therapeutics-and-vaccines</loc>
   </url>
   <url>
