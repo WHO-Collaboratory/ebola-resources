@@ -8,8 +8,6 @@ A dataset of **330 Ebola epidemiological parameters**, including **23 parameters
 
 - ➡️ **grEPI:** https://www.grepo.org/grepi (includes the parameter database and links to the original source publications)
 
-### Related Resources
-
 - **epiparameter R package** (developed by the London School of Hygiene & Tropical Medicine through epiverse-trace):  
   https://epiverse-trace.github.io/epiparameter
 
