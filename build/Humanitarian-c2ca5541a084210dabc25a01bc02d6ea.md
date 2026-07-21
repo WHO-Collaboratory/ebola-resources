@@ -11,6 +11,8 @@
 | Displacement, humanitarian access, conflict and security | Danish Refugee Council subnational displacement forecasts  |[Click here ](https://data.humdata.org/dataset/democratic-republic-of-the-congo-subnational-displacement-forecasts)  |Three-month displacement forecasts for eastern DRC |2026-07-15| 
 | Displacement, humanitarian access, conflict and security | ACLED DRC conflict data — HDX  |[Click here ](https://data.humdata.org/dataset/democratic-republic-of-congo-acled-conflict-data)  |Conflict events/fatalities/civilian targeting; access and surveillance disruption |2026-07-17| 
 | Displacement, humanitarian access, conflict and security | Aid Worker Security Database — DRC  |[Click here ](https://data.humdata.org/dataset/aid-worker-security-database-cod)  |Aid worker security incidents; operational access risk |2026-07-20| 
+| Displacement, humanitarian access, conflict and security | OCHA DRC displacement — IDP site assessment |[Click here ](https://data.humdata.org/dataset/drc-displacement-deplace-site-assessment-ocha)  |IDP locations/site-level vulnerability and mobility context |2026-04-30| 
+
 | Food security, markets, livelihoods and vulnerability | WFP DRC food prices |[Click here ](https://data.humdata.org/dataset/wfp-food-prices-for-democratic-republic-of-the-congo)  |Market disruption, access to food, vulnerability and movement pressure |2026-07-19| 
 
 
