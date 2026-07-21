@@ -12,3 +12,6 @@
 | Displacement, humanitarian access, conflict and security | ACLED DRC conflict data — HDX  |[Click here ](https://data.humdata.org/dataset/democratic-republic-of-congo-acled-conflict-data)  |Conflict events/fatalities/civilian targeting; access and surveillance disruption |2026-07-17| 
 | Displacement, humanitarian access, conflict and security | Aid Worker Security Database — DRC  |[Click here ](https://data.humdata.org/dataset/aid-worker-security-database-cod)  |Aid worker security incidents; operational access risk |2026-07-20| 
 | Food security, markets, livelihoods and vulnerability | WFP DRC food prices |[Click here ](https://data.humdata.org/dataset/wfp-food-prices-for-democratic-republic-of-the-congo)  |Market disruption, access to food, vulnerability and movement pressure |2026-07-19| 
+
+
+Disclaimer: This resource is maintained by the Collaboratory Ebola Outbreak Analytics Community of Practice and is not an official WHO publication. Links and materials are shared for informational and analytical purposes only and do not constitute WHO endorsement, or validation. Content may be incomplete or become outdated; users should verify all information with primary sources before use.
