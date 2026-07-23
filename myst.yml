@@ -21,7 +21,6 @@ project:
     - title: Emerging Evidence
       file: docs/resources/emerging-evidence.md
       children:
-        - file: docs/resources/Literature.md 
         - file: docs/resources/outbreak-size.md
         - file: docs/resources/risk-of-spread.md
         - file: docs/resources/therapeutics-vaccines.md
