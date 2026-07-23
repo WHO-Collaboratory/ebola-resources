@@ -10,7 +10,6 @@ project:
       file: docs/resources/tools.md
       children:
         - file: docs/resources/Dashboards.md
-        - file: docs/resources/Epidemiological Parameter Estimates.md
         - file: docs/resources/Therapeutics & Vaccines.md
     - title: Data 
       file: docs/resources/data.md

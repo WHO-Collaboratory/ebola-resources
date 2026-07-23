@@ -1,6 +1,6 @@
 # Data
 
-Epidemiological, mobility, and humanitarian datasets.
+Overview of curated, openly accessible datasets relevant to the outbreak response, including epidemiological, mobility, humanitarian, demographic, and other operational data sources.
 
 ```{tableofcontents}
 :context: children
@@ -8,20 +8,20 @@ Epidemiological, mobility, and humanitarian datasets.
 
 ---
 
-```{include} drc-population-relocation.md
+```{include} linelist.md
 ```
 
 ---
 
-```{include} flowminder-reports.md
+```{include} Epidemiological Parameter Estimates_2.md
 ```
 
 ---
 
-```{include} hdx-event-page.md
+```{include} Mobility.md
 ```
 
 ---
 
-```{include} epi-params-bvd.md
+```{include} Humanitarian.md
 ```

@@ -1,7 +1,12 @@
 # Ebola disease outbreak toolbox
 
-Tool · **WHO** · - · JUNE 2026
+Outbreak Investigation Toolkit
 
-The Outbreak Toolkit aims to assist epidemiologists and investigators in the field to conduct detailed outbreak investigations by minimizing time spent researching and locating key documents and arming staff with critical information needed to guide investigation design, data collection and response activities.
+The WHO Outbreak Investigation Toolkit supports epidemiologists and field investigators by reducing the time required to locate key guidance documents and resources. It provides essential information to support outbreak investigation design, data collection, and response activities.
 
-[Visit resource](https://www.who.int/emergencies/outbreak-toolkit/disease-outbreak-toolboxes/ebola-and-marburg-virus-outbreak-toolbox)
+Resource
+
+- ➡️ [WHO Outbreak Investigation Toolkit](https://outbreak-toolkit.who.int/) (June 2026)  
+  Developed by the World Health Organization (WHO).
+```
+
