@@ -14,8 +14,8 @@ See [Contributing](contributing.md) for more details.
 
 | Section | What's covered |
 |---|---|
-| [Resources and tools](resources/dashboards/inrb-umie-dashboard.md) | Dashboards, R packages, epidemiological parameter tools |
-| [Data](resources/mobility-data/drc-population-relocation.md) | Mobility, humanitarian, and epidemiological datasets |
+| [Resources and tools](docs/resources/tools.md) | Dashboards, R packages, epidemiological parameter tools |
+| [Data](docs/resources/data.md) | Mobility, humanitarian, and epidemiological datasets |
 | [Emerging evidence](resources/emerging-evidence.md) | Outbreak size estimates, risk of spread, therapeutics & vaccines |
 | [Analytical questions](analytical-questions.md) | Key analytical questions for the outbreak response |
-| [Community meeting materials](resources/mobility-data/flowminder-seminar.md) | Seminars, presentations, and meeting recordings |
+| [Community meeting materials](docs/resources/community-meetings.md) | Seminars, presentations, and meeting recordings |
