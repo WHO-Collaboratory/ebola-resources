@@ -1,6 +1,8 @@
 # Ebola Outbreak Analytics - CoP Resources
 
-A curated, community-maintained collection of resources supporting the response to the 2026 DRC Ebola Bundibugyo virus disease outbreak. This site is maintained by the **Ebola Outbreak Analytics CoP** within the [WHO Collaboratory](https://www.who.int/initiatives/collaboratory).
+A curated, community-maintained collection of resources supporting the response to the 2026 Democratic Republic of the Congo (DRC) Ebola Bundibugyo virus disease outbreak. This site is maintained by the **Ebola Outbreak Analytics Community of Practice (CoP)** within the https://www.who.int/initiatives/collaboratory.
+
+While this collection is reviewed and updated regularly by community members, we cannot guarantee that all information is complete or fully up to date at all times. If you notice missing resources, outdated information, or inaccuracies, we encourage you to contribute and help improve the collection.
 
 ## Suggest a resource
 
