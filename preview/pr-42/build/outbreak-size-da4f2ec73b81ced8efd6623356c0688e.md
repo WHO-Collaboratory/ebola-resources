@@ -1,6 +1,6 @@
 # Outbreak Size
 
-*Latest analysis data cutoff: 21 July 2026. Page refreshed: 23 July 2026.*
+*Latest analysis data cutoff: 18 July 2026. Page refreshed: 23 July 2026.*
 
 :::{important} Beta
 This page is in beta and still a work in progress. Please direct feedback to [Collaboratory@who.int](mailto:Collaboratory@who.int).
