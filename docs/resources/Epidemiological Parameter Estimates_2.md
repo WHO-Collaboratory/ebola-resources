@@ -2,21 +2,12 @@
 
 ---
 
-## Ebola Epidemiological Parameters
+A dataset of **330 Ebola epidemiological parameters**, including **23 parameters for Bundibugyo virus (BDBV)**, extracted through systematic reviews by the **Pathogen Epidemiology Review Group (PERG)**.
 
-A dataset of **330 Ebola epidemiological parameters**, including **23 parameters for Bundibugyo virus (BDBV)**, extracted through systematic reviews by the **Pathogen Epidemiology Review Group (PERG)**, is available via:
-
-- ➡️ **grEPI:** https://www.grepo.org/grepi (includes the parameter database and links to the original source publications)
-
-- **epiparameter R package** (developed by the London School of Hygiene & Tropical Medicine through epiverse-trace):  
-  https://epiverse-trace.github.io/epiparameter
-
-- **Vignette: Using `{epireview}` with `{epiparameter}`:**  
-  https://epiverse-trace.github.io/epiparameter/articles/epireview.html
-
-- **Imperial College's `{epireview}` tool:**  
-  https://github.com/mrc-ide/epireview  
-  Provides an interface to explore the latest epidemiological data, figures, and tables curated by PERG.
-
-- **Bundibugyo virus epidemiological parameters:**  
-  https://mrc-ide.github.io/epireview/articles/bundibugyo-virus.html
+| Resource | Description | Developed by | Link |
+|---|---|---|---|
+| **grEPI** | Online platform providing the epidemiological parameter database together with links to the original source publications. | Pathogen Epidemiology Review Group (PERG) | [Explore grEPI](https://www.grepo.org/grepi) |
+| **{epiparameter} R package** | R package providing access to epidemiological parameters curated through PERG. | London School of Hygiene & Tropical Medicine (Epiverse-TRACE) | [View package](https://epiverse-trace.github.io/epiparameter) |
+| **Using {epireview} with {epiparameter}** | Tutorial demonstrating how to use the `{epireview}` and `{epiparameter}` packages together. | Epiverse-TRACE | [Read vignette](https://epiverse-trace.github.io/epiparameter/articles/epireview.html) |
+| **{epireview}** | Interactive tool to explore the latest epidemiological data, figures, and tables curated by PERG. | Imperial College London | [Open tool](https://github.com/mrc-ide/epireview) |
+| **Bundibugyo Virus Epidemiological Parameters** | Interactive summary of epidemiological parameters specifically for Bundibugyo virus disease (BVD). | Imperial College London / PERG | [View resource](https://mrc-ide.github.io/epireview/articles/bundibugyo-virus.html) |
