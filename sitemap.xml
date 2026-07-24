@@ -41,9 +41,6 @@
     <loc>http://localhost:3000/risk-of-spread</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/therapeutics-vaccines</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/analytical-questions</loc>
   </url>
   <url>
