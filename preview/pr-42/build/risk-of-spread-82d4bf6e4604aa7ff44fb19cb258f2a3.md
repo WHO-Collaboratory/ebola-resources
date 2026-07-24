@@ -3,7 +3,7 @@
 *Latest analysis data cutoff: 15 July 2026. Page refreshed: 23 July 2026.*
 
 :::{important} Beta
-This page is in beta and still a work in progress. Please direct feedback to [Collaboratory@who.int](mailto:Collaboratory@who.int).
+This page is in beta and still a work in progress. Please direct feedback to [Collaboratory@who.int](mailto:Collaboratory@who.int). This page is subject to the [disclaimer](#page-bottom) below.
 :::
 
 :::{note} WHO Rapid Risk Assessment
@@ -929,3 +929,7 @@ These pages are produced by a semi-automated evidence-synthesis pipeline that pa
 [^van-zandvoort-2026-decrease-in-exportation-risk-over-the-4]: [van Zandvoort et al. (2026) "Decrease in exportation risk over the 2014–16 epidemic"](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.24.2600508): "Weekly count of new confirmed, probable and suspected cases, by week and country for Guinea, Liberia and Sierra Leone (total 28,592)."
 [^van-zandvoort-2026-discussion-1]: [van Zandvoort et al. (2026) "Discussion"](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.24.2600508): "Notably, the four latent cases we identified occurred among 300,000 travellers screened by the US Centers for Disease Control and Prevention (CDC)-supported exit screening programmes in Guinea, Liberia and Sierra Leone, and all were asymptomatic (and hence undetectable) at the point of both exit screening and entry screening."
 [^van-zandvoort-2026-ebola-disease-cases-outside-africa-8]: [van Zandvoort et al. (2026) "Ebola disease cases outside Africa"](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.24.2600508): "We checked our findings against existing lists of Ebola disease cases."
+
+:::{div}
+:name: page-bottom
+:::

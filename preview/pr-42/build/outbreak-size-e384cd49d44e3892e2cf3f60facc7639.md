@@ -3,7 +3,7 @@
 *Latest analysis data cutoff: 18 July 2026. Page refreshed: 23 July 2026.*
 
 :::{important} Beta
-This page is in beta and still a work in progress. Please direct feedback to [Collaboratory@who.int](mailto:Collaboratory@who.int).
+This page is in beta and still a work in progress. Please direct feedback to [Collaboratory@who.int](mailto:Collaboratory@who.int). This page is subject to the [disclaimer](#page-bottom) below.
 :::
 
 :::{hint} At a glance
@@ -686,3 +686,7 @@ These pages are produced by a semi-automated evidence-synthesis pipeline that pa
 [^chamla-2026-results-7]: [Chamla et al. (2026) "Results"](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00320-8/fulltext): "Cross-border spillover projections (Figure 3 and Table 2) indicated very high importation probability for Uganda (94.2%; expected imports 2.85), where the outbreak is now firmly established: as of 4 June 2026, Uganda reported 19 confirmed cases (including five healthcare-worker infections and two deaths), reflecting sustained importation and onward local transmission since the first imported case."
 [^chamla-2026-methods-13]: [Chamla et al. (2026) "Methods"](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00320-8/fulltext): "These distributions were chosen to span the range of published BDBV estimates from the 2007 Uganda and 2012 DR Congo outbreaks. The latent period was fixed at 9.7 days and the infectious period at 5.0 days, in line with the broader filovirus literature. The case-fatality ratio was drawn from a uniform distribution (0.15 to 0.25; appendix 3 pp 3–4), centred on the case-fatality ratio observed among laboratory-confirmed cases in the current outbreak (115 [approximately 19%] of 598 as of 8 June 2026) and consistent with the historical BDBV range."
 [^chamla-2026-introduction-3]: [Chamla et al. (2026) "Introduction"](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00320-8/fulltext): "Previous outbreaks in Uganda (2007) and DR Congo (2012) suggested lower transmissibility and case-fatality ratio than Zaire ebolavirus, with reproduction number estimates ranging from 1.2 to 2.6."
+
+:::{div}
+:name: page-bottom
+:::
