@@ -1,4 +1,4 @@
-# Resources and tools
+# Tools and Resources 
 
 Explore dashboards, R packages, and other analytical resources.
 
