@@ -11,8 +11,6 @@ project:
       children:
         - file: docs/resources/Dashboards.md
         - file: docs/resources/Therapeutics & Vaccines.md
-        - file: docs/resources/Epidemiological Parameter Estimates_2.md
-        
     - title: Data 
       file: docs/resources/data.md
       children:
