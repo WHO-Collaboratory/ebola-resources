@@ -3,7 +3,7 @@
 *Latest analysis data cutoff: 15 July 2026. Page refreshed: 23 July 2026.*
 
 :::{important} Beta
-This page is in beta and still a work in progress. Please direct feedback to [Collaboratory@who.int](mailto:Collaboratory@who.int). This page is subject to the [disclaimer](#page-bottom) below.
+This page is in beta and still a work in progress. Please direct feedback to [Collaboratory@who.int](mailto:Collaboratory@who.int). This page is subject to the [disclaimer](#risk-spread-page-bottom) below.
 :::
 
 :::{note} WHO Rapid Risk Assessment
@@ -931,5 +931,5 @@ These pages are produced by a semi-automated evidence-synthesis pipeline that pa
 [^van-zandvoort-2026-ebola-disease-cases-outside-africa-8]: [van Zandvoort et al. (2026) "Ebola disease cases outside Africa"](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.24.2600508): "We checked our findings against existing lists of Ebola disease cases."
 
 :::{div}
-:name: page-bottom
+:name: risk-spread-page-bottom
 :::
