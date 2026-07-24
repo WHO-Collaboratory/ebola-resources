@@ -3,13 +3,13 @@
 The Collaboratory hosts weekly community calls to provide situational updates and share the latest analytical work conducted by community members and external experts.
 To participate in these meetings and access presentation slides and recordings, please register on the [Collaboratory](https://collaboratory.who.int/), following these [instructions](https://who-collaboratory.github.io/collaboratory-handbook/content/new-users/signup.html#new-user-s%E2%80%A6)  and join the [Ebola Outbreak Analytics Community](https://collaboratory.who.int/forum/g/ebola_community).
 
-If you are already a member, you can access the materials here: 
 
 :::{important} Next Community Call
 Interested in participating? Find details about the upcoming Community Call, including the agenda and registration information, on the Collaboratory forum.
 ➡️ **[View Details](https://collaboratory.who.int/forum/t/event-announcements-recordings-slides/3825?u=rebecca_lais)**
 :::
 
+If you are already a member, you can access the materials here: 
 
 | Community Call | Topics | Recording & Slides |
 |---|---|---|
