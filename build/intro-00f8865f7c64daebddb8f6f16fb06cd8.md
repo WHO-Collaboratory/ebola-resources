@@ -4,7 +4,7 @@
 This page is in beta and still a work in progress. Please direct feedback to [Collaboratory@who.int](mailto:Collaboratory@who.int).
 :::
 
-Welcome to the Ebola Outbreak Analytics Community Resources Collection. This is a curated, community-maintained collection of resources supporting analytics for the 2026 Democratic Republic of the Congo (DRC) Ebola Bundibugyo virus disease outbreak. The purpose of this page is to collate information relevant to outbreak analytics and make it more easily accessible in a single location. We do not own, produce, or endorse the information presented here; all resources are publicly available and are simply aggregated and organized for the benefit of the response community.
+Welcome to the Ebola Outbreak Analytics Community Resources Collection. This is a curated, community-maintained collection of resources supporting analytics for the 2026 Democratic Republic of the Congo (DRC) Ebola Bundibugyo virus disease outbreak. The purpose of these pages is to collate information relevant to outbreak analytics and make it more easily accessible in a single location. We do not own, produce, or endorse the information presented here; all resources are publicly available and are simply aggregated and organized for the benefit of the response community.
 
 This site is maintained by the **Ebola Outbreak Analytics Community of Practice (CoP)** within the [Collaboratory](https://www.who.int/initiatives/collaboratory).
 
@@ -20,8 +20,8 @@ See [Contributing](contributing.md) for more details.
 
 | Section | What's covered |
 |---|---|
-| [Tools & Resources](http://who-collaboratory.github.io/ebola-resources/tools/) | Dashboards, R packages, epidemiological parameter tools |
-| [Data](resources/data) | Mobility, humanitarian, and epidemiological datasets |
+| [Tools & Resources](resources/tools.md) | Dashboards, R packages |
+| [Data](resources/data) | Mobility, humanitarian, and epidemiological parameter estimates |
 | [Emerging evidence](resources/emerging-evidence.md) | Outbreak size estimates, risk of spread, therapeutics & vaccines |
 | [Analytical questions](analytical-questions.md) | Key analytical questions for the outbreak response |
 | [Community meeting materials](http://who-collaboratory.github.io/ebola-resources/community-meetings/) | Seminars, presentations, and meeting recordings |
