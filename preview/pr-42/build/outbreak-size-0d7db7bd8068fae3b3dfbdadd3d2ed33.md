@@ -3,7 +3,7 @@
 *Latest analysis data cutoff: 18 July 2026. Page refreshed: 23 July 2026.*
 
 :::{important} Beta
-This page is in beta and still a work in progress. Please direct feedback to [Collaboratory@who.int](mailto:Collaboratory@who.int). This page is subject to the [disclaimer](#page-bottom) below.
+This page is in beta and still a work in progress. Please direct feedback to [Collaboratory@who.int](mailto:Collaboratory@who.int). This page is subject to the [disclaimer](#outbreak-size-page-bottom) below.
 :::
 
 :::{hint} At a glance
@@ -688,5 +688,5 @@ These pages are produced by a semi-automated evidence-synthesis pipeline that pa
 [^chamla-2026-introduction-3]: [Chamla et al. (2026) "Introduction"](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00320-8/fulltext): "Previous outbreaks in Uganda (2007) and DR Congo (2012) suggested lower transmissibility and case-fatality ratio than Zaire ebolavirus, with reproduction number estimates ranging from 1.2 to 2.6."
 
 :::{div}
-:name: page-bottom
+:name: outbreak-size-page-bottom
 :::
