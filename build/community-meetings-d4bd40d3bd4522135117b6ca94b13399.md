@@ -5,13 +5,11 @@ To participate in these meetings and access presentation slides and recordings, 
 
 If you are already a member, you can access the materials here: 
 
-```{note}
-📅 **Join the next Community Call**
-
+:::{important} Next Community Call
 Interested in participating? Find details about the upcoming Community Call, including the agenda and registration information, on the Collaboratory forum.
-
 ➡️ **[View Details](https://collaboratory.who.int/forum/t/event-announcements-recordings-slides/3825?u=rebecca_lais)**
-```
+:::
+
 
 | Community Call | Topics | Recording & Slides |
 |---|---|---|
