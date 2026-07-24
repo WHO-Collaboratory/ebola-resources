@@ -12,6 +12,8 @@ Curated syntheses organized by question. Each page sets out the underlying analy
 
 Syntheses combine generative AI with human expertise in a single workflow. The Collaboratory team verifies AI-generated drafts against source material, cross-references official data, and corrects blind spots and model bias before publication.
 
+This site is maintained by the Ebola Outbreak Analytics Community of Practice (CoP) within the [Collaboratory](https://www.who.int/initiatives/collaboratory).
+
 Pages are updated within one working day of new or revised analyses appearing. Verify figures and interpretations against the referenced analyses before use in operational decisions.
 
 ## Evidence tracker
