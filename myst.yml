@@ -23,7 +23,6 @@ project:
       children:
         - file: docs/resources/outbreak-size.md
         - file: docs/resources/risk-of-spread.md
-        - file: docs/resources/therapeutics-vaccines.md
     - title: Analytical Questions 
       file: docs/analytical-questions.md
     - title: Community Meetings
