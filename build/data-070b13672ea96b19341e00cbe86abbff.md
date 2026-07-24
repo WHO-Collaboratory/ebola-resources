@@ -8,7 +8,7 @@ Overview of curated, openly accessible datasets relevant to the outbreak respons
 
 ---
 
-```{include} linelist.md
+```{include} Linelist.md
 ```
 
 ---
