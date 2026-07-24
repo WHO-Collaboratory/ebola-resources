@@ -8,9 +8,6 @@ Explore dashboards, R packages, and other analytical resources.
 
 ---
 
-
----
-
 ```{include} Dashboards.md
 ```
 
