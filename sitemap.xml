@@ -17,9 +17,6 @@
     <loc>http://localhost:3000/therapeutics-and-vaccines</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/epidemiological-parameter-estimates-2</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/data</loc>
   </url>
   <url>
@@ -29,7 +26,7 @@
     <loc>http://localhost:3000/mobility</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/epidemiological-parameter-estimates-2-1</loc>
+    <loc>http://localhost:3000/epidemiological-parameter-estimates-2</loc>
   </url>
   <url>
     <loc>http://localhost:3000/humanitarian</loc>
