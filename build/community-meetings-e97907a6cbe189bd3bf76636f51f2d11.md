@@ -9,7 +9,7 @@ Interested in participating? Find details about the upcoming Community Call, inc
 ➡️ **[View Details](https://collaboratory.who.int/forum/t/event-announcements-recordings-slides/3825?u=rebecca_lais)**
 :::
 
-If you are already a member, you can access the materials here: 
+**If you are a member, you can access the materials here:** 
 
 | Community Call | Topics | Recording & Slides |
 |---|---|---|
