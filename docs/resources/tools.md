@@ -1,6 +1,6 @@
 # Resources and tools
 
-Explore dashboards, epidemiological parameter estinates, R packages, and other analytical resources.
+Explore dashboards, R packages, and other analytical resources.
 
 ```{tableofcontents}
 :context: children
@@ -16,7 +16,7 @@ Explore dashboards, epidemiological parameter estinates, R packages, and other a
 
 ---
 
-```{include} Epidemiological Parameter Estimates_2.md
+```{include} Therapeutics & Vaccines.md
 ```
 
 ---
