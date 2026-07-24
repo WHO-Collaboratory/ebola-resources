@@ -8,3 +8,15 @@ Tools, dashboards, and packages supporting the Ebola outbreak response.
 
 ---
 
+
+---
+
+```{include} Dashboards.md
+```
+
+---
+
+```{include} Epidemiological Parameter Estimates_2.md
+```
+
+---
