@@ -11,6 +11,7 @@ project:
       children:
         - file: docs/resources/Dashboards.md
         - file: docs/resources/Therapeutics & Vaccines.md
+        - file: docs/resources/Evidence Trackers.md
     - title: Data 
       file: docs/resources/data.md
       children:
