@@ -1,6 +1,6 @@
 # Resources and tools
 
-Tools, dashboards, and packages supporting the Ebola outbreak response.
+Explore dashboards, epidemiological parameter estinates, R packages, and other analytical resources.
 
 ```{tableofcontents}
 :context: children
