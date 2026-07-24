@@ -5,10 +5,7 @@ To participate in these meetings and access presentation slides and recordings, 
 
 If you are already a member, you can access the materials here: 
 
-```{note}
-:class: dropdown
-:label: Next Community Call
-
+```{admonition} Next Community Call
 Interested in participating? Find details about the upcoming Community Call, including the agenda and registration information, on the Collaboratory forum.
 
 ➡️ **[View details](https://collaboratory.who.int/forum/t/event-announcements-recordings-slides/3825)**
