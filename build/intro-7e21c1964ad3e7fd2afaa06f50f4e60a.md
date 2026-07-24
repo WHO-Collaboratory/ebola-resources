@@ -16,7 +16,7 @@ See [Contributing](contributing.md) for more details.
 
 | Section | What's covered |
 |---|---|
-| [Resources and tools](resources/tools) | Dashboards, R packages, epidemiological parameter tools |
+| [Resources and tools](/ebola-resources/docs/resources/data.md) | Dashboards, R packages, epidemiological parameter tools |
 | [Data](resources/data) | Mobility, humanitarian, and epidemiological datasets |
 | [Emerging evidence](resources/emerging-evidence.md) | Outbreak size estimates, risk of spread, therapeutics & vaccines |
 | [Analytical questions](analytical-questions.md) | Key analytical questions for the outbreak response |
