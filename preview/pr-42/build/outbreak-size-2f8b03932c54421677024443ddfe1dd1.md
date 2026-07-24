@@ -81,60 +81,6 @@ The evidence suggests confirmed counts should be treated as a lower bound, with 
 :::::{div}
 :class: exclude-from-outline emerging-evidence-tabs
 ::::{tab-set}
-:::{tab-item} Kim et al. (21 Jul 2026)
-### Kim et al. (2026) Cross-border travel patterns affect magnitude estimates for the Ebola Bundibugyo epidemic
-
-[Read the report](https://www.nature.com/articles/s44360-026-00178-y)
-
-### Overview
-
-This analysis estimates an upper bound on the likely burden of Bundibugyo virus disease (BVD) cases in the Democratic Republic of Congo (DRC) early in the 2026 epidemic, based on the number of cases imported and confirmed in Uganda.[^kim-2026-abstract-1] It expands a geographic spread approach to account for two specific contextual factors: that most cross-border movements between DRC and Uganda are short-duration trips, and that all cases imported and confirmed in Uganda were individuals who travelled specifically to seek healthcare.[^kim-2026-abstract-2] Incorporating these factors substantially affected burden estimates, highlighting both the potential severity of the epidemic in its early phase and the critical need to consider local epidemiological contexts when applying geographic spread approaches to reduce and be aware of potential biases in estimates for early epidemic responses.[^kim-2026-abstract-3]
-
-### Estimate
-
-The analysis reports estimates under multiple scenarios combining source population scope (Ituri alone vs. Ituri and Nord Kivu), number of assumed imported cases (3 vs. 0, the latter after excluding healthcare-seeking travellers), and travel-duration accounting (with vs. without). Table 1 in the paper presents estimates and 95% confidence intervals of the number of BVD cases in the DRC across these combinations, but the full numerical table is not included in the document as provided.[^kim-2026-main-5]
-
-Accounting for the observed pattern of trip durations with three imported cases substantially increased central estimates and widened 95% confidence intervals compared to not accounting for travel durations within the framework and to estimates reported by McCabe et al.[^kim-2026-main-3] Under the zero-imported-cases scenario (after excluding healthcare-seeking travellers), central estimates and lower confidence limits were zero by definition; however, the upper confidence limits provided informative likely upper bounds for early BVD burden, intended for use in epidemic response planning.[^kim-2026-main-4] The interpretation offered is that if true BVD cases in the DRC were higher than these upper limits, non-zero imported cases would have been expected among individuals travelling to Uganda for general purposes.[^kim-2026-main-6] Specific numerical values for the central estimates and confidence intervals by scenario are not recoverable from the text of the document provided.
-
-### Methods
-
-**Geographic spread back-calculation with travel-duration adjustment:** This approach estimates the total number of BVD cases in the DRC source population by working backwards from the count of cases exported to and detected in Uganda, divided by the probability that an infected traveller would actually be detected while in Uganda. The method obtains the overall probability of detection while travelling as a weighted average over different durations of travel and different infection-to-detection intervals.[^kim-2026-methods-4] Travel duration data from the March 2020 IOM Uganda–DRC Border Flow Monitoring Dashboard were used for the baseline scenario, reclassified into three categories: less than 1 day (64.7%), 1 day to 1 week (25.9%), and longer than 1 week (9.4%).[^kim-2026-methods-5] The number of exported cases was divided by the overall probability of detection to estimate DRC cases, with 95% confidence intervals derived from the Poisson-likelihood-based confidence limits for the rate of exported cases — for example, the 95% CI for zero exported cases is (0, 1.92).[^kim-2026-methods-6] The method was applied to both the Ituri and Ituri-plus-Nord-Kivu source populations.
-
-The analysis runs two principal scenarios regarding the number of imported cases to use as the numerator. With three imported cases and accounting for the observed pattern of trip durations, central estimates were substantially higher and confidence intervals wider compared to not accounting for travel durations.[^kim-2026-main-3] With zero imported cases — that is, after excluding all three imported cases because their travel was healthcare-seeking — central estimates and lower confidence limits were uninformative (zero by definition), but upper confidence limits provided informative likely upper bounds for early BVD burden.[^kim-2026-main-4] A sensitivity scenario used April 2019 IOM data with a different travel-duration distribution: less than 1 day (47.4%), 1 day to 1 week (45.4%), and longer than 1 week (7.2%).[^kim-2026-methods-7]
-
-### Assumptions
-
-**Healthcare-seeking travel and the equal-travel assumption:** The conventional geographic spread approach assumes individuals in the source population have an equal probability of travelling regardless of infection status; the analysis identifies this as violated in the DRC–Uganda context because all confirmed imported cases were healthcare-seeking travellers, meaning that excluding healthcare travel, there had been no confirmed imported cases in Uganda through 21 June 2026.[^kim-2026-main-7] This motivates the zero-imported-cases scenario as the preferred structural framing, with three imported cases treated as a comparison.
-
-**Travel duration distributions:** The baseline assumes trip-duration proportions from the March 2020 IOM Dashboard (90.6% of trips lasting a week or less, 64.7% day trips); the alternative scenario uses April 2019 IOM data (92.8% lasting a week or less). Trip-duration data were not available for the period when early imported cases were confirmed in Uganda; short-duration trips are considered to have dominated cross-border movement during this period.[^kim-2026-main-8]
-
-**Infection-to-detection interval:** The delay from infection to detection is modelled with a Gamma distribution (shape 2.52, rate 0.40) for the incubation period, shifted by an assumed onset-to-detection delay to produce median infection-to-detection intervals of 10, 15, and 20 days, following McCabe et al.[^kim-2026-methods-8] The analysis acknowledges that the time from infection to detection varies between individuals depending on biological and behavioural factors as well as healthcare availability for clinical assessment and diagnostic testing.[^kim-2026-methods-9]
-
-**Fixed travel durations within categories:** Within the less-than-1-day and 1-day-to-1-week categories, fixed median travel durations of 0.5 and 4 days are assigned respectively; travellers in the longer-than-1-week category are assumed to remain in Uganda indefinitely — long enough to be detected there.[^kim-2026-methods-10]
-
-**Source population and proportionality:** Estimates are expected to change proportionally to the assumed source population size and could be biased if assumed source population sizes did not accurately reflect the catchment population of those travelling to Uganda, since residents near the DRC–Uganda border likely have substantially different travel probabilities than those living further away, particularly given that border communities operate as dynamic and shared economic entities.[^kim-2026-main-9]
-
-**Reduced travel probability among the infected:** If infected individuals were less likely to travel for non-healthcare-seeking purposes — for example due to feeling poorly — the burden estimate would scale up according to the inverse of the factor by which they were less likely to travel.[^kim-2026-methods-11]
-
-### Limitations
-
-**Violation of the equal-travel assumption:** The standard geographic spread approach assumes individuals have an equal probability of travelling regardless of infection status. This assumption is violated because all imported cases confirmed in Uganda were healthcare-seeking travellers, meaning the observed exported cases cannot serve as a representative signal of background travel.[^kim-2026-main-10][^kim-2026-methods-1]
-
-**Unavailability of contemporaneous trip-duration data:** Trip-duration data were not available for the period when early imported cases were confirmed in Uganda, requiring the analysis to rely on 2019 and 2020 IOM data as proxies. Short-duration trips are considered to have dominated cross-border movement during this period, but this is based on expert communication rather than direct measurement.[^kim-2026-main-11]
-
-**Source population size uncertainty:** Estimates are expected to change proportionally to the assumed source population size and could be biased if these sizes did not accurately reflect the catchment population of those travelling to Uganda. Those residing near the border probably have substantially different travel probabilities, and individuals who can afford to travel to seek healthcare abroad may also have different baseline infection risks compared with the general population.[^kim-2026-main-12][^kim-2026-main-13]
-
-**Uninformative lower bound under the zero-imported-cases scenario:** When zero imported cases are used — the scenario reflecting the exclusion of healthcare-seeking travellers — central estimates and lower confidence limits are zero by definition, meaning the approach can only provide informative upper bounds rather than a full distributional estimate of true burden.[^kim-2026-main-4]
-
-**Knowledge gap on cross-border dynamics:** A better understanding of the complex cross-border crossing dynamics would be needed to obtain more robust estimates of true case burden using this approach.[^kim-2026-main-14]
-
-### Data sources
-
-**Primary outbreak data:** All 15 BVD cases imported and confirmed in Uganda through 21 June 2026, all of whom were Congolese nationals who came to Uganda to seek medical care, form the primary signal for the back-calculation.[^kim-2026-main-1] The first three confirmed imported cases, available by 9 June 2026 when McCabe et al. was published, are the specific numerator used in the three-imported-cases scenario.[^kim-2026-methods-1]
-
-**Auxiliary data:** Cross-border travel duration distributions come from the March 2020 IOM Uganda–DRC Border Flow Monitoring Dashboard (baseline scenario), providing proportions for less than 1 day (64.7%), 1 day to 1 week (25.9%), and longer than 1 week (9.4%).[^kim-2026-methods-5] The April 2019 IOM Uganda–DRC Border Flow Monitoring Dashboard provides an alternative travel-duration distribution used in the sensitivity scenario.[^kim-2026-methods-7] Daily traveller counts and source population sizes for Ituri (1,871 travellers/day; population 4,392,200) and Ituri plus Nord Kivu (4,339 travellers/day; population 13,392,200) were taken directly from McCabe et al.[^kim-2026-methods-2][^kim-2026-methods-3] The incubation period was modelled using a Gamma distribution (shape 2.52, rate 0.40) to derive infection-to-detection intervals with median times of 10, 15, and 20 days, following McCabe et al.[^kim-2026-methods-8]
-:::
-
 :::{tab-item} Abbott et al. (18 Jul 2026)
 ### Abbott et al. (2026) Estimating the current size of the 2026 DRC Bundibugyo virus outbreak
 
@@ -221,6 +167,60 @@ A BEAST time tree of the first ten sequenced genomes places the TMRCA at a mean 
 Cross-border traveller volume and source population come from McCabe et al.; the source population is fixed (4,392,200) and the traveller volume is given a Normal prior around the McCabe et al. figure of 1,871 daily outbound travellers with SD 200.[^abbott-2026-methods-8]
 
 The onset-to-death delay is taken from a Bayesian reanalysis of the 2012 Isiro Bundibugyo virus outbreak line list.[^abbott-2026-origins-of-this-work-2] The incubation period is the Bundibugyo virus estimate from the 2007 Uganda outbreak (mean 6.3 days, 95% CI 5.2–7.3; MacNeil et al., 2010).[^abbott-2026-trajectory-edge-artifact-rather-than-the-1] The generation interval is a Gamma prior based on the Ebola virus disease serial interval used as a generation-time proxy (mean 15.3 days, SD 9.3 days; WHO Ebola Response Team 2014).[^abbott-2026-harmless-2] The CFR prior is based on CDC summary data for the two previous BVD outbreaks: 55 deaths in 169 cases.[^abbott-2026-trajectory-edge-artifact-rather-than-the-2]
+:::
+
+:::{tab-item} Kim et al. (21 Jun 2026)
+### Kim et al. (2026) Cross-border travel patterns affect magnitude estimates for the Ebola Bundibugyo epidemic
+
+[Read the report](https://www.nature.com/articles/s44360-026-00178-y)
+
+### Overview
+
+This analysis estimates an upper bound on the likely burden of Bundibugyo virus disease (BVD) cases in the Democratic Republic of Congo (DRC) early in the 2026 epidemic, based on the number of cases imported and confirmed in Uganda.[^kim-2026-abstract-1] It expands a geographic spread approach to account for two specific contextual factors: that most cross-border movements between DRC and Uganda are short-duration trips, and that all cases imported and confirmed in Uganda were individuals who travelled specifically to seek healthcare.[^kim-2026-abstract-2] Incorporating these factors substantially affected burden estimates, highlighting both the potential severity of the epidemic in its early phase and the critical need to consider local epidemiological contexts when applying geographic spread approaches to reduce and be aware of potential biases in estimates for early epidemic responses.[^kim-2026-abstract-3]
+
+### Estimate
+
+The analysis reports estimates under multiple scenarios combining source population scope (Ituri alone vs. Ituri and Nord Kivu), number of assumed imported cases (3 vs. 0, the latter after excluding healthcare-seeking travellers), and travel-duration accounting (with vs. without). Table 1 in the paper presents estimates and 95% confidence intervals of the number of BVD cases in the DRC across these combinations, but the full numerical table is not included in the document as provided.[^kim-2026-main-5]
+
+Accounting for the observed pattern of trip durations with three imported cases substantially increased central estimates and widened 95% confidence intervals compared to not accounting for travel durations within the framework and to estimates reported by McCabe et al.[^kim-2026-main-3] Under the zero-imported-cases scenario (after excluding healthcare-seeking travellers), central estimates and lower confidence limits were zero by definition; however, the upper confidence limits provided informative likely upper bounds for early BVD burden, intended for use in epidemic response planning.[^kim-2026-main-4] The interpretation offered is that if true BVD cases in the DRC were higher than these upper limits, non-zero imported cases would have been expected among individuals travelling to Uganda for general purposes.[^kim-2026-main-6] Specific numerical values for the central estimates and confidence intervals by scenario are not recoverable from the text of the document provided.
+
+### Methods
+
+**Geographic spread back-calculation with travel-duration adjustment:** This approach estimates the total number of BVD cases in the DRC source population by working backwards from the count of cases exported to and detected in Uganda, divided by the probability that an infected traveller would actually be detected while in Uganda. The method obtains the overall probability of detection while travelling as a weighted average over different durations of travel and different infection-to-detection intervals.[^kim-2026-methods-4] Travel duration data from the March 2020 IOM Uganda–DRC Border Flow Monitoring Dashboard were used for the baseline scenario, reclassified into three categories: less than 1 day (64.7%), 1 day to 1 week (25.9%), and longer than 1 week (9.4%).[^kim-2026-methods-5] The number of exported cases was divided by the overall probability of detection to estimate DRC cases, with 95% confidence intervals derived from the Poisson-likelihood-based confidence limits for the rate of exported cases — for example, the 95% CI for zero exported cases is (0, 1.92).[^kim-2026-methods-6] The method was applied to both the Ituri and Ituri-plus-Nord-Kivu source populations.
+
+The analysis runs two principal scenarios regarding the number of imported cases to use as the numerator. With three imported cases and accounting for the observed pattern of trip durations, central estimates were substantially higher and confidence intervals wider compared to not accounting for travel durations.[^kim-2026-main-3] With zero imported cases — that is, after excluding all three imported cases because their travel was healthcare-seeking — central estimates and lower confidence limits were uninformative (zero by definition), but upper confidence limits provided informative likely upper bounds for early BVD burden.[^kim-2026-main-4] A sensitivity scenario used April 2019 IOM data with a different travel-duration distribution: less than 1 day (47.4%), 1 day to 1 week (45.4%), and longer than 1 week (7.2%).[^kim-2026-methods-7]
+
+### Assumptions
+
+**Healthcare-seeking travel and the equal-travel assumption:** The conventional geographic spread approach assumes individuals in the source population have an equal probability of travelling regardless of infection status; the analysis identifies this as violated in the DRC–Uganda context because all confirmed imported cases were healthcare-seeking travellers, meaning that excluding healthcare travel, there had been no confirmed imported cases in Uganda through 21 June 2026.[^kim-2026-main-7] This motivates the zero-imported-cases scenario as the preferred structural framing, with three imported cases treated as a comparison.
+
+**Travel duration distributions:** The baseline assumes trip-duration proportions from the March 2020 IOM Dashboard (90.6% of trips lasting a week or less, 64.7% day trips); the alternative scenario uses April 2019 IOM data (92.8% lasting a week or less). Trip-duration data were not available for the period when early imported cases were confirmed in Uganda; short-duration trips are considered to have dominated cross-border movement during this period.[^kim-2026-main-8]
+
+**Infection-to-detection interval:** The delay from infection to detection is modelled with a Gamma distribution (shape 2.52, rate 0.40) for the incubation period, shifted by an assumed onset-to-detection delay to produce median infection-to-detection intervals of 10, 15, and 20 days, following McCabe et al.[^kim-2026-methods-8] The analysis acknowledges that the time from infection to detection varies between individuals depending on biological and behavioural factors as well as healthcare availability for clinical assessment and diagnostic testing.[^kim-2026-methods-9]
+
+**Fixed travel durations within categories:** Within the less-than-1-day and 1-day-to-1-week categories, fixed median travel durations of 0.5 and 4 days are assigned respectively; travellers in the longer-than-1-week category are assumed to remain in Uganda indefinitely — long enough to be detected there.[^kim-2026-methods-10]
+
+**Source population and proportionality:** Estimates are expected to change proportionally to the assumed source population size and could be biased if assumed source population sizes did not accurately reflect the catchment population of those travelling to Uganda, since residents near the DRC–Uganda border likely have substantially different travel probabilities than those living further away, particularly given that border communities operate as dynamic and shared economic entities.[^kim-2026-main-9]
+
+**Reduced travel probability among the infected:** If infected individuals were less likely to travel for non-healthcare-seeking purposes — for example due to feeling poorly — the burden estimate would scale up according to the inverse of the factor by which they were less likely to travel.[^kim-2026-methods-11]
+
+### Limitations
+
+**Violation of the equal-travel assumption:** The standard geographic spread approach assumes individuals have an equal probability of travelling regardless of infection status. This assumption is violated because all imported cases confirmed in Uganda were healthcare-seeking travellers, meaning the observed exported cases cannot serve as a representative signal of background travel.[^kim-2026-main-10][^kim-2026-methods-1]
+
+**Unavailability of contemporaneous trip-duration data:** Trip-duration data were not available for the period when early imported cases were confirmed in Uganda, requiring the analysis to rely on 2019 and 2020 IOM data as proxies. Short-duration trips are considered to have dominated cross-border movement during this period, but this is based on expert communication rather than direct measurement.[^kim-2026-main-11]
+
+**Source population size uncertainty:** Estimates are expected to change proportionally to the assumed source population size and could be biased if these sizes did not accurately reflect the catchment population of those travelling to Uganda. Those residing near the border probably have substantially different travel probabilities, and individuals who can afford to travel to seek healthcare abroad may also have different baseline infection risks compared with the general population.[^kim-2026-main-12][^kim-2026-main-13]
+
+**Uninformative lower bound under the zero-imported-cases scenario:** When zero imported cases are used — the scenario reflecting the exclusion of healthcare-seeking travellers — central estimates and lower confidence limits are zero by definition, meaning the approach can only provide informative upper bounds rather than a full distributional estimate of true burden.[^kim-2026-main-4]
+
+**Knowledge gap on cross-border dynamics:** A better understanding of the complex cross-border crossing dynamics would be needed to obtain more robust estimates of true case burden using this approach.[^kim-2026-main-14]
+
+### Data sources
+
+**Primary outbreak data:** All 15 BVD cases imported and confirmed in Uganda through 21 June 2026, all of whom were Congolese nationals who came to Uganda to seek medical care, form the primary signal for the back-calculation.[^kim-2026-main-1] The first three confirmed imported cases, available by 9 June 2026 when McCabe et al. was published, are the specific numerator used in the three-imported-cases scenario.[^kim-2026-methods-1]
+
+**Auxiliary data:** Cross-border travel duration distributions come from the March 2020 IOM Uganda–DRC Border Flow Monitoring Dashboard (baseline scenario), providing proportions for less than 1 day (64.7%), 1 day to 1 week (25.9%), and longer than 1 week (9.4%).[^kim-2026-methods-5] The April 2019 IOM Uganda–DRC Border Flow Monitoring Dashboard provides an alternative travel-duration distribution used in the sensitivity scenario.[^kim-2026-methods-7] Daily traveller counts and source population sizes for Ituri (1,871 travellers/day; population 4,392,200) and Ituri plus Nord Kivu (4,339 travellers/day; population 13,392,200) were taken directly from McCabe et al.[^kim-2026-methods-2][^kim-2026-methods-3] The incubation period was modelled using a Gamma distribution (shape 2.52, rate 0.40) to derive infection-to-detection intervals with median times of 10, 15, and 20 days, following McCabe et al.[^kim-2026-methods-8]
 :::
 
 :::{tab-item} Epistorm (21 Jun 2026)
