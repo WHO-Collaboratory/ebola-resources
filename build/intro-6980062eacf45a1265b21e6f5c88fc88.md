@@ -20,8 +20,8 @@ See [Contributing](contributing.md) for more details.
 
 | Section | What's covered |
 |---|---|
-| [Resources and tools](resources/tools) | Dashboards, R packages, epidemiological parameter tools |
+| [Tools & Resources](https://who-collaboratory.github.io/ebola-resources/tools/) | Dashboards, R packages, epidemiological parameter tools |
 | [Data](resources/data) | Mobility, humanitarian, and epidemiological datasets |
 | [Emerging evidence](resources/emerging-evidence.md) | Outbreak size estimates, risk of spread, therapeutics & vaccines |
 | [Analytical questions](analytical-questions.md) | Key analytical questions for the outbreak response |
-| [Community meeting materials](community-meetings.md) | Seminars, presentations, and meeting recordings |
+| [Community meeting materials](https://who-collaboratory.github.io/ebola-resources/community-meetings/) | Seminars, presentations, and meeting recordings |
