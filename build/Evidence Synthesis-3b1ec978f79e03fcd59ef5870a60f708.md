@@ -1,4 +1,4 @@
-# Emerging evidence
+# Evidence Synthesis
 
 Syntheses of the current BVD evidence base, alongside a live tracker of relevant literature and resources.
 

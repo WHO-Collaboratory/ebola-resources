@@ -17,6 +17,9 @@
     <loc>http://localhost:3000/therapeutics-and-vaccines</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/evidence-trackers</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/data</loc>
   </url>
   <url>
@@ -32,7 +35,7 @@
     <loc>http://localhost:3000/humanitarian</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/emerging-evidence</loc>
+    <loc>http://localhost:3000/evidence-synthesis</loc>
   </url>
   <url>
     <loc>http://localhost:3000/outbreak-size</loc>
