@@ -16,11 +16,6 @@ While this collection is reviewed and updated regularly by community members, we
 
 <table>
 <tr>
-<td width="220" valign="top">
-
-<img src="assets/images/EOA_Screenshot.png" width="200" alt="Ebola Outbreak Analytics Community">
-
-</td>
 <td valign="top">
 
 We invite all colleagues currently involved in outbreak analytics, as well as those interested in sharing expertise from previous outbreak responses, to join our Community of Practice (CoP) on the WHO Collaboratory.
@@ -31,6 +26,12 @@ To become a member:
 2. Access the [Collaboratory](https://collaboratory.who.int/).
 3. Join the [Ebola Outbreak Analytics Community](https://collaboratory.who.int/forum/g/ebola_community).
 4. Share your work, attend community meetings, and learn what others are working on.
+
+</td>
+
+<td width="320" valign="top" align="right">
+
+<img src="assets/images/EOA_Screenshot.png" width="300" alt="Ebola Outbreak Analytics Community">
 
 </td>
 </tr>
