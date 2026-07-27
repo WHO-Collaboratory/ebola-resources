@@ -18,6 +18,6 @@ See [Contributing](contributing.md) for more details.
 |---|---|
 | [Resources and tools](tools.md) | Dashboards, R packages, epidemiological parameter tools |
 | [Data](data.md) | Mobility, humanitarian, and epidemiological datasets |
-| [Emerging evidence](resources/emerging-evidence.md) | Outbreak size estimates, risk of spread, therapeutics & vaccines |
+| [Evidence Synthesis](resources/evidence-synthesis.md) | Outbreak size estimates, risk of spread, therapeutics & vaccines |
 | [Analytical questions](analytical-questions.md) | Key analytical questions for the outbreak response |
 | [Community meeting materials](community-meetings.md) | Seminars, presentations, and meeting recordings |

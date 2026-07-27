@@ -21,7 +21,7 @@ from pathlib import Path
 SECTION_MAP = {
     "Resources and tools": "docs/resources/tools.md",
     "Data": "docs/resources/data.md",
-    "Emerging evidence": "docs/resources/outbreak-size.md",
+    "Evidence Synthesis": "docs/resources/outbreak-size.md",
     "Analytical questions": None,
     "Community meeting materials": "docs/resources/community-meetings.md",
 }

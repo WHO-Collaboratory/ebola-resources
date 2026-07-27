@@ -30,7 +30,7 @@ docs/
   resources/                ← all contributed content
     tools-index.md          ← section index: Resources and tools
     data-index.md           ← section index: Data
-    emerging-evidence-index.md  ← section index: Emerging evidence
+    evidence-synthesis-index.md  ← section index: Evidence Synthesis
     community-meetings-index.md ← section index: Community meeting materials
     dashboards/             ← one .md file per resource
     epi-parameters/

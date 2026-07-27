@@ -18,8 +18,8 @@ project:
         - file: docs/resources/Epidemiological Parameter Estimates_2.md
         - file: docs/resources/Mobility.md
         - file: docs/resources/Humanitarian.md
-    - title: Emerging Evidence
-      file: docs/resources/emerging-evidence.md
+    - title: Evidence Synthesis
+      file: docs/resources/evidence-synthesis.md
       children:
         - file: docs/resources/outbreak-size.md
         - file: docs/resources/risk-of-spread.md
