@@ -16,9 +16,9 @@ While this collection is reviewed and updated regularly by community members, we
 
 <table>
 <tr>
-<td width="520" valign="top">
+<td width="1020" valign="top">
 
-<img src="/assets/images/EOA_Screenshot.png" width="500" alt="Ebola Outbreak Analytics Community">
+<img src="/assets/images/EOA_Screenshot.png" width="1000" alt="Ebola Outbreak Analytics Community">
 
 </td>
 <td valign="top">
