@@ -1,6 +1,6 @@
-# Resources and tools
+# Tools and Resources 
 
-Tools, dashboards, and packages supporting the Ebola outbreak response.
+Explore dashboards, R packages, and other analytical resources.
 
 ```{tableofcontents}
 :context: children
@@ -8,35 +8,17 @@ Tools, dashboards, and packages supporting the Ebola outbreak response.
 
 ---
 
-```{include} inrb-umie-dashboard.md
+```{include} Dashboards.md
 ```
 
 ---
 
-```{include} immunization-resilience.md
+```{include} Therapeutics & Vaccines.md
 ```
 
 ---
 
-```{include} epiparameter-r-package.md
+```{include} Evidence Trackers.md
 ```
 
 ---
-
-```{include} epireview-epiparameter-vignette.md
-```
-
----
-
-```{include} epireview-imperial.md
-```
-
----
-
-```{include} grepi-perg.md
-```
-
----
-
-```{include} ebola-disease-outbreak-toolbox.md
-```

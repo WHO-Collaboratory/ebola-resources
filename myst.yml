@@ -11,12 +11,13 @@ project:
       children:
         - file: docs/resources/Dashboards.md
         - file: docs/resources/Therapeutics & Vaccines.md
+        - file: docs/resources/Evidence Trackers.md
     - title: Data 
       file: docs/resources/data.md
       children:
         - file: docs/resources/Linelist.md
-        - file: docs/resources/Epidemiological Parameter Estimates_2.md
         - file: docs/resources/Mobility.md
+        - file: docs/resources/Epidemiological Parameter Estimates_2.md
         - file: docs/resources/Humanitarian.md
     - title: Evidence Synthesis
       file: docs/resources/evidence-synthesis.md
