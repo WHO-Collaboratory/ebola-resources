@@ -36,7 +36,7 @@ The sidebar is structured as:
 - Home, How to contribute, Formatting guide, Maintainers
 - **Resources and tools** — dashboards, R packages, epi parameter tools
 - **Data** — mobility, humanitarian, epidemiological datasets
-- **Emerging evidence** — with sub-sections: Outbreak Size, Risk of Spread, Therapeutics & Vaccines
+- **Evidence Synthesis** — with sub-sections: Outbreak Size, Risk of Spread, Therapeutics & Vaccines
 - **Analytical questions** — placeholder for community questions
 - **Community meeting materials** — seminars, recordings
 
