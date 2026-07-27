@@ -20,7 +20,7 @@ project:
         - file: docs/resources/Epidemiological Parameter Estimates_2.md
         - file: docs/resources/Humanitarian.md
     - title: Evidence Synthesis
-      file: docs/resources/Evidence Synthesis.md
+      file: docs/resources/evidence-synthesis.md
       children:
         - file: docs/resources/outbreak-size.md
         - file: docs/resources/risk-of-spread.md

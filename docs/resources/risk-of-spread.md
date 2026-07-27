@@ -94,7 +94,7 @@ The evidence suggests the operational priority can be thought of as a two-axis m
 ## Individual analyses
 
 :::::{div}
-:class: exclude-from-outline emerging-evidence-tabs
+:class: exclude-from-outline evidence-synthesis-tabs
 ::::{tab-set}
 :::{tab-item} Bouhentala & Kadir (15 Jul 2026)
 ### Bouhentala & Kadir (2026) Epidemiological Analysis of the 2026 Bundibugyo Virus Disease Outbreak and Rapid Risk Assessment for North Africa and Europe

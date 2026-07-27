@@ -10,9 +10,9 @@ This page is in beta and still a work in progress. Please direct feedback to [Co
 Over time the under-ascertainment ratio has narrowed from roughly 40–90× against 10 confirmed cases on 20 May, to 1.8–3.7× against 2,344 confirmed cases on 18 July, based on a 90% credible interval of 4201–8675 cumulative infections. This is grounded in six separate analyses whose outbreak size estimates converge on substantial underascertainment. Evidence suggests surveillance has been catchung up, but true infections still exceed confirmed counts, with low-to-moderate confidence.
 :::
 
-:::{dropdown} ![Multi-model estimates of cumulative Ebola outbreak size](/assets/images/emerging-evidence/outbreak-size.svg)
+:::{dropdown} ![Multi-model estimates of cumulative Ebola outbreak size](/assets/images/evidence-synthesis/outbreak-size.svg)
 :name: fig-outbreak-size
-:class: emerging-evidence-img-lightbox
+:class: evidence-synthesis-img-lightbox
 
 Multi-model estimates of cumulative Ebola outbreak size
 :::
@@ -79,7 +79,7 @@ The evidence suggests confirmed counts should be treated as a lower bound, with 
 ## Individual analyses
 
 :::::{div}
-:class: exclude-from-outline emerging-evidence-tabs
+:class: exclude-from-outline evidence-synthesis-tabs
 ::::{tab-set}
 :::{tab-item} Abbott et al. (18 Jul 2026)
 ### Abbott et al. (2026) Estimating the current size of the 2026 DRC Bundibugyo virus outbreak

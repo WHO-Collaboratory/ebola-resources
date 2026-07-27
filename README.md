@@ -10,7 +10,7 @@ A curated, community-maintained collection of resources supporting the response 
 |---|---|
 | Resources and tools | Dashboards, R packages, epidemiological parameter tools |
 | Data | Mobility, humanitarian, and epidemiological datasets |
-| Emerging evidence | Outbreak size estimates, risk of spread, therapeutics & vaccines |
+| Evidence Synthesis | Outbreak size estimates, risk of spread|
 | Analytical questions | Key analytical questions for the outbreak response |
 | Community meeting materials | Seminars, presentations, and meeting recordings |
 
