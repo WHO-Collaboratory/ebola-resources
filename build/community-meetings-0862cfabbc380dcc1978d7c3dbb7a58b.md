@@ -1,7 +1,7 @@
 # Community meeting materials
 
 The Collaboratory hosts weekly community calls to provide situational updates and share the latest analytical work conducted by community members and external experts.
-To participate in these meetings and access presentation slides and recordings, please register on the [Collaboratory](https://collaboratory.who.int/), following these [instructions](https://who-collaboratory.github.io/collaboratory-handbook/content/new-users/signup.html#new-user-s%E2%80%A6)  and join the [Ebola Outbreak Analytics Community](https://collaboratory.who.int/forum/g/ebola_community).
+**To participate in these meetings and access presentation slides and recordings, please register on the [Collaboratory](https://collaboratory.who.int/)**, following these [instructions](https://who-collaboratory.github.io/collaboratory-handbook/content/new-users/signup.html#new-user-s%E2%80%A6)  and join the [Ebola Outbreak Analytics Community](https://collaboratory.who.int/forum/g/ebola_community).
 
 
 :::{important} Next Community Call
@@ -13,6 +13,7 @@ Interested in participating? Find details about the upcoming Community Call, inc
 
 | Community Call | Topics | Recording & Slides |
 |---|---|---|
+| **#9**<br>*30 July 2026* | • **Agenda will be shared soon** Register [here](https://forms.cloud.microsoft/e/6E65zxMd48) to join the meeting|Recording & slides will be shared after the meeting via Collaboratory
 | **#8**<br>*23 July 2026* | • **Situation Update**<br>Freddy, Kambale Kavoga (WHO AFRO)<br><br>• **Mathematical Modelling of the 2026 Bundibugyo Virus Disease Outbreak: Reconstructing Hidden Transmission and Estimating Key Epidemiological Parameters**<br>Beya Benzina and Zeineb Ounissi  (Modeling for Public Health team within the BIMS Laboratory at the Institut Pasteur de Tunis) <br><br>•  **Real-time modelling of the Bundibugyo epidemic in the Democratic Republic of the Congo**<br>Pablo Perez-Guzman  (Data Management Officer, WHO (GOARN) Epidemiology and Analytics for Response Unit Research Associate Jameel Institute - Keneth C Griffin Initiative for the Economics of Pandemic Preparedness, Imperial College London) |[Access recording & slides](https://collaboratory.who.int/forum/t/event-announcements-recordings-slides/3825/28)
 | **#7**<br>*16 July 2026* | • **Situation Update**<br>Freddy, Kambale Kavoga (WHO AFRO)<br><br>• **a Real-Time Evidence Synthesis for Public Health Emergencies: Early Application to the Ebola Outbreak.** <br>Steve Kerr (CPC Analytics/WHO Berlin Hub) | [Access recording & slides](https://collaboratory.who.int/forum/t/event-announcements-recordings-slides/3825/26) |
 | **#6**<br>2 July 2026 | • **Situation Update** – Ana Hoxha (WHO)<br><br>• **Network-based Modelling of Bundibugyo Ebola Virus Disease Importation and Spread in Uganda Using Displacement Tracking Matrix Flow Data and Non-Pharmaceutical Intervention Compliance Scenarios**<br>Abel Walekhwa (Makerere University School of Public Health)<br><br>• **Estimating Importation Risk of Bundibugyo Ebola Virus Disease to Europe Under Different Outbreak Expansion Scenarios**<br>Vittoria Colizza (INSERM / Sorbonne Université) | [Access recording & slides](https://collaboratory.who.int/forum/t/event-announcements-recordings-slides/3825/1) |
