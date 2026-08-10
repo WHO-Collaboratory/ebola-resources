@@ -1,6 +1,6 @@
 # Outbreak Size
 
-*Latest analysis data cutoff: 27 July 2026. Page refreshed: 30 July 2026.*
+*Latest analysis data cutoff: 27 July 2026. Page refreshed: 10 August 2026.*
 
 :::{important} Beta
 This page is in beta and still a work in progress. Please direct feedback to [Collaboratory@who.int](mailto:Collaboratory@who.int). This page is subject to the [disclaimer](#outbreak-size-page-bottom) below.
@@ -78,7 +78,7 @@ The evidence suggests response planning should treat confirmed counts as a lower
 :class: exclude-from-outline evidence-synthesis-tabs
 ::::{tab-set}
 :::{tab-item} Abbott et al. (27 Jul 2026)
-### Abbott et al. (2026) Estimating the current size of the 2026 DRC Bundibugyo virus outbreak
+### Abbott et al. (27 Jul 2026) Estimating the current size of the 2026 DRC Bundibugyo virus outbreak
 
 [Read the report](https://epiforecasts.io/BVDOutbreakSize/dev/analysis)
 
@@ -152,7 +152,7 @@ The per-stream single-model fits are also run, enabling comparison of how each i
 :::
 
 :::{tab-item} Kim et al. (21 Jun 2026)
-### Kim et al. (2026) Cross-border travel patterns affect magnitude estimates for the Ebola Bundibugyo epidemic
+### Kim et al. (21 Jun 2026) Cross-border travel patterns affect magnitude estimates for the Ebola Bundibugyo epidemic
 
 [Read the report](https://www.nature.com/articles/s44360-026-00178-y)
 
@@ -206,7 +206,7 @@ The analysis runs two principal scenarios regarding the number of imported cases
 :::
 
 :::{tab-item} Epistorm (21 Jun 2026)
-### Epistorm (2026) Ebola Bundibugyo Virus — DRC · Spread Risk Assessment #5 · Local Transmission Scenarios
+### Epistorm (21 Jun 2026) Ebola Bundibugyo Virus — DRC · Spread Risk Assessment #5 · Local Transmission Scenarios
 
 [Read the report](https://epistorm.github.io/EBV2026/report_05_transmission.html)
 
@@ -272,7 +272,7 @@ The analysis does not provide a single headline under-detection multiplier compa
 :::
 
 :::{tab-item} Chamla et al. (8 Jun 2026)
-### Chamla et al. (2026) Size of the 2026 Ebola outbreak and risk of cross-border spillover from Bundibugyo virus in Ituri Province, DR Congo, and its implications for preparedness: a recalibrated stochastic modelling study
+### Chamla et al. (8 Jun 2026) Size of the 2026 Ebola outbreak and risk of cross-border spillover from Bundibugyo virus in Ituri Province, DR Congo, and its implications for preparedness: a recalibrated stochastic modelling study
 
 [Read the report](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00320-8/fulltext)
 
@@ -342,7 +342,7 @@ The observed confirmed-case trajectory is consistent with the central scenario; 
 :::
 
 :::{tab-item} McCabe et al. (27 May 2026)
-### McCabe et al. (2026) Estimation of the Ebola outbreak size in the Democratic Republic of the Congo
+### McCabe et al. (27 May 2026) Estimation of the Ebola outbreak size in the Democratic Republic of the Congo
 
 [Read the report](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00299-9/fulltext)
 
@@ -400,7 +400,7 @@ This analysis produces early estimates of the epidemic size in the Democratic Re
 :::
 
 :::{tab-item} Mooring et al. (24 May 2026)
-### Mooring et al. (2026) Modeled Scenario Projections for the Ebola Disease Outbreak Caused by Bundibugyo Virus, 2026
+### Mooring et al. (24 May 2026) Modeled Scenario Projections for the Ebola Disease Outbreak Caused by Bundibugyo Virus, 2026
 
 [Read the report](https://www.cdc.gov/mmwr/volumes/75/wr/mm7522e1.htm)
 
