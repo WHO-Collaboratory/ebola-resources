@@ -1,27 +1,26 @@
 # Risk of Spread
 
-*Latest analysis data cutoff: 12 August 2026. Page refreshed: 19 August 2026.*
+*Latest analysis data cutoff: 12 August 2026. Page refreshed: 3 September 2026.*
 
 :::{important} Beta
 This page is in beta and still a work in progress. Please direct feedback to [Collaboratory@who.int](mailto:Collaboratory@who.int). This page is subject to the [disclaimer](#risk-spread-page-bottom) below.
 :::
 
 :::{note} WHO Rapid Risk Assessment
-For the latest risk assessment, see the WHO [Rapid Risk Assessment: Ebola disease caused by Bundibugyo virus (v3)](https://www.who.int/publications/m/item/who-rapid-risk-assessment-ebola-disease-caused-by-bundibugyo-virus--democratic-republic-of-the-congo--uganda-and-countries-with-land-borders-adjoining-countries-with-documented-bdbv-detection-v3).
+For the latest risk assessment, see the WHO [Rapid Risk Assessment: Ebola disease caused by Bundibugyo virus (v4)](https://www.who.int/publications/m/item/who-rapid-risk-assessment-ebola-disease-caused-by-bundibugyo-virus--democratic-republic-of-the-congo-v4), 20 August 2026.
 
 WHO's overall risk and confidence ratings by geography:
 
 | Geography | Overall risk | Confidence |
 |---|---|---|
 | Democratic Republic of the Congo | **Very High** | Moderate |
-| Uganda | **High** | Moderate |
-| Countries with land borders adjoining countries with documented BDBV detection | **High** | Moderate |
+| Countries sharing land borders with the Democratic Republic of the Congo | **High** | Moderate |
 | Rest of the African Region | **Low** | Moderate |
 | Global | **Low** | High |
 :::
 
 :::{hint} At a glance
-Nearby countries, particularly Uganda, South Sudan, Rwanda, Kenya, Tanzania, and Zambia, face the highest near-term risk of imported Bundibugyo virus cases from the DRC. Rankings for more distant countries vary across analyses, driven by differences in how each model treats air travel, land travel, and the location of the source cases. Evidence suggests that surveillance is best concentrated on the highest-probability importation routes. Confidence is moderate, with destination rankings holding up better across analyses than the absolute probabilities attached to them, while mobility patterns, case counts, and detection levels remain the main sources of uncertainty.
+Nearby countries, particularly Uganda, South Sudan, Rwanda, Kenya, Tanzania, face the highest near-term risk of imported Bundibugyo virus cases from the DRC. Rankings for more distant countries vary across analyses, driven by differences in how each model treats air travel, land travel, and the assumed spatial distribution of source cases. Evidence suggests that surveillance is best concentrated on the highest-probability importation routes. Confidence is moderate, with destination rankings holding up better across analyses than the absolute probabilities attached to them, while mobility patterns, case counts, and detection levels remain the main sources of uncertainty.
 :::
 
 
@@ -30,27 +29,29 @@ Nearby countries, particularly Uganda, South Sudan, Rwanda, Kenya, Tanzania, and
 
 ### State of the evidence
 
-As of mid-August, there have been over 4,000 DRC cases, 20 Uganda cases, and one France case [^who-don-1]. The evidence base is broad but still emerging, comprising peer-reviewed risk assessments or reviews, preprints, and one dashboard, with analyses dated from 20 May to 12 August 2026. The evidence base continues to grow, with later analyses reflecting wider DRC spread, Uganda's controlled spread, and airport reopening.[^epistorm-2026-methods-overview-9][^fanelli-2026a-introduction-1]
+As of the end of August, at least 5,794 cases have bene reported in DRC, 20 in Uganda, and one in France [^who-don-1]. Twelve analyses dated 20 May to 18 August 2026 address cross-border BDBV importation risk, spanning peer-reviewed studies, preprints, and operational assessments. The evidence base continues to grow, with later analyses reflecting wider DRC spread and Uganda's contained outbreak.[^epistorm-2026-methods-overview-9][^fanelli-2026a-introduction-1]
 
 ### How the estimates compare
 
-The studies converge on highlighting significant spillover risks within the region, with various analyses placing Uganda, South Sudan, Rwanda, Kenya, Tanzania, and Zambia among the highest-risk African destinations under multiple scenarios.[^chamla-2026-summary-4][^fanelli-2026a-results-4] The main divergence between analyses is methodological, with air traffic-focused models elevating the ranking of international hubs such as Belgium, France, South Africa, Kenya, and the UAE, whereas land-plus-air models elevate contiguous and near-contiguous African countries.[^kinoshita-2026-abstract-2][^fanelli-2026b-abstract-2] Inside DRC, Okingo et al. show why importation and amplification risk should not be conflated. Areas near the outbreak epicenter rank high for introduction, while high potential for sustained transmission mainly appears in more distant urban centers, including Kinshasa.[^okingo-2026-body-16][^okingo-2026-body-17]
+The studies converge on significant spillover risks concentrated within the region, with various analyses placing Uganda, South Sudan, Rwanda, Kenya, Tanzania, and Zambia among the highest-risk African destinations under multiple scenarios.[^chamla-2026-summary-4][^fanelli-2026a-results-4] Uganda and South Sudan sit consistently at the top; Rwanda, Kenya, Tanzania, and Zambia estimated to have lower relative risk.[^fanelli-2026a-results-1] The main divergence between analyses is methodological, with air traffic-focused models elevating the ranking of international hubs such as Belgium, France, South Africa, Kenya, and the UAE, whereas land-plus-air models elevate contiguous and near-contiguous African countries.[^kinoshita-2026-abstract-2][^fanelli-2026b-abstract-2] The ordering persists regardless of how many cases are occurring in the source area. Within DRC, Okingo et al. show why importation and amplification risk should not be conflated. Areas near the outbreak epicenter rank high for introduction, while high potential for sustained transmission mainly appears in more distant urban centers, including Kinshasa.[^okingo-2026-body-16][^okingo-2026-body-17]
 
 ### Key uncertainties and assumptions
 
-A shared challenge is the dependence on mobility data and assumptions of homogeneity in travel behavior[^fanelli-2026a-discussion-3]. Geographic spread estimates hinge on surveillance data quality, which varies[^bouhentala-2026-4-discussion-3][^verheyden-2026-4-discussion-3]. The validity of historical patterns to project future outbreaks under diverse settings adds uncertainty[^van-zandvoort-2026-low-overall-risk-of-exportation-4].
+Three shared assumptions drive most of the divergence in absolute probabilities while leaving destination rankings stable. First, the DRC case-ascertainment fraction, the ratio of infected to confirmed cases, remains unresolved, which sets the baseline source-area incidence that all importation estimates scale from.[^bouhentala-2026-4-discussion-3][^verheyden-2026-4-discussion-3] Second, the probability that an infected traveller departs a source area depends on incubation period length, onset-to-detection delays, and compliance with travel restrictions, all poorly quantified for BDBV in the current outbreak context.[^fanelli-2026a-discussion-2] Third, sustained-transmission risk in receiving countries depends on detection speed, isolation capacity, and community acceptance, none of which are captured by mobility or airline data. A high-importation destination with strong case management can still prevent secondary transmission.[^gashema-2026-13] These uncertainties affect absolute estimates across all destinations together but have minimal impact on relative ordering. Surveillance data quality varies across the source area, compounding the ascertainment problem.[^bouhentala-2026-4-discussion-3][^verheyden-2026-4-discussion-3]
 
 ### What would reduce uncertainty
 
-First, verified, onset-dated line lists with health-zone location, travel history, contact status, onset-to-isolation delay and outcome would reduce uncertainty by allowing analyses to distinguish true transmission trends from changing surveillance.[^chamla-2026-discussion-13][^bouhentala-2026-4-discussion-12] Second, would be dynamic mobility data, particularly targeting high-risk corridors in Africa,[^fanelli-2026a-discussion-21] plus reliable air traffic data, since rankings are highly sensitive to cross-border and hub connectivity.[^walekhwa-2026-4-discussion-3][^walekhwa-2026-4-discussion-14] Organizations such as [Flowminder](https://www.flowminder.org/resources/publications-reports/drc-reports-publications) aim to fill this gap by providing more real-time data on mobility trends. Third, comparable assessments of health emergency preparedness across potential destinations, covering laboratory access, infection prevention and control, isolation, contact tracing, and referral pathways, would help, since sustained-transmission risk depends on a destination's containment capacity, not importation alone.[^chamla-2026-discussion-10][^fanelli-2026a-abstract-3]
+First, line list with date of onset, health-zone location, travel history, contact status, onset-to-isolation delay and outcome would reduce uncertainty by allowing analyses to distinguish true transmission trends from changing surveillance.[^chamla-2026-discussion-13][^bouhentala-2026-4-discussion-12] Improvements to the ascertainment fraction would recalibrate baseline incidence. Second, dynamic mobility data, particularly targeting high-risk corridors in Africa,[^fanelli-2026a-discussion-21] plus reliable air traffic data, since rankings are highly sensitive to cross-border and hub connectivity.[^walekhwa-2026-4-discussion-3][^walekhwa-2026-4-discussion-14] Organizations such as [Flowminder](https://www.flowminder.org/resources/publications-reports/drc-reports-publications) aim to fill this gap by providing more real-time data on mobility trends. Third, comparable assessments of health emergency preparedness across potential destinations, covering laboratory access, infection prevention and control, isolation, contact tracing, and referral pathways, would help, since sustained-transmission risk depends on a destination's containment capacity, not importation alone.[^chamla-2026-discussion-10][^fanelli-2026a-abstract-3]
 
 ### Open questions
 
-Several analyses call for regular updating rather than one-off estimates.[^chamla-2026-discussion-13][^walekhwa-2026-4-discussion-14][^fanelli-2026a-discussion-20] They also leave unresolved whether assumptions around early or mild symptomatic travel, humanitarian or charter flights, and changing land mobility would materially shift rankings, and Walekhwa et al. additionally call for refined epidemiological parameter estimates for BDBV, particularly infectious period and serial interval.[^fanelli-2026a-discussion-22][^fanelli-2026a-discussion-6][^walekhwa-2026-4-discussion-15]
+Bouhentala & Kadir note that the rise in reported DRC case counts may reflect detection capacity improvements rather than transmission acceleration, but the distinction cannot be made from reporting-date series alone.[^bouhentala-2026-abstract-5] Walekhwa et al. call for real-time prospective model refitting using latest mobility and case data.[^walekhwa-2026-4-discussion-14] Verheyden & Mudogo have pre-registered a prospective validation of their health-zone invasion-risk ranking, with verification outcomes pending.[^verheyden-2026-2-materials-and-methods-26] Fanelli et al. flag that reliable cross-border land-mobility data for Africa remain scarce and that humanitarian, military, or charter flights are not captured in commercial airline datasets.[^fanelli-2026a-discussion-7][^fanelli-2026a-discussion-6] Whether early or mild symptomatic travel, non-commercial flights, or changing land mobility would materially shift rankings remains unresolved, and Walekhwa et al. additionally call for refined epidemiological parameter estimates for BDBV, particularly infectious period and serial interval.[^walekhwa-2026-4-discussion-15] These mark the frontier of what real-time outbreak intelligence requires, rather than questions the current analyses can resolve.
 
 ### What this means for the response
 
-The evidence suggests emphasizing preparedness in Uganda and South Sudan due to their high importation risks and varied readiness profiles[^gashema-2026-2][^fanelli-2026a-discussion-13]. Ensuring capacity to manage and isolate cases upon detection is necessary[^gashema-2026-13], alongside enhanced cross-border surveillance and testing capacities[^walekhwa-2026-research-in-context-5]. The analyses establish a strong need for ongoing vigilance and rapid response capabilities in these and surrounding countries, allowing for timely adjustments in strategy as new data emerges. For DRC, the evidence suggests maintaining attention beyond the eastern hotspots, including Kinshasa and other urban health zones where amplification potential is high despite distance from the hotspots.[^okingo-2026-body-17] For intercontinental destinations, the evidence suggests focused preparedness, including travel-history recording, diagnostics, isolation capacity, and occupational-exposure protocols, rather than reliance on border screening, because historical exportation outside Africa is rare and mostly occupational or response-linked.[^bouhentala-2026-abstract-2][^bouhentala-2026-abstract-4][^richard-2026-results-2][^van-zandvoort-2026-conclusion-1][^van-zandvoort-2026-discussion-10]
+The evidence suggests emphasizing preparedness in Uganda and South Sudan due to their high importation risks and varied readiness profiles.[^gashema-2026-2][^fanelli-2026a-discussion-13] Ensuring capacity to manage and isolate cases upon detection is necessary,[^gashema-2026-13] alongside enhanced cross-border surveillance and testing capacities.[^walekhwa-2026-research-in-context-5] A two-axis framing that combines importation risk with readiness is useful for resource allocation. For example, South Sudan sits at the highest importation risk and simultaneously ranks among countries with the largest readiness gaps, while Rwanda and Kenya, at moderate-to-high importation risk, have stronger health systems.[^fanelli-2026a-discussion-13] The same allocation decision therefore carries different implications for containment outcomes across these destinations. The analyses establish a strong need for ongoing vigilance and rapid response capabilities in these and surrounding countries, allowing for timely adjustments in strategy as new data emerges. 
+
+For DRC, the evidence suggests maintaining attention beyond the eastern hotspots, including Kinshasa and other urban health zones where amplification potential is high despite distance from the hotspots.[^okingo-2026-body-17] For intercontinental destinations, the evidence suggests focused preparedness, including travel-history recording, diagnostics, isolation capacity, and occupational-exposure protocols, rather than reliance on border screening, because historical exportation outside Africa is rare and mostly occupational or response-linked.[^bouhentala-2026-abstract-2][^bouhentala-2026-abstract-4][^richard-2026-results-2][^van-zandvoort-2026-conclusion-1][^van-zandvoort-2026-discussion-10]
 
 [^epistorm-2026-methods-overview-9]: [Epistorm (2026) "Methods Overview"](https://epistorm.github.io/EBV2026/Report6RR.html): "Following the 2 June 2026 reopening of the Bunia International Airport, this update factors increased domestic and regional mobility from the affected area into the model. The full footprint covers Ituri, North Kivu, South Kivu, and Uganda, reflecting the laboratory-confirmed travel-related case in Bukavu (South Kivu) and the 19 laboratory-confirmed cases in Uganda."
 
@@ -64,7 +65,7 @@ The evidence suggests emphasizing preparedness in Uganda and South Sudan due to 
 
 [^fanelli-2026b-abstract-2]: [Fanelli et al. (2026b) "Abstract"](https://www.medrxiv.org/content/10.64898/2026.05.31.26354511): "Relative exposure patterns remained largely unchanged under localized transmission in eastern DRC and border-spillover scenarios. Expansion into South Sudan generated a first structural increase in importation pressure to Europe through the connectivity associated with Juba, while hypothetical amplification in Kampala, Kigali, and Kinshasa substantially increased importation pressure and reshaped exposure patterns across Europe."
 
-[^okingo-2026-body-16]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "These results separate importation from amplification risk: health zones near the affected area are more likely to receive cases, but not necessarily to sustain transmission. Our estimates therefore differ from Ref. 5 by identifying areas of concern farther from the affected zone."
+[^okingo-2026-body-16]: Okingo, Iroungou, & Valdano (2026) "Body": "These results separate importation from amplification risk: health zones near the affected area are more likely to receive cases, but not necessarily to sustain transmission. Our estimates therefore differ from Ref. 5 by identifying areas of concern farther from the affected zone."
 
 [^bouhentala-2026-4-discussion-3]: [Bouhentala & Kadir (2026) "4. Discussion"](https://www.medrxiv.org/content/10.64898/2026.07.19.26358411): "The main limitation is dependence on public aggregate data. Reporting dates do not represent symptom onset, and the analysis could not estimate time-varying reproduction numbers, serial intervals, onset-to-isolation delays, household secondary-attack rates, health-zone-specific growth, or intervention effects."
 
@@ -100,9 +101,11 @@ The evidence suggests emphasizing preparedness in Uganda and South Sudan due to 
 
 [^chamla-2026-methods-15]: [Chamla et al. (2026) "Methods"](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00320-8/fulltext): "These parameters were not empirically derived for this outbreak and represent the principal sources of uncertainty in spillover projections."
 
-[^walekhwa-2026-4-discussion-3]: [Walekhwa et al. (2026) "4. Discussion"](https://www.medrxiv.org/content/10.64898/2026.06.22.26356210): "The DTM data cover only a 10-day window and eight border crossing points; movements through unofficial crossings or after the outbreak escalated may not be captured, a limitation common to mobility-based epidemiological studies. While we imputed annual estimates and used time-dependent decay, real mobility patterns can change unpredictably."
+[^gashema-2026-13]: Gashema & Muvunyi (2026): "Importation risk alone does not determine epidemic outcomes. Countries with strong surveillance systems, diagnostic capacity, a trained health-care workforce, and effective infection prevention and control measures can successfully contain imported cases before widespread transmission occurs. Conversely, gaps in surveillance systems and health governance can facilitate epidemic propagation and delay effective response."
 
 [^walekhwa-2026-research-in-context-5]: [Walekhwa et al. (2026) "Research in Context"](https://www.medrxiv.org/content/10.64898/2026.06.22.26356210): "Enhanced cross-border surveillance under International Health Regulations 2005 and the Africa CDC Public Health Emergency of Continental Security framework is crucial to harmonise detection and response across the DR Congo–Uganda–South Sudan tripoint."
+
+[^walekhwa-2026-4-discussion-3]: [Walekhwa et al. (2026) "4. Discussion"](https://www.medrxiv.org/content/10.64898/2026.06.22.26356210): "The DTM data cover only a 10-day window and eight border crossing points; movements through unofficial crossings or after the outbreak escalated may not be captured, a limitation common to mobility-based epidemiological studies. While we imputed annual estimates and used time-dependent decay, real mobility patterns can change unpredictably."
 
 [^kinoshita-2026-airline-flow-based-network-and-effective-distance-for-22]: [Kinoshita, Suzuki, & Yoneoka (2026) "Airline-flow-based network and effective distance for hazard estimation"](https://www.medrxiv.org/content/10.64898/2026.06.01.26354569): "Estimated arrival probability should be interpreted as importation risk rather than the risk of local transmission after arrival. Importation does not necessarily lead to onward spread because EBOD requires direct contact with infectious body fluids or contaminated materials, and timely detection, isolation, contact tracing and infection prevention and control can reduce transmission."
 
@@ -110,13 +113,13 @@ The evidence suggests emphasizing preparedness in Uganda and South Sudan due to 
 
 [^chamla-2026-discussion-10]: [Chamla et al. (2026) "Discussion"](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00320-8/fulltext): "Although South Sudan's importation probability is lower than Uganda's, documented deficits across all five WHO preparedness domains mean any importation would generate a substantially larger secondary outbreak. Closing these gaps within 4 to 8 weeks is the principal operational window."
 
-[^okingo-2026-body-17]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Our results warrant preparedness in health zones with high sustained-transmission potential but lower introduction risk, particularly in Kinshasa and other urban centers, despite their distance from the outbreak. This is relevant because several high-amplification areas are in Kinshasa, Kasaï, and Tshopo, where preparedness may be more feasible than in parts of eastern DRC despite heterogeneous healthcare access, accessibility constraints, and low-to-moderate insecurity outside Kinshasa."
+[^okingo-2026-body-17]: Okingo, Iroungou, & Valdano (2026) "Body": "Our results warrant preparedness in health zones with high sustained-transmission potential but lower introduction risk, particularly in Kinshasa and other urban centers, despite their distance from the outbreak. This is relevant because several high-amplification areas are in Kinshasa, Kasaï, and Tshopo, where preparedness may be more feasible than in parts of eastern DRC despite heterogeneous healthcare access, accessibility constraints, and low-to-moderate insecurity outside Kinshasa."
 
 [^bouhentala-2026-abstract-4]: [Bouhentala & Kadir (2026) "Abstract"](https://www.medrxiv.org/content/10.64898/2026.07.19.26358411): "Preparedness in North Africa and Europe should prioritise complete exposure histories, rapid isolation, validated diagnostics, protected clinical care, and contact management rather than reliance on border screening."
 
 [^van-zandvoort-2026-discussion-10]: [van Zandvoort et al. (2026) "Discussion"](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.24.2600508): "Crucially, most Ebola disease cases reported outside Africa (27 of 28 cases) have been either (i) primary cases in individuals with a known responsive or occupational exposure to an Ebola disease epidemic (24 cases, including 20 healthcare workers, three UN employees and one journalist, among whom 20 were medically evacuated) or (ii) secondary cases in healthcare workers treating an Ebola disease patient outside Africa (3 cases). There was only one reported confirmed case outside Africa in a traveller with no responsive or occupational exposure."
 
-[^who-don-1]: [World Health Organization (2026) "Disease Outbreak News, 14 August 2026"](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615): "Since the previous [Disease Outbreak News](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614) was published on 1 August 2026, additional confirmed cases and deaths of BVD have been only reported in the Democratic Republic of the Congo. Cumulatively as of 12 August 2026, 4686 confirmed cases have been reported: 4665 in the Democratic Republic of the Congo (including two cases diagnosed in the Democratic Republic of the Congo and subsequently treated in Germany), 20 in Uganda and one in France. "
+[^who-don-1]: [World Health Organization (2026) "Disease Outbreak News, 28 August 2026"](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616): "Cumulatively as of 26 August 2026, 5815 confirmed cases have been reported: 5794 in the Democratic Republic of the Congo (including two cases diagnosed in the Democratic Republic of the Congo and subsequently treated in Germany), 20 in Uganda and one in France."
 
 
 ## Individual analyses
@@ -125,9 +128,9 @@ The evidence suggests emphasizing preparedness in Uganda and South Sudan due to 
 :class: exclude-from-outline evidence-synthesis-tabs
 ::::{tab-set}
 :::{tab-item} Verheyden and Mudogo (12 Aug 2026)
-### Verheyden and Mudogo (12 Aug 2026) Incidence-weighted force of infection for predicting first reported health-zone cases during the 2026 Bundibugyo virus disease outbreak: a rolling-origin evaluation
+### Verheyden and Mudogo (12 Aug 2026)<br>Incidence-weighted force of infection for predicting first reported health-zone cases during the 2026 Bundibugyo virus disease outbreak: a rolling-origin evaluation
 
-[Read the report](https://www.medrxiv.org/content/10.64898/2026.08.12.26360244.full-text)
+[Read the analysis](https://www.medrxiv.org/content/10.64898/2026.08.12.26360244.full-text)
 
 ### Overview
 
@@ -186,10 +189,56 @@ This analysis does not estimate total outbreak size or case counts; its output i
 **Auxiliary data:** Static covariates include WorldPop population estimates, OpenStreetMap/HOT health-facility points, Complex Crisis Vulnerability Index, and province-level ACLED conflict events.[^verheyden-2026-2-materials-and-methods-17] Road-network travel times were derived from a national OSRM graph.[^verheyden-2026-2-materials-and-methods-18] CDR/mobility data were not used, as DRC is not among the countries for which such data are available.[^verheyden-2026-2-materials-and-methods-6] An independent Flowminder-based mobility analysis (Bangelesa et al., 2026, as summarised in Walekhwa et al., 2026) found the outbreak's three epicentre zones among the top 5% of DRC health zones nationally on mobility intensity; this was used as external, indirect support for the general connectivity premise, not as a model input.[^verheyden-2026-4-discussion-1]
 :::
 
-:::{tab-item} Epistorm (23 Jul 2026)
-### Epistorm (23 Jul 2026) Ebola Bundibugyo Virus — DRC · Spread Risk Assessment · International Dissemination
+:::{tab-item} Li et al. (11 Aug 2026)
+### Li et al. (11 Aug 2026)<br>Dynamics, Optimal Control, and Spillover Risk of the 2026 Bundibugyo Ebola Outbreak in the Democratic Republic of the Congo
 
-[Read the report](https://epistorm.github.io/EBV2026/Report6RR.html)
+[Read the analysis](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text)
+
+### Overview
+
+This analysis develops a compartmental transmission model (SEIDR: susceptible-exposed-infectious-deceased-recovered) to characterize the early transmission dynamics of the 2026 BDBV outbreak in the DRC and to estimate the risk that the outbreak spreads internationally through population mobility. The model incorporates three categories of interventions—public self-protection, safe burial, and treatment and convalescence—to assess early transmission dynamics, the current epidemic trajectory, and cross-border spillover risk, and to inform the formulation of control strategies.[^li-2026-abstract-1] Spillover risk is separately estimated using International Migrant Stock data and Facebook IP-based mobility data with the Prophet forecasting model[^li-2026-abstract-2], and the analysis reports that four countries were identified as very high risk at the end of July[^li-2026-abstract-3], a number the authors project would grow substantially under a "status quo" scenario but stay comparatively contained under an optimized control strategy.
+
+### Estimate
+
+The paper's headline model output is not an outbreak-size estimate in isolation but a set of counterfactual/projected cumulative infection trajectories tied to control scenarios. Under the fitted (actual) trajectory, cumulative confirmed cases increased from 33 to 3,674[^li-2026-results-5] during the observation period (18 May–31 July). Had the derived optimal control strategy been applied from the estimated transmission start date, the simulated cumulative number of infections as of 31 July would have been approximately 135 cases, representing a 96.33% reduction compared with the 3,674 cases actually reported during the same period[^li-2026-results-6]. Projecting forward from the actual 31 July epidemic size under the optimal control strategy, cumulative infections would reach 4,372 (95% CI: 4,300–4,450) by 31 August and 4,397 (95% CI: 4,325–4,474) by 30 September, after which the epidemic would enter a plateau phase, with only one additional case by 31 October[^li-2026-results-7]. By contrast, under the status quo control scenario, the epidemic was projected to continue rising until the end of April 2027[^li-2026-results-8]. The basic reproduction number, a related transmission-intensity estimate, was ℛ0 = 1.83 (95% CI: 1.81–1.84), of which ℛ0I = 1.14 (62.18%) and ℛ0D = 0.69 (37.82%)[^li-2026-results-2].
+
+### Methods
+
+**SEIDR compartmental transmission model:** Building upon the classical SEIR framework, and incorporating the specific transmission characteristics of Ebola virus and the public health realities in the affected region, the model was extended to include a deceased compartment (D), resulting in a SEIDR structure[^li-2026-methods-1]. It was fitted to DRC national cumulative confirmed case counts to estimate the reproduction number and its living-case versus corpse-mediated components, and to infer the start date of sustained transmission.
+
+**NSGA-II combined with Pontryagin's Minimum Principle (optimal control):** To overcome shortcomings of conventional PMP-based indirect methods, the authors propose a hybrid solution strategy combining PMP with non-dominated sorting genetic algorithm II (NSGA-II), using a global optimisation algorithm to generate high-quality initial guesses that guide PMP iterations towards rapid convergence to the globally optimal solution.[^li-2026-methods-2] This produces a time-varying optimal control strategy, with adjustments every two weeks[^li-2026-abstract-5], applied to the DRC-level SEIDR model.
+
+**Migration-based spillover/importation risk model:** To assess the risk of Ebola virus disease spreading beyond the outbreak country (DRC) to other regions, international migration data were incorporated to evaluate cross-border spread risk, assuming homogeneous mixing and equal probability of out-migration, with the number of imported cases modelled as following a binomial distribution based on cumulative out-migrants, cumulative confirmed cases in the DRC, and total DRC population.[^li-2026-methods-3] Annual International Migrant Stock data served as the baseline measure of population connectivity, with monthly outflow proportions estimated using Facebook IP-address-based migration data for 2019–2022 and a Prophet forecasting model to capture seasonal patterns and trend changes.[^li-2026-methods-4] This method produces country-level importation risk estimates and rankings for destinations worldwide, run separately under status-quo and optimized-control scenarios for August–December 2026.
+
+### Assumptions
+
+**Start date of sustained transmission:** the model treats the transmission onset as unknown and searched over a range; the possible start date of sustained transmission was set to range between 24 March and 24 April, generating 32 candidate start-date scenarios[^li-2026-results-10], with 28 March identified as the optimal fitting start date (R²=0.7586), and start dates between 31 March and 3 April also yielding good fitting performance (R²>0.7)[^li-2026-results-11].
+
+**Homogeneous mixing and national-population susceptible pool:** the model assumes homogeneous mixing of the population in the affected country and equal probability of out-migration for all individuals[^li-2026-methods-9], and uses the total national population of the DRC as the susceptible population base, without accounting for geographic clustering of the outbreak or the effect of population mobility on contact patterns[^li-2026-discussion-1].
+
+**Worst-case importation assumption:** the use of cumulative cases rather than active infections represents a worst-case scenario assumption, in which all reported infected individuals are considered potentially infectious[^li-2026-methods-10], driving the binomial importation-probability calculation.
+
+**Intervention parameters (θ, ρ, μ):** the model's control levers are calibrated with fitted values of public self-protection (θ) fitted at 0.2332, safe burial rate (ρ) fitted at 0.2664, and treatment/recovery rate (μ) fitted at 0.3227[^li-2026-results-12], with thresholds identified where ℛ0 fell below 1 when θ exceeded 58.12%, and ℛ0I < 1 when θ exceeded 32.65%[^li-2026-results-13], ℛ0 < 1 only when μ > 98.46% but ℛ0I < 1 when μ > 43.31%[^li-2026-results-14], and ℛ0D < 1 when ρ exceeded 20.09%[^li-2026-results-15]. Sensitivity ranges for these parameters were constrained: the ranges for θ and μ were set to [0, 1], and the range for ρ was set to [0.1, 1][^li-2026-results-16], because ℛ0D is undefined when ρ = 0.
+
+**Risk-tier thresholds:** country-level spillover classification is based on the normal distribution of importation risk probabilities as of end-July, stratified into four levels: 0 < Pb,t < 16.38% as low risk, 16.38% ≤ Pb,t < 43.68% as moderate risk, 43.68% ≤ Pb,t < 70.98% as high risk, and 70.98% ≤ Pb,t < 1 as very high risk[^li-2026-results-17].
+
+### Limitations
+
+**National-level population base obscures spatial and mobility effects on transmission:** the model used the total national population of the DRC as the susceptible population base, without accounting for geographic clustering of the outbreak or the effect of population mobility on contact patterns, which may lead to systematic underestimation of the transmission rate parameter β.[^li-2026-discussion-1]
+
+**Optimal control strategy is theoretical and unvalidated operationally:** although the optimised control functions provide mathematically derived theoretical optima, their operational effectiveness and practical implementation in the actual outbreak context require further validation.[^li-2026-discussion-3]
+
+### Data sources
+
+Primary outbreak data: daily cumulative confirmed case counts for the DRC were extracted from WHO's Daily epidemiological update on acute public health events: Ebola disease—Bundibugyo virus, compiled by COUSP-DRC, retrieved as a complete time series from the start of the outbreak up to the study cut-off date (31 July 2026)[^li-2026-methods-5]. Background totals cite 4,566 confirmed cases and 2,128 deaths reported as of 11 August[^li-2026-abstract-4], and reported imported cases: Uganda has reported two imported cases with 20 cumulative confirmed cases domestically; France has reported one imported case with no local secondary transmission[^li-2026-results-9].
+
+Auxiliary data: Population data were obtained from the World Population Prospects 2024, published by the United Nations Department of Economic and Social Affairs, Population Division, covering the total populations of the DRC and potential risk-importation countries[^li-2026-methods-6]. Cross-border mobility data were derived from the International Migrant Stock 2024: Destination and Origin, published by the United Nations Department of Economic and Social Affairs, with monthly allocation weights determined according to reference, to estimate the volume and spatial distribution of outflows from the DRC to neighbouring countries and major destination countries.[^li-2026-methods-7] Monthly out-migration data from the DRC based on Facebook IP addresses for the period 2019–2022[^li-2026-methods-8] were used with the Prophet model. Historical outbreak parameters were also drawn from the literature: the 2007 outbreak in Uganda reported 116 confirmed cases with 39 deaths, with a basic reproduction number estimated at 1.53; the 2012 outbreak in the DRC reported 77 cases.[^li-2026-discussion-2]
+:::
+
+:::{tab-item} Epistorm (23 Jul 2026)
+### Epistorm (23 Jul 2026)<br>Ebola Bundibugyo Virus — DRC · Spread Risk Assessment · International Dissemination
+
+[Read the analysis](https://epistorm.github.io/EBV2026/Report6RR.html)
 
 ### Overview
 
@@ -231,9 +280,9 @@ Primary outbreak data: 23 July 2026 DRC data[^epistorm-2026-executive-summary-2]
 :::
 
 :::{tab-item} Bouhentala & Kadir (15 Jul 2026)
-### Bouhentala & Kadir (15 Jul 2026) Epidemiological Analysis of the 2026 Bundibugyo Virus Disease Outbreak and Rapid Risk Assessment for North Africa and Europe
+### Bouhentala & Kadir (15 Jul 2026)<br>Epidemiological Analysis of the 2026 Bundibugyo Virus Disease Outbreak and Rapid Risk Assessment for North Africa and Europe
 
-[Read the report](https://www.medrxiv.org/content/10.64898/2026.07.19.26358411)
+[Read the analysis](https://www.medrxiv.org/content/10.64898/2026.07.19.26358411)
 
 ### Overview
 
@@ -287,9 +336,9 @@ This analysis does not produce a quantitative outbreak-size estimate for DRC. It
 :::
 
 :::{tab-item} Fanelli et al. (5 Jul 2026)
-### Fanelli et al. (5 Jul 2026) Importation risk and preparedness priorities across Africa in the 2026 Bundibugyo Ebola outbreak
+### Fanelli et al. (5 Jul 2026)<br>Importation risk and preparedness priorities across Africa in the 2026 Bundibugyo Ebola outbreak
 
-[Read the report](https://www.medrxiv.org/content/10.64898/2026.07.21.26358330)
+[Read the analysis](https://www.medrxiv.org/content/10.64898/2026.07.21.26358330)
 
 ### Overview
 
@@ -373,9 +422,9 @@ Under amplification scenarios, the ranking of high-risk countries remained large
 :::
 
 :::{tab-item} Gashema & Muvunyi (8 Jun 2026)
-### Gashema & Muvunyi (8 Jun 2026) Can stochastic modelling predict cross-border spread of the Bundibugyo Ebola virus outbreak in Africa?
+### Gashema & Muvunyi (8 Jun 2026)<br>Can stochastic modelling predict cross-border spread of the Bundibugyo Ebola virus outbreak in Africa?
 
-[Read the report](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00352-X/fulltext)
+[Read the analysis](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00352-X/fulltext)
 
 ### Overview
 
@@ -417,9 +466,9 @@ The document does not specify the primary outbreak data sources or auxiliary dat
 :::
 
 :::{tab-item} Chamla et al. (8 Jun 2026)
-### Chamla et al. (8 Jun 2026) Size of the 2026 Ebola outbreak and risk of cross-border spillover from Bundibugyo virus in Ituri Province, DR Congo, and its implications for preparedness: a recalibrated stochastic modelling study
+### Chamla et al. (8 Jun 2026)<br>Size of the 2026 Ebola outbreak and risk of cross-border spillover from Bundibugyo virus in Ituri Province, DR Congo, and its implications for preparedness: a recalibrated stochastic modelling study
 
-[Read the report](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00320-8/fulltext)
+[Read the analysis](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00320-8/fulltext)
 
 ### Overview
 
@@ -487,9 +536,9 @@ Because the observed confirmed-case trajectory is consistent with the central sc
 :::
 
 :::{tab-item} Walekhwa et al. (5 Jun 2026)
-### Walekhwa et al. (5 Jun 2026) Network-based modelling of Bundibugyo Ebola virus disease importation and spread in Uganda using Displacement Tracking Matrix flow data
+### Walekhwa et al. (5 Jun 2026)<br>Network-based modelling of Bundibugyo Ebola virus disease importation and spread in Uganda using Displacement Tracking Matrix flow data
 
-[Read the report](https://www.medrxiv.org/content/10.64898/2026.06.22.26356210)
+[Read the analysis](https://www.medrxiv.org/content/10.64898/2026.06.22.26356210)
 
 ### Overview
 
@@ -554,58 +603,10 @@ The three compliance scenarios corresponded to the following parameterisations: 
 **Auxiliary data — parameters from prior outbreaks and literature:** Previous BVD outbreaks in Uganda (2007–08; 131 confirmed cases, 42 deaths) and DRC (2012; 38 confirmed cases, 13 deaths) informed background on transmissibility and CFR, with R₀ estimates ranging from 1.2 to 2.6.[^walekhwa-2026-research-in-context-1] Bangelesa et al. contributed Flowminder-based mobility intensity index data for Ituri Province (March 2025–March 2026), covering all 340 DRC health zones; Ituri had the second highest average MII nationally (25.3), with epicentre zones Rwampara (68.6), Bunia (62.6), and Mongbwalu (49.9) all exceeding the 95th national percentile.[^walekhwa-2026-research-in-context-2]
 :::
 
-:::{tab-item} Okingo, Iroungou, & Valdano (4 Jun 2026)
-### Okingo, Iroungou, & Valdano (4 Jun 2026) Introduction and sustained-transmission risk across DRC health zones during the Bundibugyo virus disease outbreak
-
-[Read the report](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237)
-
-### Overview
-
-This analysis estimates introduction risk and sustained-transmission potential for each health zone (HZ) across the DRC during the ongoing Bundibugyo virus disease outbreak, with the goal of identifying priority zones — including those far from currently affected areas — where rapid amplification could follow an introduction and where response efforts should be focused.[^okingo-2026-abstract-1] The approach applies a published method to rank all DRC health zones by their sustained-transmission potential, using population and mobility data to parameterise spatial transmission across a broad range of assumptions on disease transmissibility and contact patterns, then compares these ranks with introduction-risk ranks estimated from mobility data.[^okingo-2026-body-1] The main finding is that eight health zones combine both high introduction risk and high sustained-transmission potential: Binza Ozone and Binza Meteo in Kinshasa; Karisimbi in Nord-Kivu; Kadutu and Ibanda in Sud-Kivu; and Makiso-Kisangani, Kabondo, and Mangobo in Tshopo.[^okingo-2026-body-2]
-
-### Estimate
-
-This analysis does not report outbreak size estimates (e.g., total case counts or incidence figures). Introduction risk was highest in health zones close to the reported foci — specifically in Ituri, Nord-Kivu, and Haut-Uele — consistent with expected mobility patterns, with non-negligible introduction risk also appearing in distant urban centres including the Kinshasa area.[^okingo-2026-body-9] High sustained-transmission potential was distributed broadly across DRC, including Kinshasa, Kasaï-Oriental, Kongo-Central, Tshopo, Nord-Kivu, Haut-Katanga, Sud-Kivu, Kasaï, and Kasaï-Central — several of which are far from the current outbreak.[^okingo-2026-body-10] Crossing the two rankings identified eight health zones combining high introduction risk and high sustained-transmission potential: Binza Ozone and Binza Meteo in Kinshasa; Karisimbi in Nord-Kivu; Kadutu and Ibanda in Sud-Kivu; and Makiso-Kisangani, Kabondo, and Mangobo in Tshopo.[^okingo-2026-body-2] No point probabilities, quantitative thresholds, or numerical uncertainty intervals are reported in the main text.
-
-### Methods
-
-**Sustained-transmission potential ranking:** This method applies the approach developed in a previously published reference (Ref. 2) to estimate, for each DRC health zone, the potential for an introduced case to generate sustained transmission.[^okingo-2026-body-4] Population and mobility data are used to parameterise spatial transmission, and a broad range of assumptions on disease transmissibility and on how local and between-community contact patterns can be inferred from these data are tested.[^okingo-2026-body-6] Population data come from WorldPop and mobility data from FlowMinder.[^okingo-2026-figure-1-introduction-risk-and-sustained-transmission-1]
-
-**Introduction-risk ranking:** Introduction risk is estimated separately for each DRC health zone using mobility data, and health zones are ranked by this measure.[^okingo-2026-body-7] Risk rankings — rather than raw risk estimates — are emphasised because they are robust across scenarios and assumptions, allowing them to inform action despite limited knowledge of transmissibility and contact patterns.[^okingo-2026-body-8]
-
-The two rankings (sustained-transmission potential and introduction risk) are then crossed to identify health zones that score highly on both dimensions.[^okingo-2026-body-7] The method is described only briefly in the main text; full methodology, additional data sources, and additional results are stated to be in an Appendix.
-
-### Assumptions
-
-**Transmissibility and contact patterns:** The analysis tests a broad range of assumptions on disease transmissibility and on how local and between-community contact patterns can be inferred from population and mobility data. Specific parameter values are not reported in the main text and are described as available in the Appendix.[^okingo-2026-body-6]
-
-**Ranking robustness:** A structural assumption central to the analysis is that risk rankings — as opposed to raw risk estimates — are robust across scenarios and assumptions, and that this robustness justifies using rankings to inform action despite limited knowledge of transmissibility and contact patterns. This is stated as a key design choice rather than a tested sensitivity.[^okingo-2026-body-8]
-
-**Data availability:** The analysis is explicit that it operates under limited data on human mobility, contact patterns, disease transmissibility, and tracing and isolation capacity; these constraints shape what can be estimated and drive the reliance on ranking rather than point estimates.[^okingo-2026-body-12]
-
-**Mobility and population data:** Spatial transmission is parameterised using WorldPop population data and FlowMinder mobility data. No statement is made about the vintage, resolution, or representativeness of these datasets for the current outbreak context.[^okingo-2026-figure-1-introduction-risk-and-sustained-transmission-1]
-
-### Limitations
-
-**Limited input data:** The analysis is explicit that it operates under limited data on human mobility, contact patterns, disease transmissibility, and tracing and isolation capacity, all of which are required to fully characterise introduction and sustained-transmission risk.[^okingo-2026-body-12]
-
-**Structural outbreak challenges not modelled:** Insecurity, high population mobility, limited healthcare capacity, and the absence of a vaccine are cited as challenges to response. The analysis does not indicate whether these factors are formally incorporated into the model or treated as qualitative context.[^okingo-2026-body-13]
-
-**Heterogeneous preparedness:** The analysis acknowledges heterogeneous healthcare access, accessibility constraints, and low-to-moderate insecurity outside Kinshasa as factors affecting response feasibility in identified high-risk zones, but these are discussed qualitatively rather than incorporated into the quantitative framework.[^okingo-2026-body-14]
-
-**Appendix-dependent detail:** Methodology, additional data sources, and additional results are available only in the Appendix, which is not reproduced in the main document. The main text provides insufficient detail to assess specific parameter choices, calibration procedures, or sensitivity analyses.[^okingo-2026-figure-1-introduction-risk-and-sustained-transmission-2]
-
-### Data sources
-
-Primary outbreak data: The analysis references the ongoing BVD outbreak in Ituri province, DRC, with confirmed cases in Nord-Kivu and Sud-Kivu noted as of June 4 as evidence of geographic spread beyond the initial focus. No surveillance line list, case count, or situation report data are described as direct model inputs in the main text.[^okingo-2026-body-11][^okingo-2026-body-3]
-
-Auxiliary data: Population data are from WorldPop (worldpop.org) and mobility data are from FlowMinder (flowminder.org).[^okingo-2026-figure-1-introduction-risk-and-sustained-transmission-1] The sustained-transmission potential method is drawn from a previously published reference (Ref. 2), used as the methodological foundation.[^okingo-2026-body-4] Additional data sources are stated to be available in the Appendix, which is not reproduced in the main document.[^okingo-2026-figure-1-introduction-risk-and-sustained-transmission-2] No travel volume sample sizes, demographic inputs, or epidemiological parameters (e.g., CFR, serial interval) are reported in the main text.
-:::
-
 :::{tab-item} Kinoshita, Suzuki, & Yoneoka (4 Jun 2026)
-### Kinoshita, Suzuki, & Yoneoka (4 Jun 2026) Early assessment of potential airline-mediated importation risk during the 2026 DRC-Uganda Bundibugyo virus disease outbreak
+### Kinoshita, Suzuki, & Yoneoka (4 Jun 2026)<br>Early assessment of potential airline-mediated importation risk during the 2026 DRC-Uganda Bundibugyo virus disease outbreak
 
-[Read the report](https://www.medrxiv.org/content/10.64898/2026.06.01.26354569)
+[Read the analysis](https://www.medrxiv.org/content/10.64898/2026.06.01.26354569)
 
 ### Overview
 
@@ -654,10 +655,50 @@ This analysis produces importation probability estimates rather than outbreak si
 **Auxiliary data:** Airline passenger-flow data came from OAG (a global travel data provider listed in the IATA Strategic Partners Directory) for May 2024, covering 11,264 airports, 569,741 routes, and 329,326,078 passengers.[^kinoshita-2026-airline-flow-based-network-and-effective-distance-for-4] The importation hazard parameter (θ = 0.19) was calibrated from the 2013–2016 West African EVD epidemic and applied here as the primary value.[^kinoshita-2026-abstract-4][^kinoshita-2026-airline-flow-based-network-and-effective-distance-for-15] Epidemic growth rate estimates (r = {0.034, 0.05, 0.1}) used in sensitivity analyses were taken as of 17 May 2026.[^kinoshita-2026-airline-flow-based-network-and-effective-distance-for-9]
 :::
 
-:::{tab-item} Richard et al. (2 Jun 2026)
-### Richard et al. (2 Jun 2026) Assessment of Risk to the U.S. Population from the Ebola Disease Outbreak Caused by Bundibugyo Virus, 2026
+:::{tab-item} Okingo, Iroungou, & Valdano (4 Jun 2026)
+### Okingo, Iroungou, & Valdano (4 Jun 2026)<br>Introduction and sustained-transmission risk across DRC health zones during the Bundibugyo virus disease outbreak
 
-[Read the report](https://www.cdc.gov/mmwr/volumes/75/wr/mm7522e2.htm)
+[Read the analysis](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237)
+
+### Overview
+
+This analysis estimates two related but distinct quantities for the ongoing Bundibugyo virus disease outbreak in DRC: the risk that a health zone will *receive* an introduced case (introduction risk), and the risk that, once introduced, a case would generate ongoing local spread (sustained-transmission potential). The approach applies a previously published method (Ref. 2) combined with population and mobility data to rank all DRC health zones on both dimensions under a range of transmissibility and contact-pattern assumptions. The main finding is that introduction risk was highest in HZs close to the reported foci, specifically in Ituri, Nord-Kivu, and Haut-Uele, consistent with expected mobility patterns, with non-negligible risk of introduction also appearing in distant urban centers, including the Kinshasa area[^okingo-2026-body-1], while high sustained-transmission potential was distributed across DRC, including Kinshasa, Kasaï-Oriental, Kongo-Central, Tshopo, Nord-Kivu, Haut-Katanga, Sud-Kivu, Kasaï, and Kasaï-Central, with several areas far from the current outbreak[^okingo-2026-body-2].
+
+### Estimate
+
+This analysis does not produce an outbreak size estimate; it produces risk rankings rather than case counts. The headline finding is a ranking-based one: introduction risk was highest in HZs close to the reported foci, specifically in Ituri, Nord-Kivu, and Haut-Uele, consistent with expected mobility patterns[^okingo-2026-body-8], while sustained-transmission potential was more widely distributed, and crossing the two rankings identified eight HZs that combined high introduction risk and high sustained-transmission potential: Binza Ozone and Binza Meteo in Kinshasa; Karisimbi in Nord-Kivu; Kadutu and Ibanda in Sud-Kivu; and Makiso-Kisangani, Kabondo, and Mangobo in Tshopo[^okingo-2026-body-4]. The authors note that unlike risk estimates, risk rankings were robust across scenarios and assumptions and can therefore inform action despite limited knowledge of transmissibility and contact patterns[^okingo-2026-body-9], indicating that point risk-level estimates vary with scenario assumptions but the relative ordering does not.
+
+### Methods
+
+**Sustained-transmission potential model (extension of Ref. 2):** The analysis used the method developed in Ref. 2 to estimate, for each DRC health zone, the potential for an introduced case to generate sustained transmission[^okingo-2026-body-5]. It was parameterized using available population and mobility data to parameterize spatial transmission, testing a broad range of assumptions on disease transmissibility and on how local and between-community contact patterns can be inferred from these data[^okingo-2026-body-6]. This method is applied nationally across DRC health zones, producing a ranking of sustained-transmission potential.
+
+**Introduction-risk ranking from mobility data:** Separately, the analysis ranked HZs by sustained-transmission potential and compared them with introduction-risk ranks estimated from mobility data[^okingo-2026-body-7], using flowminder.org mobility data and worldpop.org population data. This produces a national health-zone-level ranking of introduction risk, which is then crossed with the sustained-transmission ranking to identify health zones high on both dimensions.
+
+### Assumptions
+
+**Transmissibility and contact-pattern scenarios:** The model tests a broad range of assumptions on disease transmissibility and on how local and between-community contact patterns can be inferred from population and mobility data[^okingo-2026-body-6], rather than fixing a single value; this is a scenario sweep rather than a single point estimate.
+
+**Ranking robustness versus level uncertainty:** A key structural claim is that unlike risk estimates, risk rankings were robust across scenarios and assumptions and can therefore inform action despite limited knowledge of transmissibility and contact patterns[^okingo-2026-body-9]. This implies the underlying point estimates of risk level are sensitive to the untested transmissibility and contact-pattern assumptions, but the relative ordering of health zones is not.
+
+**Data limitations underlying the estimates:** The analysis explicitly proceeds despite limited data on human mobility, contact patterns, disease transmissibility, tracing and isolation capacity[^okingo-2026-body-10], meaning the population and mobility datasets are used as proxies in the absence of more direct epidemiological or capacity data.
+
+### Limitations
+
+**Limited underlying data:** The authors state that the risk assessment must proceed despite limited data on human mobility, contact patterns, disease transmissibility, tracing and isolation capacity[^okingo-2026-body-10], meaning several key epidemiological inputs are not directly observed and must be approximated.
+
+**Point-estimate instability across assumptions:** The authors note that unlike risk estimates, risk rankings were robust across scenarios and assumptions[^okingo-2026-body-9], implying that the underlying risk-level (point) estimates themselves are not robust and vary depending on the transmissibility and contact-pattern assumptions tested, so only the ranking, not the absolute risk values, should be relied upon.
+
+### Data sources
+
+Primary outbreak data: confirmed case data indicating the outbreak's spatial spread, specifically confirmed cases in Nord-Kivu and Sud-Kivu as of June 4 indicating that the spread has gone beyond the initial focus[^okingo-2026-body-3].
+
+Auxiliary data: population data are from worldpop.org[^okingo-2026-figure-1-introduction-risk-and-sustained-transmission-1], and mobility data are from flowminder.org[^okingo-2026-figure-1-introduction-risk-and-sustained-transmission-2]. No sample sizes for case counts or traveler volumes are reported in the main text.
+:::
+
+:::{tab-item} Richard et al. (2 Jun 2026)
+### Richard et al. (2 Jun 2026)<br>Assessment of Risk to the U.S. Population from the Ebola Disease Outbreak Caused by Bundibugyo Virus, 2026
+
+[Read the analysis](https://www.cdc.gov/mmwr/volumes/75/wr/mm7522e2.htm)
 
 ### Overview
 
@@ -709,9 +750,9 @@ No outbreak size estimate (total case count or under-detection factor) is report
 :::
 
 :::{tab-item} Fanelli et al. (29 May 2026)
-### Fanelli et al. (29 May 2026) Shifting patterns of importation risk of Bundibugyo Ebola virus disease to Europe under outbreak expansion scenarios
+### Fanelli et al. (29 May 2026)<br>Shifting patterns of importation risk of Bundibugyo Ebola virus disease to Europe under outbreak expansion scenarios
 
-[Read the report](https://www.medrxiv.org/content/10.64898/2026.05.31.26354511)
+[Read the analysis](https://www.medrxiv.org/content/10.64898/2026.05.31.26354511)
 
 ### Overview
 
@@ -753,9 +794,9 @@ This analysis does not produce an outbreak size estimate (i.e., a count of cases
 :::
 
 :::{tab-item} van Zandvoort et al. (20 May 2026)
-### van Zandvoort et al. (20 May 2026) The risk of global Ebola virus spread is low: epidemiology of Ebola disease cases outside Africa, 1976 to May 2026
+### van Zandvoort et al. (20 May 2026)<br>The risk of global Ebola virus spread is low: epidemiology of Ebola disease cases outside Africa, 1976 to May 2026
 
-[Read the report](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.24.2600508)
+[Read the analysis](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.24.2600508)
 
 ### Overview
 
@@ -813,11 +854,12 @@ From the time-varying analysis of the 2014–16 epidemic, exportation risk per r
 5. Fanelli, F., Parino, F., Poletto, C. and Colizza, V. (2026b) 'Shifting patterns of importation risk of Bundibugyo Ebola virus disease to Europe under outbreak expansion scenarios', medRxiv [Preprint]. doi: 10.64898/2026.05.31.26354511.
 6. Gashema, P. and Muvunyi, C.M. (2026) 'Can stochastic modelling predict cross-border spread of the Bundibugyo Ebola virus outbreak in Africa?', The Lancet Infectious Diseases. Online first. doi: 10.1016/S1473-3099(26)00352-X.
 7. Kinoshita, R., Suzuki, M. and Yoneoka, D. (2026) 'Early assessment of potential airline-mediated importation risk during the 2026 DRC-Uganda Bundibugyo virus disease outbreak', medRxiv [Preprint]. doi: 10.64898/2026.06.01.26354569.
-8. Okingo, R.L., Iroungou, B.A. and Valdano, E. (2026) 'Introduction and sustained-transmission risk across DRC health zones during the Bundibugyo virus disease outbreak', medRxiv [Preprint]. doi: 10.64898/2026.06.11.26355237.
-9. Richard, D.M., Routledge, I., Koeller, S. et al. (2026) 'Assessment of risk to the U.S. population from the Ebola disease outbreak caused by Bundibugyo virus, 2026', MMWR Morbidity and Mortality Weekly Report, 75, pp. 290–292. doi: 10.15585/mmwr.mm7522e2.
-10. van Zandvoort, K., Procter, S.R., Azam, J.M., Sherratt, K. and Davies, N.G. (2026) 'The risk of global Ebola virus spread is low: epidemiology of Ebola disease cases outside Africa, 1976 to May 2026', Eurosurveillance, 31(24), 2600508. doi: 10.2807/1560-7917.ES.2026.31.24.2600508.
-11. Verheyden, J.G.L. and Mudogo, C.N. (2026) 'Incidence-weighted force of infection for predicting first reported health-zone cases during the 2026 Bundibugyo virus disease outbreak: a rolling-origin evaluation', medRxiv [Preprint]. doi: 10.64898/2026.08.12.26360244.
-12. Walekhwa, A.W., Mbaka, P., Nannyonga, B.K., Silal, S.P., Bbuye, M., Nakiire, L., Lamorde, M., Suilamon, T.A., Kwesiga, B., Sabiiti, W., Turinawe, G., Nakazibwe, B., Kayiwa, J., Nantongo, M., Ipola, P.A., Kungu, P., Ario, A.R., Kagirita, A., Lubwama, B., Kirenga, B.J., Muruta, A.N., Olaro, C. and Atwine, D. (2026) 'Network-based modelling of Bundibugyo Ebola virus disease importation and spread in Uganda using Displacement Tracking Matrix flow data and non-pharmaceutical intervention compliance scenarios', medRxiv [Preprint]. doi: 10.64898/2026.06.22.26356210.
+8. Li, J., Lai, S., Su, Y., Chen, Q., Rui, J., Zhao, Z. and Chen, T. (2026) 'Dynamics, optimal control, and spillover risk of the 2026 Bundibugyo Ebola outbreak in the Democratic Republic of the Congo', medRxiv [Preprint]. doi: 10.64898/2026.08.17.26360567.
+9. Okingo, R.L., Iroungou, B.A. and Valdano, E. (2026) 'Introduction and sustained-transmission risk across DRC health zones during the Bundibugyo virus disease outbreak', medRxiv [Preprint]. doi: 10.64898/2026.06.11.26355237.
+10. Richard, D.M., Routledge, I., Koeller, S. et al. (2026) 'Assessment of risk to the U.S. population from the Ebola disease outbreak caused by Bundibugyo virus, 2026', MMWR Morbidity and Mortality Weekly Report, 75, pp. 290–292. doi: 10.15585/mmwr.mm7522e2.
+11. van Zandvoort, K., Procter, S.R., Azam, J.M., Sherratt, K. and Davies, N.G. (2026) 'The risk of global Ebola virus spread is low: epidemiology of Ebola disease cases outside Africa, 1976 to May 2026', Eurosurveillance, 31(24), 2600508. doi: 10.2807/1560-7917.ES.2026.31.24.2600508.
+12. Verheyden, J.G.L. and Mudogo, C.N. (2026) 'Incidence-weighted force of infection for predicting first reported health-zone cases during the 2026 Bundibugyo virus disease outbreak: a rolling-origin evaluation', medRxiv [Preprint]. doi: 10.64898/2026.08.12.26360244.
+13. Walekhwa, A.W., Mbaka, P., Nannyonga, B.K., Silal, S.P., Bbuye, M., Nakiire, L., Lamorde, M., Suilamon, T.A., Kwesiga, B., Sabiiti, W., Turinawe, G., Nakazibwe, B., Kayiwa, J., Nantongo, M., Ipola, P.A., Kungu, P., Ario, A.R., Kagirita, A., Lubwama, B., Kirenga, B.J., Muruta, A.N., Olaro, C. and Atwine, D. (2026) 'Network-based modelling of Bundibugyo Ebola virus disease importation and spread in Uganda using Displacement Tracking Matrix flow data and non-pharmaceutical intervention compliance scenarios', medRxiv [Preprint]. doi: 10.64898/2026.06.22.26356210.
 
 :::{dropdown} Methods overview
 
@@ -841,22 +883,6 @@ These pages are produced by a semi-automated evidence-synthesis pipeline that pa
 :name: risk-spread-page-bottom
 :::
 
-[^okingo-2026-abstract-1]: [Okingo, Iroungou, & Valdano (2026) "Abstract"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "During the ongoing Bundibugyo ebolavirus disease outbreak in the Democratic Republic of the Congo, we quantify introduction risk and sustained-transmission potential across the country. This identifies priority zones far from currently affected areas, where rapid amplification could follow introduction and response efforts should be focused."
-[^okingo-2026-body-1]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "We used the method developed in Ref. 2  to estimate, for each DRC health zone (HZ), the potential for an introduced case to generate sustained transmission (hereafter, sustained-transmission potential). We used available population and mobility data to parameterize spatial transmission, testing a broad range of assumptions on disease transmissibility and on how local and between-community contact patterns can be inferred from these data. We ranked HZs by sustained-transmission potential and compared them with introduction-risk ranks estimated from mobility data."
-[^okingo-2026-body-2]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Crossing the two rankings identified eight HZs that combined high introduction risk and high sustained-transmission potential (Fig. 1E, F): Binza Ozone and Binza Meteo in Kinshasa; Karisimbi in Nord-Kivu; Kadutu and Ibanda in Sud-Kivu; and Makiso-Kisangani, Kabondo, and Mangobo in Tshopo."
-[^okingo-2026-body-9]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Introduction risk was highest in HZs close to the reported foci, specifically in Ituri, Nord-Kivu, and Haut-Uele, consistent with expected mobility patterns (Fig. 1A,B). Non-negligible risk of introduction also appeared in distant urban centers, including the Kinshasa area."
-[^okingo-2026-body-10]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "By contrast, high sustained-transmission potential was distributed across DRC, including Kinshasa, Kasaï-Oriental, Kongo-Central, Tshopo, Nord-Kivu, Haut-Katanga, Sud-Kivu, Kasaï, and Kasaï-Central (Fig. 1C,D). Notably, several are far from the current outbreak."
-[^okingo-2026-body-4]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "We used the method developed in Ref. 2  to estimate, for each DRC health zone (HZ), the potential for an introduced case to generate sustained transmission (hereafter, sustained-transmission potential)."
-[^okingo-2026-body-6]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "We used available population and mobility data to parameterize spatial transmission, testing a broad range of assumptions on disease transmissibility and on how local and between-community contact patterns can be inferred from these data."
-[^okingo-2026-figure-1-introduction-risk-and-sustained-transmission-1]: [Okingo, Iroungou, & Valdano (2026) "Figure 1: Introduction risk and sustained-transmission potential across health zones."](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Population data are from worldpop.org. Mobility data are from flowminder.org."
-[^okingo-2026-body-7]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "We ranked HZs by sustained-transmission potential and compared them with introduction-risk ranks estimated from mobility data."
-[^okingo-2026-body-8]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Unlike risk estimates, risk rankings were robust across scenarios and assumptions and can therefore inform action despite limited knowledge of transmissibility and contact patterns."
-[^okingo-2026-body-12]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "This requires estimating introduction risk and, more importantly, the potential for sustained onward transmission, despite limited data on human mobility, contact patterns, disease transmissibility, tracing and isolation capacity."
-[^okingo-2026-body-13]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Insecurity, high population mobility, limited healthcare capacity, and the absence of a vaccine pose challenges to response."
-[^okingo-2026-body-14]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "This is relevant because several high-amplification areas are in Kinshasa, Kasaï, and Tshopo, where preparedness may be more feasible than in parts of eastern DRC despite heterogeneous healthcare access, accessibility constraints, and low-to-moderate insecurity outside Kinshasa."
-[^okingo-2026-figure-1-introduction-risk-and-sustained-transmission-2]: [Okingo, Iroungou, & Valdano (2026) "Figure 1: Introduction risk and sustained-transmission potential across health zones."](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Methodology, additional data sources, additional results and tabled values are available in the Appendix."
-[^okingo-2026-body-11]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "An outbreak of Bundibugyo virus disease is ongoing in Ituri province, Democratic Republic of the Congo (DRC)."
-[^okingo-2026-body-3]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "As of June 4, confirmed cases in Nord-Kivu and Sud-Kivu indicate that the spread has gone beyond the initial focus."
 [^epistorm-2026-executive-summary-1]: [Epistorm (2026) "Executive Summary"](https://epistorm.github.io/EBV2026/Report6RR.html): "No transmission model is used at this stage; the analysis describes where any exported case is most likely to be detected, conditional on at least one export occurring."
 [^epistorm-2026-key-findings-1]: [Epistorm (2026) "Key Findings"](https://epistorm.github.io/EBV2026/Report6RR.html): "**Proximity spillover concentrates in western Uganda and Juba. ** Across the neighbouring countries, 99.2 % of the city-level RR mass sits in five cities: Kasese (UGA, 56.3 %), Pakuba (UGA, 25.4 %), Arua (UGA, 12.8 %), Juba (SSD, 3.1 %), and Entebbe (UGA, 1.5 %), with Kigali (RWA), Dar Es Salaam (TZA), Bangui (CAF), and Bujumbura (BDI) capturing the remaining thin margin (each below 0.05 %)."
 [^epistorm-2026-key-findings-2]: [Epistorm (2026) "Key Findings"](https://epistorm.github.io/EBV2026/Report6RR.html): "** With only Uganda excluded and the remainder renormalised, South Sudan takes 80.1 % of the tail (Juba alone 79.6 %)."
@@ -994,8 +1020,6 @@ These pages are produced by a semi-automated evidence-synthesis pipeline that pa
 [^gashema-2026-10]: [Gashema & Muvunyi (2026)](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00352-X/fulltext) "The study also demonstrates the limitations of real-time epidemic modelling during rapidly evolving outbreaks. Models developed during unfolding outbreaks inevitably operate under conditions of incomplete information, evolving surveillance systems, and changing response capacities which can affect their ability to accurately predict transmission dynamics. Accordingly, these models are not intended to provide a precise forecast, but rather to identify reasonable transmission trajectories and inform preparedness decisions."
 [^gashema-2026-11]: [Gashema & Muvunyi (2026)](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00352-X/fulltext) "Collectively, these limitations underscore the importance of interpreting model outputs as scenario-based estimates that require continuous refinement as more comprehensive epidemiological, mobility, and behavioural data become available."
 [^gashema-2026-5]: [Gashema & Muvunyi (2026)](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00352-X/fulltext) "The study also underscores the growing importance of epidemic intelligence systems that integrate epidemiological, laboratory, and mobility data into real-time risk assessments."
-
-[^gashema-2026-13]: [Gashema & Muvunyi (2026)](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00352-X/fulltext) "Importation risk alone does not determine epidemic outcomes. Countries with strong surveillance systems, diagnostic capacity, a trained health-care workforce, and effective infection prevention and control measures can successfully contain imported cases before widespread transmission occurs. Conversely, gaps in surveillance systems and health governance can facilitate epidemic propagation and delay effective response."
 [^chamla-2026-summary-1]: [Chamla et al. (2026) "Summary"](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00320-8/fulltext): "The study aimed to establish a short-term trajectory of the BDBV outbreak and probability of cross-border spillover into countries with elevated risk of importation to guide preparedness priorities. We calibrated a stochastic SEIRD (susceptible, exposed, infectious, recovered, dead) ensemble model to the laboratory-confirmed case series, anchoring on 598 cumulative confirmed cases on 8 June 2026 (day 68) using simulation filtering (calibration window plus or minus 30%; reporting fraction 1.0 for laboratory-confirmed cases)."
 [^chamla-2026-summary-2]: [Chamla et al. (2026) "Summary"](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00320-8/fulltext): "A linked daily-hazard spillover model estimated importation probability for Uganda, South Sudan, Rwanda and Burundi over a 12-week horizon."
 [^chamla-2026-summary-3]: [Chamla et al. (2026) "Summary"](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00320-8/fulltext): "Calibrated to the confirmed-case anchor (598 on 8 June 2026; central basic reproduction number [R0] = 1.71), the confirmed-case trajectory is most consistent with the central scenario. Under the central scenario the ensemble projected a median of 990 cumulative confirmed cases by week 12 (24 June 2026; 90% prediction interval [PI] 709 to 1,293) and 174 deaths; the low scenario projected 870 confirmed cases (90% PI 641 to 1,133) and 160 deaths."
@@ -1171,3 +1195,47 @@ These pages are produced by a semi-automated evidence-synthesis pipeline that pa
 [^verheyden-2026-2-materials-and-methods-17]: [Verheyden and Mudogo (2026) "2 Materials and Methods"](https://www.medrxiv.org/content/10.64898/2026.08.12.26360244.full-text): "Static covariates: WorldPop population estimates; OpenStreetMap/HOT health-facility points; Complex Crisis Vulnerability Index; province-level ACLED conflict events (Raleigh et al., 2010)."
 [^verheyden-2026-2-materials-and-methods-18]: [Verheyden and Mudogo (2026) "2 Materials and Methods"](https://www.medrxiv.org/content/10.64898/2026.08.12.26360244.full-text): "Road-network travel times from a national OSRM graph."
 [^verheyden-2026-4-discussion-1]: [Verheyden and Mudogo (2026) "4 Discussion"](https://www.medrxiv.org/content/10.64898/2026.08.12.26360244.full-text): "An independent Flowminder-based mobility analysis found the outbreak's three epicentre zones among the top 5% of DRC health zones nationally on mobility intensity (Bangelesa et al., 2026, as summarised in Walekhwa et al., 2026), using data and methodology with no overlap with ours."
+[^li-2026-abstract-1]: [Li et al. (2026) "Abstract"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "We developed a susceptible-exposed-infectious-deceased-recovered (SEIDR) model incorporating three categories of interventions—public self-protection, safe burial, and treatment and convalescence—to assess early transmission dynamics, the current epidemic trajectory, and cross-border spillover risk, and to inform the formulation of control strategies."
+[^li-2026-abstract-2]: [Li et al. (2026) "Abstract"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Using International Migrant Stock data and Facebook IP-based mobility data with the Prophet forecasting model, we assessed spillover risk."
+[^li-2026-abstract-3]: [Li et al. (2026) "Abstract"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Four countries were identified as very high risk at the end of July."
+[^li-2026-results-5]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "During the observation period, cumulative confirmed cases increased from 33 to 3,674."
+[^li-2026-results-6]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Had time-varying optimal control been applied from 28 March (the model-estimated start date of sustained transmission), the simulated cumulative number of infections as of 31 July would have been approximately 135 cases, representing a 96.33% reduction compared with the 3,674 cases actually reported during the same period (Fig. 3a)."
+[^li-2026-results-7]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "The projection indicated that cumulative infections would reach 4,372 (95% CI: 4,300–4,450) by 31 August and 4,397 (95% CI: 4,325–4,474) by 30 September, after which the epidemic would enter a plateau phase, with only one additional case by 31 October, suggesting that the outbreak would have been effectively contained by the end of September (Fig. 3b)."
+[^li-2026-results-8]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "By contrast, under the status quo control scenario, the epidemic was projected to continue rising until the end of April 2027 (supplementary Fig. S6)."
+[^li-2026-results-2]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Based on parameter estimation using cumulative confirmed case data up to 30 June 2026, with parameters estimated via Markov chain Monte Carlo (MCMC) methods, the basic reproduction number for this outbreak was estimated as ℛ0 = 1.83 (95% CI: 1.81–1.84), of which ℛ0*I* = 1.14 (62.18%) and ℛ0*D* = 0.69 (37.82%)."
+[^li-2026-methods-1]: [Li et al. (2026) "Methods"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Building upon the classical SEIR framework, and incorporating the specific transmission characteristics of Ebola virus and the public health realities in the affected region, we extended the model to include a deceased compartment (D), resulting in a SEIDR structure (supplementary Fig. S1)."
+[^li-2026-methods-2]: [Li et al. (2026) "Methods"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "To overcome these shortcomings, we propose a hybrid solution strategy combining PMP with non-dominated sorting genetic algorithm II (NSGA-II). The core principle is to use a global optimisation algorithm to generate high-quality initial guesses, thereby guiding PMP iterations towards rapid convergence to the globally optimal solution."
+[^li-2026-abstract-5]: [Li et al. (2026) "Abstract"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "By integrating the non-dominated sorting genetic algorithm II (NSGA-II) with Pontryagin's minimum principle (PMP), we derived a time-varying optimal control strategy, with adjustments every two weeks, that could shorten the epidemic duration by approximately 7 months."
+[^li-2026-methods-3]: [Li et al. (2026) "Methods"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "To assess the risk of Ebola virus disease spreading beyond the outbreak country (DRC) to other regions, this study incorporated international migration data to evaluate the risk of cross-border spread via population connectivity from the perspective of transnational migration. Assuming homogeneous mixing of the population in the affected country and equal probability of out-migration for all individuals, the number of imported cases from affected country *e* to destination country *b* by month *t* was assumed to follow a binomial distribution: where *T*e,b,t is the cumulative number of out-migrants from affected country *e* to destination country *b* from epidemic onset to month *t*, *C*e,t is the cumulative number of confirmed cases in affected country *e* as of month *t*, and *N*e is the total population of affected country *e*."
+[^li-2026-methods-4]: [Li et al. (2026) "Methods"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "We used the annual International Migrant Stock as a baseline measure of population connectivity strength. To further estimate the monthly proportion of outflows from the DRC to neighbouring and major destination countries in 2026, we referred to reference 25, which provided monthly out-migration data from the DRC based on Facebook IP addresses for the period 2019–2022. We applied the Prophet forecasting model developed by Facebook Meta to capture inherent annual seasonal patterns in migration behaviour and automatically detect trend change points."
+[^li-2026-results-10]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "To investigate the timing of the transition from sporadic cases to sustained transmission, we set the possible start date of sustained transmission to range between 24 March and 24 April, generating 32 candidate start-date scenarios for sustained transmission, each of which was subjected to model fitting."
+[^li-2026-results-11]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Across all 32 candidate start dates for sustained transmission, 28 March was identified as the optimal fitting start date of sustained transmission (Fig. 1a), with an R² of 0.7586, indicating good model fit. Start dates between 31 March and 3 April also yielded good fitting performance, with R² values exceeding 0.7 and ranking among the top across all evaluation metrics (Fig. 1b–e)."
+[^li-2026-methods-9]: [Li et al. (2026) "Methods"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Assuming homogeneous mixing of the population in the affected country and equal probability of out-migration for all individuals, the number of imported cases from affected country *e* to destination country *b* by month *t* was assumed to follow a binomial distribution: where *T*e,b,t is the cumulative number of out-migrants from affected country *e* to destination country *b* from epidemic onset to month *t*, *C*e,t is the cumulative number of confirmed cases in affected country *e* as of month *t*, and *N*e is the total population of affected country *e*."
+[^li-2026-discussion-1]: [Li et al. (2026) "Discussion"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "The model used the total national population of the DRC as the susceptible population base, without accounting for geographic clustering of the outbreak or the effect of population mobility on contact patterns, which may lead to systematic underestimation of the transmission rate parameter *β*."
+[^li-2026-methods-10]: [Li et al. (2026) "Methods"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "The use of cumulative cases rather than active infections represents a worst-case scenario assumption, in which all reported infected individuals are considered potentially infectious."
+[^li-2026-results-12]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "| *θ* | Public self-protection | Community volunteers and primary health-care workers conducted door-to-door education on transmission routes, early symptom recognition, timely care-seeking, and risk reporting. Community and religious leaders were engaged to counter misinformation and improve adherence to protective measures. | 0.2332 | *θ*∗ = min{1, max{*p*, 0}} | | *ρ* | Safe burial of deceased bodies | Trained teams performed safe and dignified burials, including oral swab sampling, sealed cadaver bags, and chlorinated disinfection. Transparent-view bags were used for family identification, with community acceptance negotiated through religious leaders. | 0.2664 | *ρ*∗ = min{1, max{*q*, 0}} | | *μ* | Treatment and recovery of infected individuals | Treatment centres provided early rehydration and supportive care. In the absence of specific vaccines or therapeutics, international medical aid supplemented supplies and staffing, alongside infection prevention and control training for health-care workers. | 0.3227 | *μ*∗ = min{1, max{*m*, 0}} |."
+[^li-2026-results-13]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "When *θ* exceeded 58.12%, ℛ0 fell below 1. The suppressive effect of *θ* on human-to-human transmission was more pronounced, with ℛ0*I* < 1 when *θ* > 32.65%, indicating that this measure can effectively interrupt transmission chains driven by infected individuals (Fig. 2a)."
+[^li-2026-results-14]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "For pharmaceutical interventions (*μ*), the effect on the deceased-body-mediated transmission pathway was relatively weak, with ℛ0 < 1 achieved only when *μ* > 98.46%. However, *μ* exerted a more substantial effect on interrupting human-to-human transmission, with ℛ0*I* < 1 when *μ* > 43.31%, suggesting that improving treatment coverage even in resource-limited settings can effectively reduce transmission intensity in the population (Fig. 2b)."
+[^li-2026-results-15]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "By contrast, increasing the safe burial rate (*ρ*) had a limited effect on ℛ0*I* and overall ℛ0, but substantially reduced secondary transmission resulting from unsafe burials; when *ρ* > 20.09%, ℛ0*D* < 1, indicating that safe burial practices can effectively eliminate the contribution of the deceased pathway to epidemic amplification (Fig. 2c)."
+[^li-2026-results-16]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Given that *ρ* appears in the denominator of the expression for ℛ0*D*, where the component is undefined when *ρ* = 0, in subsequent sensitivity analyses, the ranges for *θ* and *μ* were set to [0, 1], and the range for *ρ* was set to [0.1, 1]."
+[^li-2026-results-17]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Based on the normal distribution of importation risk probabilities as of end-July, risk was stratified into four levels: 0 < *P*b,t < 16.38% as low risk, 16.38% ≤ *P*b,t < 43.68% as moderate risk, 43.68% ≤ *P*b,t < 70.98% as high risk, and 70.98% ≤ *P*b,t < 1 as very high risk (supplementary Fig. S4)."
+[^li-2026-discussion-3]: [Li et al. (2026) "Discussion"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Although the optimised control functions provide mathematically derived theoretical optima, their operational effectiveness and practical implementation in the actual outbreak context require further validation."
+[^li-2026-methods-5]: [Li et al. (2026) "Methods"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Daily cumulative confirmed case counts for the DRC were extracted from WHO's *Daily epidemiological update on acute public health events: Ebola disease—Bundibugyo virus*, compiled and provided by the Democratic Republic of the Congo Public Health Emergency Operations Centre (COUSP-DRC). We retrieved the complete time-series data from the start of the outbreak up to the study cut-off date (31 July 2026)."
+[^li-2026-abstract-4]: [Li et al. (2026) "Abstract"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "In 2026, a Bundibugyo ebolavirus (BDBV) outbreak emerged in the Democratic Republic of the Congo (DRC), with 4,566 confirmed cases and 2,128 deaths reported as of 11 August, potentially becoming the largest Ebola outbreak on record globally."
+[^li-2026-results-9]: [Li et al. (2026) "Results"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "According to reported data, Uganda has reported two imported cases with 20 cumulative confirmed cases domestically; France has reported one imported case with no local secondary transmission."
+[^li-2026-methods-6]: [Li et al. (2026) "Methods"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Population data were obtained from the *World Population Prospects 2024*, published by the United Nations Department of Economic and Social Affairs, Population Division, covering the total populations of the DRC and potential risk-importation countries."
+[^li-2026-methods-7]: [Li et al. (2026) "Methods"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "Cross-border mobility data were derived from the *International Migrant Stock 2024: Destination and Origin*, published by the United Nations Department of Economic and Social Affairs, with monthly allocation weights determined according to reference, to estimate the volume and spatial distribution of outflows from the DRC to neighbouring countries and major destination countries."
+[^li-2026-methods-8]: [Li et al. (2026) "Methods"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "To further estimate the monthly proportion of outflows from the DRC to neighbouring and major destination countries in 2026, we referred to reference 25, which provided monthly out-migration data from the DRC based on Facebook IP addresses for the period 2019–2022."
+[^li-2026-discussion-2]: [Li et al. (2026) "Discussion"](https://www.medrxiv.org/content/10.64898/2026.08.17.26360567.full-text): "The 2007 outbreak in Uganda reported 116 confirmed cases with 39 deaths, with a basic reproduction number estimated at 1.53; the 2012 outbreak in the DRC reported 77 cases."
+[^okingo-2026-body-1]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Introduction risk was highest in HZs close to the reported foci, specifically in Ituri, Nord-Kivu, and Haut-Uele, consistent with expected mobility patterns (Fig. 1A,B). Non-negligible risk of introduction also appeared in distant urban centers, including the Kinshasa area."
+[^okingo-2026-body-2]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "By contrast, high sustained-transmission potential was distributed across DRC, including Kinshasa, Kasaï-Oriental, Kongo-Central, Tshopo, Nord-Kivu, Haut-Katanga, Sud-Kivu, Kasaï, and Kasaï-Central (Fig. 1C,D). Notably, several are far from the current outbreak."
+[^okingo-2026-body-8]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Introduction risk was highest in HZs close to the reported foci, specifically in Ituri, Nord-Kivu, and Haut-Uele, consistent with expected mobility patterns (Fig. 1A,B)."
+[^okingo-2026-body-4]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Crossing the two rankings identified eight HZs that combined high introduction risk and high sustained-transmission potential (Fig. 1E, F): Binza Ozone and Binza Meteo in Kinshasa; Karisimbi in Nord-Kivu; Kadutu and Ibanda in Sud-Kivu; and Makiso-Kisangani, Kabondo, and Mangobo in Tshopo."
+[^okingo-2026-body-9]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Unlike risk estimates, risk rankings were robust across scenarios and assumptions and can therefore inform action despite limited knowledge of transmissibility and contact patterns."
+[^okingo-2026-body-5]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "We used the method developed in Ref. 2  to estimate, for each DRC health zone (HZ), the potential for an introduced case to generate sustained transmission (hereafter, sustained-transmission potential)."
+[^okingo-2026-body-6]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "We used available population and mobility data to parameterize spatial transmission, testing a broad range of assumptions on disease transmissibility and on how local and between-community contact patterns can be inferred from these data."
+[^okingo-2026-body-7]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "We ranked HZs by sustained-transmission potential and compared them with introduction-risk ranks estimated from mobility data."
+[^okingo-2026-body-10]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "This requires estimating introduction risk and, more importantly, the potential for sustained onward transmission, despite limited data on human mobility, contact patterns, disease transmissibility, tracing and isolation capacity."
+[^okingo-2026-body-3]: [Okingo, Iroungou, & Valdano (2026) "Body"](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "As of June 4, confirmed cases in Nord-Kivu and Sud-Kivu indicate that the spread has gone beyond the initial focus."
+[^okingo-2026-figure-1-introduction-risk-and-sustained-transmission-1]: [Okingo, Iroungou, & Valdano (2026) "Figure 1: Introduction risk and sustained-transmission potential across health zones."](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Population data are from worldpop.org."
+[^okingo-2026-figure-1-introduction-risk-and-sustained-transmission-2]: [Okingo, Iroungou, & Valdano (2026) "Figure 1: Introduction risk and sustained-transmission potential across health zones."](https://www.medrxiv.org/content/10.64898/2026.06.11.26355237): "Mobility data are from flowminder.org."
