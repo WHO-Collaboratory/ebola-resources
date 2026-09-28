@@ -9,7 +9,8 @@ This page is in beta and still a work in progress. Please direct feedback to [Co
 
 
 :::{hint} At a glance
-Reported counts still understate true infections, but the gap has narrowed. The under-ascertainment ratio has fallen from roughly 0.3–2.4× against 1,031 suspected or confirmed cases on 27 May, to 1.4–2.7× against 7,475 confirmed cases on 16 September, based on a 90% credible interval of 10,106–20,113  cumulative infections. Eight separate analyses suggest persistent under-detection, with moderate confidence that the gap is slightly narrowing under improved surveillance.
+```{include} _glance/outbreak-size.md
+```
 :::
 
 :::{dropdown} ![Multi-model estimates of cumulative Ebola outbreak size](/assets/images/evidence-synthesis/outbreak-size.svg)

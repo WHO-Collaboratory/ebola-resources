@@ -21,7 +21,8 @@ WHO's overall risk and confidence ratings by geography:
 :::
 
 :::{hint} At a glance
-Nearby countries, particularly Uganda, South Sudan, Rwanda, Kenya, Tanzania, and Zambia, face the highest near-term risk of imported Bundibugyo virus cases from the DRC. Rankings for more distant countries vary across analyses, driven by differences in how each model treats air travel, land travel, and the location of the source cases. Evidence suggests that surveillance is best concentrated on the highest-probability importation routes. Confidence is moderate, with destination rankings holding up better across analyses than the absolute probabilities attached to them, while mobility patterns, case counts, and detection levels remain the main sources of uncertainty.
+```{include} _glance/risk-of-spread.md
+```
 :::
 
 
