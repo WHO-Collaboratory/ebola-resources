@@ -4,27 +4,28 @@ project:
   github: WHO-Collaboratory/ebola-resources
   toc:
     - file: docs/intro.md
-    - title: Situation Updates  
+    - title: Evidence Synthesis
+      file: docs/resources/evidence-synthesis.md
+    - title: ↳ Outbreak Size
+      file: docs/resources/outbreak-size.md
+    - title: ↳ Risk of Spread
+      file: docs/resources/risk-of-spread.md
+    - title: Situation Updates
       file: docs/resources/Situation Updates.md
-    - title: Tools & Resources 
+    - title: Tools & Resources
       file: docs/resources/tools.md
       children:
         - file: docs/resources/Dashboards.md
         - file: docs/resources/Therapeutics & Vaccines.md
         - file: docs/resources/Evidence Trackers.md
-    - title: Data 
+    - title: Data
       file: docs/resources/data.md
       children:
         - file: docs/resources/Linelist.md
         - file: docs/resources/Mobility.md
         - file: docs/resources/Epidemiological Parameter Estimates_2.md
         - file: docs/resources/Humanitarian.md
-    - title: Evidence Synthesis
-      file: docs/resources/evidence-synthesis.md
-      children:
-        - file: docs/resources/outbreak-size.md
-        - file: docs/resources/risk-of-spread.md
-    - title: Analytical Questions 
+    - title: Analytical Questions
       file: docs/analytical-questions.md
     - title: Community Meetings
       file: docs/resources/community-meetings.md
