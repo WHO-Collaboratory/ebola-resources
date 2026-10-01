@@ -10,13 +10,13 @@ This page is in beta and still a work in progress. Please direct feedback to [Co
 
 Curated syntheses organized by question. Each page sets out the underlying analyses, how they compare, and where knowledge gaps persist.
 
-:::{hint} Outbreak Size — At a glance
+:::{hint} At a glance: Outbreak Size
 ```{include} _glance/outbreak-size.md
 ```
 [Read the full synthesis](outbreak-size.md)
 :::
 
-:::{hint} Risk of Spread — At a glance
+:::{hint} At a glance: Risk of Spread
 ```{include} _glance/risk-of-spread.md
 ```
 [Read the full synthesis](risk-of-spread.md)
