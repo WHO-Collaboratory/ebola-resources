@@ -5,6 +5,15 @@
     <loc>http://localhost:3000</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/evidence-synthesis</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/outbreak-size</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/risk-of-spread</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/situation-updates</loc>
   </url>
   <url>
@@ -33,15 +42,6 @@
   </url>
   <url>
     <loc>http://localhost:3000/humanitarian</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/evidence-synthesis</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/outbreak-size</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/risk-of-spread</loc>
   </url>
   <url>
     <loc>http://localhost:3000/analytical-questions</loc>
