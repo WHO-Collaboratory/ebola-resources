@@ -22,10 +22,6 @@ Curated syntheses organized by question. Each page sets out the underlying analy
 [Read the full synthesis](risk-of-spread.md)
 :::
 
-```{tableofcontents}
-:context: children
-```
-
 This site is maintained by the Ebola Outbreak Analytics Community of Practice (CoP) within the [Collaboratory](https://www.who.int/initiatives/collaboratory).
 
 Pages are updated within one working day of new or revised analyses appearing. Verify figures and interpretations against the referenced analyses before use in operational decisions.
